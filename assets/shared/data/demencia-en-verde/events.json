@@ -1,0 +1,113 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["Cinematics", "50, 1", "3"]
+			]
+		],
+		[
+			6652.77777777778,
+			[
+				["Play Animation", "te lo dejo", "dad"]
+			]
+		],
+		[
+			10604.1666666667,
+			[
+				["Play Animation", "idle", "dad"]
+			]
+		],
+		[
+			10625,
+			[
+				["Cinematics", "0, 1", "3"]
+			]
+		],
+		[
+			10666.6666666667,
+			[
+				["Camera Zoom Speed", "8", "3"]
+			]
+		],
+		[
+			42666.6666666667,
+			[
+				["ScreenBorders", "1", ""]
+			]
+		],
+		[
+			42670.1388888889,
+			[
+				["Alt Idle Animation", "loco-duende", "-alt"]
+			]
+		],
+		[
+			42671.875,
+			[
+				["Camera Zoom Speed", "16", ""]
+			]
+		],
+		[
+			53333.3333333334,
+			[
+				["Custom Default Zoom", "0.85", ""]
+			]
+		],
+		[
+			58666.6666666667,
+			[
+				["Custom Default Zoom", "0.9", ""]
+			]
+		],
+		[
+			60000,
+			[
+				["Custom Default Zoom", "0.85", ""]
+			]
+		],
+		[
+			61305.5555555556,
+			[
+				["Play Animation", "el duende", "dad"]
+			]
+		],
+		[
+			63902.7777777778,
+			[
+				["Play Animation", "idle", "dad"]
+			]
+		],
+		[
+			63916.6666666667,
+			[
+				["Alt Idle Animation", "", ""]
+			]
+		],
+		[
+			64000,
+			[
+				["ScreenBorders", "0", ""]
+			]
+		],
+		[
+			64013.8888888889,
+			[
+				["Camera Zoom Speed", "4", "2"]
+			]
+		],
+		[
+			144000,
+			[
+				["Play Animation", "te lo dejo", "dad"]
+			]
+		],
+		[
+			149000,
+			[
+				["Set Cam Zoom", "0.55", "0.35"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-100,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-135,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up_Pose"
+		},
+		{
+			"offsets": [
+				-129,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down_Pose"
+		},
+		{
+			"offsets": [
+				-45,
+				-10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Rigth_Pose"
+		},
+		{
+			"offsets": [
+				-129,
+				-15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Left_Pose"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Natalan_Sans_re",
+	"position": [
+		0,
+		50
+	],
+	"healthicon": "icon-adrian",
+	"flip_x": false,
+	"healthbar_colors": [
+		30,
+		117,
+		184
+	],
+	"camera_position": [
+		40,
+		-320
+	],
+	"sing_duration": 6.1,
+	"scale": 1.5
+}

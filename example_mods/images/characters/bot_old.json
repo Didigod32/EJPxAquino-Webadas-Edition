@@ -1,0 +1,98 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-120
+			],
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "BOT bailando pe"
+		},
+		{
+			"offsets": [
+				0,
+				-120
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "BOT bailando pe"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-121
+			],
+			"anim": "cheer",
+			"fps": 24,
+			"name": "BOT celebrando pe",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-9,
+				-121
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "BOT enojada pe",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bot/BOT_assest",
+	"position": [
+		180,
+		1330
+	],
+	"healthicon": "icon-bot",
+	"flip_x": false,
+	"healthbar_colors": [
+		193,
+		212,
+		244
+	],
+	"camera_position": [
+		-90,
+		340
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tuneles.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Tuneles0000" x="0" y="100" width="212" height="100" frameX="-94" frameY="-14" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="Tuneles0001" x="0" y="100" width="212" height="100" frameX="-94" frameY="-14" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="Tuneles0002" x="0" y="100" width="212" height="100" frameX="-94" frameY="-14" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="Tuneles0003" x="0" y="0" width="212" height="100" frameX="-94" frameY="-14" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="Tuneles0004" x="0" y="0" width="212" height="100" frameX="-94" frameY="-14" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="Tuneles0005" x="0" y="0" width="212" height="100" frameX="-94" frameY="-14" frameWidth="400" frameHeight="256"/>
+</TextureAtlas>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="zombinejo.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="ded0000" x="1810" y="309" width="193" height="314" frameX="-264" frameY="-79" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0001" x="1810" y="309" width="193" height="314" frameX="-264" frameY="-79" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0002" x="1810" y="0" width="200" height="309" frameX="-236" frameY="-60" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0003" x="1810" y="0" width="200" height="309" frameX="-236" frameY="-60" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0004" x="933" y="254" width="405" height="220" frameX="2" frameY="-65" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0005" x="933" y="0" width="405" height="254" frameX="2" frameY="-31" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0006" x="433" y="296" width="418" height="299" frameX="-3" frameY="-1" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0007" x="0" y="296" width="433" height="302" frameX="-3" frameY="2" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0008" x="0" y="296" width="433" height="302" frameX="-3" frameY="2" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0009" x="0" y="0" width="457" height="296" frameX="-1" frameY="-9" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0010" x="0" y="0" width="457" height="296" frameX="-1" frameY="-9" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0011" x="457" y="0" width="476" height="284" frameX="-1" frameY="-20" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0012" x="0" y="598" width="489" height="244" frameX="-1" frameY="-60" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0013" x="0" y="842" width="502" height="201" frameX="0" frameY="-106" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0014" x="502" y="842" width="504" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0015" x="598" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0016" x="489" y="598" width="363" height="198" frameX="2" frameY="-111" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0017" x="489" y="598" width="363" height="198" frameX="2" frameY="-111" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0018" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0019" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0020" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0021" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0022" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0023" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0024" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0025" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0026" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0027" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0028" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0029" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0030" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0031" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0032" x="236" y="1043" width="362" height="198" frameX="0" frameY="-109" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0033" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0034" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0035" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0036" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0037" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0038" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="ded0039" x="2003" y="309" width="4" height="4" frameX="-293" frameY="-198" frameWidth="502" frameHeight="391"/>
+	<SubTexture name="wabbit0000" x="0" y="1043" width="236" height="309" frameX="1" frameY="-1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0001" x="1338" y="0" width="237" height="310" frameX="2" frameY="0" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0002" x="933" y="474" width="237" height="310" frameX="2" frameY="0" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0003" x="1575" y="310" width="235" height="309" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0004" x="1575" y="310" width="235" height="309" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0005" x="0" y="1352" width="234" height="300" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0006" x="0" y="1352" width="234" height="300" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0007" x="234" y="1352" width="235" height="298" frameX="1" frameY="-1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0008" x="1338" y="310" width="237" height="309" frameX="2" frameY="0" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0009" x="1338" y="310" width="237" height="309" frameX="2" frameY="0" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0010" x="1575" y="920" width="235" height="301" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0011" x="1575" y="920" width="235" height="301" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0012" x="1575" y="619" width="235" height="301" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0013" x="1338" y="619" width="234" height="312" frameX="0" frameY="1" frameWidth="233" frameHeight="309"/>
+	<SubTexture name="wabbit0014" x="1575" y="0" width="235" height="310" frameX="1" frameY="-1" frameWidth="233" frameHeight="309"/>
+</TextureAtlas>

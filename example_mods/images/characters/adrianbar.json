@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				114,
+				70
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Adrian idle dance 0"
+		},
+		{
+			"offsets": [
+				187,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Adrian left note0"
+		},
+		{
+			"offsets": [
+				70,
+				17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "adrian down note0"
+		},
+		{
+			"offsets": [
+				186,
+				114
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "adrian up note0"
+		},
+		{
+			"offsets": [
+				-21,
+				-38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Adrian right note0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/adrian/adrianv2",
+	"position": [
+		30,
+		150
+	],
+	"healthicon": "icon-adrian",
+	"flip_x": false,
+	"healthbar_colors": [
+		30,
+		117,
+		184
+	],
+	"camera_position": [
+		40,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

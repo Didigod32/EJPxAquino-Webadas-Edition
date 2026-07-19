@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nosense.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle_nosense instancia 10000" x="14" y="14" width="570" height="521" frameX="-5" frameY="-12" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10001" x="14" y="14" width="570" height="521" frameX="-5" frameY="-12" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10002" x="611" y="14" width="554" height="521" frameX="-13" frameY="-12" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10003" x="611" y="14" width="554" height="521" frameX="-13" frameY="-12" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10004" x="1192" y="14" width="560" height="541" frameX="0" frameY="-2" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10005" x="1192" y="14" width="560" height="541" frameX="0" frameY="-2" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10006" x="14" y="582" width="553" height="541" frameX="0" frameY="-1" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10007" x="14" y="582" width="553" height="541" frameX="0" frameY="-1" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10008" x="594" y="582" width="546" height="530" frameX="-11" frameY="0" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10009" x="594" y="582" width="546" height="530" frameX="-11" frameY="0" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10010" x="1167" y="582" width="536" height="530" frameX="-21" frameY="0" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10011" x="1167" y="582" width="536" height="530" frameX="-21" frameY="0" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10012" x="14" y="1150" width="535" height="530" frameX="-22" frameY="0" frameWidth="575" frameHeight="543"/>
+	<SubTexture name="Idle_nosense instancia 10013" x="14" y="1150" width="535" height="530" frameX="-22" frameY="0" frameWidth="575" frameHeight="543"/>
+</TextureAtlas>

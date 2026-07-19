@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="volume2-text.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="idle0000" x="0" y="0" width="161" height="117" frameX="2" frameY="2" frameWidth="157" frameHeight="113"/>
+	<SubTexture name="switch0000" x="161" y="0" width="161" height="117" frameX="2" frameY="2" frameWidth="157" frameHeight="113"/>
+</TextureAtlas>

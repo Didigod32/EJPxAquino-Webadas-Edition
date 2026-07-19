@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Mysterio_assets.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Mysterio Down note0000" x="0" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0001" x="0" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0002" x="733" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0003" x="733" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0004" x="1466" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0005" x="2199" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0006" x="2932" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0007" x="2932" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0008" x="2932" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio Down note0009" x="2932" y="0" width="733" height="712"/>
+	<SubTexture name="Mysterio left note0000" x="0" y="712" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0001" x="0" y="712" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0002" x="836" y="712" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0003" x="1672" y="712" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0004" x="2508" y="712" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0005" x="0" y="1529" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0006" x="836" y="1529" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0007" x="1672" y="1529" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0008" x="2508" y="1529" width="836" height="817"/>
+	<SubTexture name="Mysterio left note0009" x="2508" y="1529" width="836" height="817"/>
+	<SubTexture name="Mysterio up note0000" x="3344" y="1529" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0001" x="3344" y="1529" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0002" x="0" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0003" x="0" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0004" x="640" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0005" x="1280" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0006" x="1920" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0007" x="1920" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0008" x="2560" y="2346" width="640" height="749"/>
+	<SubTexture name="Mysterio up note0009" x="2560" y="2346" width="640" height="749"/>
+	<SubTexture name="mysterio idle dance0000" x="3200" y="2346" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0001" x="3200" y="2346" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0002" x="0" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0003" x="0" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0004" x="638" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0005" x="638" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0006" x="1276" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0007" x="1276" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0008" x="1914" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0009" x="2552" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0010" x="3190" y="3095" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0011" x="0" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0012" x="0" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0013" x="0" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0014" x="638" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0015" x="638" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0016" x="1276" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0017" x="1276" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0018" x="1914" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio idle dance0019" x="1914" y="3782" width="638" height="687"/>
+	<SubTexture name="mysterio right note0000" x="2552" y="3782" width="829" height="650"/>
+	<SubTexture name="mysterio right note0001" x="2552" y="3782" width="829" height="650"/>
+	<SubTexture name="mysterio right note0002" x="0" y="4469" width="829" height="650"/>
+	<SubTexture name="mysterio right note0003" x="0" y="4469" width="829" height="650"/>
+	<SubTexture name="mysterio right note0004" x="829" y="4469" width="829" height="650"/>
+	<SubTexture name="mysterio right note0005" x="1658" y="4469" width="829" height="650"/>
+	<SubTexture name="mysterio right note0006" x="2487" y="4469" width="829" height="650"/>
+	<SubTexture name="mysterio right note0007" x="0" y="5119" width="829" height="650"/>
+	<SubTexture name="mysterio right note0008" x="829" y="5119" width="829" height="650"/>
+	<SubTexture name="mysterio right note0009" x="1658" y="5119" width="829" height="650"/>
+</TextureAtlas>

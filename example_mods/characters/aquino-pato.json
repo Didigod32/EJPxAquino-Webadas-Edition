@@ -1,0 +1,209 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				780,
+				100
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "pato-aquino IDLE"
+		},
+		{
+			"offsets": [
+				778,
+				99
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "pato-aquino LEFT"
+		},
+		{
+			"offsets": [
+				775,
+				99
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "pato-aquino DOWN"
+		},
+		{
+			"offsets": [
+				782,
+				99
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "pato-aquino UP"
+		},
+		{
+			"offsets": [
+				781,
+				99
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "pato-aquino RIGHT"
+		},
+		{
+			"offsets": [
+				779,
+				99
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "pato-aquino missLEFT"
+		},
+		{
+			"offsets": [
+				775,
+				100
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "pato-aquino missDOWN"
+		},
+		{
+			"offsets": [
+				781,
+				100
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "pato-aquino missUP"
+		},
+		{
+			"offsets": [
+				781,
+				100
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "pato-aquino missRIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				780,
+				99
+			],
+			"anim": "saltodelpato",
+			"fps": 24,
+			"name": "pato-aquino goofyJUMP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				781,
+				99
+			],
+			"anim": "idlesinmicro",
+			"fps": 12,
+			"name": "pato-aquino dIDLE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/aquino/pato-aquino",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon-aquinopato-pixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		550,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

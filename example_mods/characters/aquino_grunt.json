@@ -1,0 +1,176 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-121,
+				263
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "Aquino grunt left note"
+		},
+		{
+			"offsets": [
+				-130,
+				289
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Aquino grunt idle dance"
+		},
+		{
+			"offsets": [
+				-115,
+				245
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "Aquino grunt down note"
+		},
+		{
+			"offsets": [
+				-128,
+				312
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "aquino grunt up note"
+		},
+		{
+			"offsets": [
+				-145,
+				277
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "Aquino grunt right note"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-117,
+				309
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "aquino grunt up note miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-124,
+				236
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Aquino grunt down note miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-146,
+				275
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Aquino grunt right note miss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino_grunt_assets",
+	"position": [
+		-200,
+		780
+	],
+	"healthicon": "icon-aquinogrunt",
+	"flip_x": true,
+	"healthbar_colors": [
+		138,
+		22,
+		22
+	],
+	"camera_position": [
+		-180,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.5
+}

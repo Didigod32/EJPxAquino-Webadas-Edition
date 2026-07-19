@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pato-duxo.png"><SubTexture name="pato-duxo IDLE0000" x="158" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo IDLE0001" x="196" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo IDLE0002" x="234" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo IDLE0003" x="272" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo IDLE0004" x="310" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo LEFT0000" x="348" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo LEFT0001" x="386" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo LEFT0002" x="424" y="292" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo UP0000" x="0" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo UP0001" x="38" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo UP0002" x="76" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DOWN0000" x="114" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DOWN0001" x="152" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DOWN0002" x="190" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo RIGHT0000" x="228" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo RIGHT0001" x="266" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo RIGHT0002" x="304" y="365" width="38" height="40" frameX="-104" frameY="-79" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0000" x="0" y="0" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0001" x="0" y="73" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0002" x="158" y="0" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0003" x="158" y="73" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0004" x="0" y="146" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0005" x="158" y="146" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0006" x="0" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0007" x="158" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0008" x="316" y="0" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0009" x="316" y="73" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0010" x="316" y="146" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0011" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0012" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0013" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0014" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0015" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0016" x="0" y="292" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0017" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0018" x="0" y="292" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0019" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0020" x="0" y="292" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0021" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0022" x="0" y="292" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0023" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0024" x="316" y="219" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+<SubTexture name="pato-duxo DEAD0025" x="0" y="292" width="158" height="73" frameX="-92" frameY="-74" frameWidth="250" frameHeight="250" />
+</TextureAtlas>

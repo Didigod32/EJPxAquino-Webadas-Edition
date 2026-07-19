@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [241, -408],
+			"anim": "idle",
+			"fps": 12,
+			"name": "pato-c3jo IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [244, -407],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "pato-c3jo DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [239, -407],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "pato-c3jo RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [239, -409],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "pato-c3jo LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [241, -409],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "pato-c3jo UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [790, -232],
+			"anim": "idlesinmicro",
+			"fps": 12,
+			"name": "pato-c3jo preIDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [788, -230],
+			"anim": "saltodelpapu",
+			"fps": 24,
+			"name": "pato-c3jo JUMP",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/c3jo/pato-c3jo",
+	"position": [250, 500],
+	"healthicon": "icon-c3jopato-pixel",
+	"flip_x": true,
+	"healthbar_colors": [255, 102, 51],
+	"camera_position": [1250, -450],
+	"sing_duration": 4,
+	"scale": 5,
+	"_editor_isPlayer": true
+}

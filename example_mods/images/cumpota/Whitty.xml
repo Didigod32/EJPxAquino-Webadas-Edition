@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Whitty.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle_whitty instancia 10000" x="14" y="14" width="649" height="677" frameX="-11" frameY="-28" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10001" x="14" y="14" width="649" height="677" frameX="-11" frameY="-28" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10002" x="690" y="14" width="683" height="715" frameX="-3" frameY="-9" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10003" x="690" y="14" width="683" height="715" frameX="-3" frameY="-9" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10004" x="1400" y="14" width="704" height="736"/>
+	<SubTexture name="Idle_whitty instancia 10005" x="1400" y="14" width="704" height="736"/>
+	<SubTexture name="Idle_whitty instancia 10006" x="2131" y="14" width="660" height="691" frameX="-15" frameY="-16" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10007" x="2131" y="14" width="660" height="691" frameX="-15" frameY="-16" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10008" x="2818" y="14" width="630" height="660" frameX="-21" frameY="-28" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10009" x="2818" y="14" width="630" height="660" frameX="-21" frameY="-28" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10010" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10011" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10012" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10013" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10014" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10015" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10016" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10017" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10018" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+	<SubTexture name="Idle_whitty instancia 10019" x="3475" y="14" width="607" height="626" frameX="-28" frameY="-42" frameWidth="704" frameHeight="736"/>
+</TextureAtlas>

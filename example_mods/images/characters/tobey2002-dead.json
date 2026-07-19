@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "Aquino tobey death start"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Aquino tobey death loop",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				98,
+				94
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Aquino tobey death confirm",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/tobey2002",
+	"position": [
+		-50,
+		60
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		140,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

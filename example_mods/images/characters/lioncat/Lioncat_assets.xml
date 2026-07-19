@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lioncat_assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Lioncat idle0000" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0001" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0002" x="337" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0003" x="337" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0004" x="674" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0005" x="674" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0006" x="1011" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0007" x="1011" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0008" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0009" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0010" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0011" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0012" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0013" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0014" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat idle0015" x="0" y="0" width="337" height="624"/>
+	<SubTexture name="Lioncat note right0000" x="1348" y="0" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0001" x="1348" y="0" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0002" x="1693" y="0" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0003" x="0" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0004" x="345" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0005" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0006" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0007" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0008" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0009" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0010" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0011" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0012" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0013" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0014" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0015" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0016" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0017" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note right0018" x="690" y="624" width="345" height="624"/>
+	<SubTexture name="Lioncat note up0000" x="1035" y="624" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0001" x="1035" y="624" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0002" x="1353" y="624" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0003" x="1671" y="624" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0004" x="1671" y="624" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0005" x="0" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0006" x="0" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0007" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0008" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0009" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0010" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0011" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0012" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0013" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0014" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0015" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0016" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0017" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0018" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0019" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0020" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0021" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0022" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0023" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note up0024" x="318" y="1254" width="318" height="630"/>
+	<SubTexture name="Lioncat note zdown0000" x="636" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0001" x="636" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0002" x="974" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0003" x="974" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0004" x="1312" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0005" x="1312" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0006" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0007" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0008" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0009" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0010" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0011" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0012" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0013" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0014" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="Lioncat note zdown0015" x="1650" y="1254" width="338" height="577"/>
+	<SubTexture name="lioncat note left0000" x="0" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0001" x="0" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0002" x="408" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0003" x="816" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0004" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0005" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0006" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0007" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0008" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0009" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0010" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0011" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0012" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0013" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0014" x="1224" y="1884" width="408" height="623"/>
+	<SubTexture name="lioncat note left0015" x="1224" y="1884" width="408" height="623"/>
+</TextureAtlas>

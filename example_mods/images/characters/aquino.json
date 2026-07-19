@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [-80, 430],
+			"anim": "idle",
+			"fps": 24,
+			"name": "aquino alto idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-99, 475],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquino alto up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [89, 344],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Aquino right alt note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-83, 387],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquino alto down note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-82, 385],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "Aquino down alt note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-102, 491],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "Aquino up alt note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-83, 364],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "Aquino left alt note",
+			"indices": []
+		},
+		{
+			"offsets": [-74, 438],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "aquino alto right note miss"
+		},
+		{
+			"offsets": [-87, 405],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "aquino alto down note miss"
+		},
+		{
+			"offsets": [-97, 473],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "aquino alto upMISS"
+		},
+		{
+			"offsets": [-87, 414],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "aquino alto left note miss"
+		},
+		{
+			"offsets": [-88, 414],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "aquino alto left note0"
+		},
+		{
+			"offsets": [-78, 424],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "aquino alto right note0"
+		},
+		{
+			"offsets": [-48, 415],
+			"loop": false,
+			"fps": 24,
+			"anim": "ptm",
+			"indices": [],
+			"name": "ptm-eso-no0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino-Alto, characters/aquino/Aquinov4_ptmr_eso_no_vale",
+	"position": [-100, 450],
+	"healthicon": "icon-aquino",
+	"flip_x": false,
+	"healthbar_colors": [250, 151, 61],
+	"camera_position": [50, -350],
+	"sing_duration": 4,
+	"scale": 0.9,
+	"_editor_isPlayer": true
+}

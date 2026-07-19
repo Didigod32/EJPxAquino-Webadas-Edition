@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				28,
+				7
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-5
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "BF NOTE DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				20
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "BF NOTE UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				3,
+				-6
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-68,
+				-6
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "BF NOTE ARTATACK",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/diegooto-noche",
+	"position": [
+		-50,
+		100
+	],
+	"healthicon": "icon-aquino-oto",
+	"flip_x": true,
+	"healthbar_colors": [
+		129,
+		50,
+		30
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

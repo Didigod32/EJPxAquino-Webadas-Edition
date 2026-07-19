@@ -1,0 +1,71 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [-1090, -50],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Misterio28 Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1077, -79],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Misterio28 Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1110, -69],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Misterio28 down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1117, -52],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Misterio28 up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1124, -66],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Misterio28 Left",
+			"indices": []
+		},
+		{
+			"offsets": [-1098, -62],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-dialogo",
+			"indices": [85],
+			"name": "when es facil"
+		},
+		{
+			"offsets": [-1098, -62],
+			"loop": false,
+			"fps": 24,
+			"anim": "dialogo",
+			"indices": [],
+			"name": "when es facil"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/daarick/misterio28, characters/daarick/misterio28_anim",
+	"position": [-30, 40],
+	"healthicon": "daarick",
+	"flip_x": false,
+	"healthbar_colors": [75, 172, 214],
+	"camera_position": [620, -80],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

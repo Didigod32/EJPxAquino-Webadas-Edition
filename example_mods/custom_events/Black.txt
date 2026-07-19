@@ -1,0 +1,5 @@
+Basically a Black Screen :)
+
+Value 1: Activate or Desactivate
+1 = ON
+0 or Null = OFF

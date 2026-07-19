@@ -1,0 +1,9 @@
+{
+	"directory": "freeplay_weeks",
+	"defaultZoom": 0.7,
+
+	"boyfriend": [1120, 120],
+	"girlfriend": [400, 130],
+	"opponent": [150, 140],
+	"hide_girlfriend": true
+}

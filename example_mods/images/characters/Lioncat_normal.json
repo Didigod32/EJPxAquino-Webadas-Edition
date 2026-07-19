@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				101,
+				90
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Lioncat idle"
+		},
+		{
+			"offsets": [
+				99,
+				56
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Lioncat note down"
+		},
+		{
+			"offsets": [
+				136,
+				97
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Lioncat note left"
+		},
+		{
+			"offsets": [
+				119,
+				112
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Lioncat note up"
+		},
+		{
+			"offsets": [
+				163,
+				92
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "lioncat note right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/lioncat/Lioncat_assets",
+	"position": [
+		50,
+		150
+	],
+	"healthicon": "icon-lioncat",
+	"flip_x": false,
+	"healthbar_colors": [
+		244,
+		17,
+		74
+	],
+	"camera_position": [
+		-50,
+		-150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

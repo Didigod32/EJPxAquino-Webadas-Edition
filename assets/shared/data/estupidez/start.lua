@@ -1,0 +1,37 @@
+function onCreatePost()
+	--makeLuaSprite('f','backgrounds/lamasbg/mono', 100, 150)
+    --makeGraphic('b', 2000, 2000, '87CEEB')
+   -- addLuaSprite('f', true)
+   -- setObjectCamera('f', 'other')
+   -- doTweenAlpha('f', 'f', 0, 25, 'cubeInOut')
+	--scaleObject('f', 1.5, 1.5)
+
+	--makeLuaSprite('g','backgrounds/lamasbg/huevo', 450, 4)
+    --makeGraphic('b', 2000, 2000, '87CEEB')
+   -- addLuaSprite('g', true)
+  --  setObjectCamera('g', 'other')
+  --  doTweenAlpha('g', 'g', 0, 30, 'cubeInOut')
+	--scaleObject('g', 4.5, 4.5)
+    setProperty('healthBarBG.visible', false)
+   setProperty('healthBar.visible', false)
+   setProperty('iconP1.visible', false)
+   setProperty('iconP2.visible', false)
+   setProperty('timeBar.visible', false)
+   setProperty('timeBarBG.visible', false)
+   setProperty('scoreTxt.visible', false)
+   setProperty('timeTxt.visible', false)
+end
+
+function onStepHit()
+    if curStep  == 127 then   
+        setProperty( 'strumLineNotes.visible', true)
+        setProperty('healthBarBG.visible', true)
+        setProperty('healthBar.visible', true)
+        setProperty('iconP1.visible', true)
+        setProperty('iconP2.visible', true)
+        setProperty('timeBar.visible', true)
+        setProperty('timeBarBG.visible', true)
+        setProperty('scoreTxt.visible', true)
+        setProperty('timeTxt.visible', true)
+      end   
+end      

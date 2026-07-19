@@ -1,0 +1,187 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				70,
+				100
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "aquino undertale idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				64
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aquino undertale left note0",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				63,
+				36
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquino undertale down note0",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				133
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquino undertale up note0",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				92
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aquino undertale right note0",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				173,
+				105
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "aquino undertale miss note left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				47,
+				78
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "aquino undertale miss note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				115
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "aquino undertale miss note right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				14,
+				139
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "aquino undertale miss note up",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Aquinotale",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon-aquinotale",
+	"flip_x": true,
+	"healthbar_colors": [
+		69,
+		44,
+		99
+	],
+	"camera_position": [
+		290,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 1.4
+}

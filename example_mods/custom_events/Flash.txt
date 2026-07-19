@@ -1,0 +1,7 @@
+Basically flash's a color image.
+
+Value 1:
+0 or null = White, 1 = Red, 2 = Green
+3 = Blue, 4 = Yellow, 5 = Pink, 6 = Light Blue
+
+Value 2: Tween Duration (in seconds)

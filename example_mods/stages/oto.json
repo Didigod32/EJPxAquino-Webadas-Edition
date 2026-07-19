@@ -1,0 +1,13 @@
+{
+    "directory": "freeplay_weeks",
+    "defaultZoom": 0.7,
+    "isPixelStage": false,
+    "hide_girlfriend": true,
+
+    "boyfriend": [2000,500],
+    "opponent": [600, 280],
+    "girlfriend": [0,0],
+
+    "camera_opponent": [0,100],
+    "camera_girlfriend": [1000,500]
+}

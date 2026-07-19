@@ -1,0 +1,41 @@
+{
+	"storyName": "Critica de 15 minutos (Nada exagerado)",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week3",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"el receso",
+			"twilight",
+			[
+				255,
+				153,
+				255
+			]
+		],
+		[
+			"sunset",
+			"sunset",
+			[
+				250,
+				228,
+				163
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Que rico te mueves twilight"
+}

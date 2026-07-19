@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Mario idle"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Mario Left0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Mario Righit"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Mario up"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Mario Down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "Tunel",
+			"fps": 40,
+			"name": "mario tunel",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				22,
+				22,
+				22,
+				22,
+				22,
+				22,
+				22,
+				22,
+				22,
+				22
+			],
+			"fps": 40,
+			"anim": "Tunel-loop",
+			"loop": true,
+			"name": "mario tunel"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/mario/Mario1",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mario-smb",
+	"flip_x": false,
+	"healthbar_colors": [
+		247,
+		57,
+		16
+	],
+	"camera_position": [
+		180,
+		120
+	],
+	"sing_duration": 4,
+	"scale": 5.75
+}

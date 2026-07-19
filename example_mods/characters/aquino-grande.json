@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				97,
+				-53
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aquino left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-24
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquino down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				12
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquino up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-69,
+				-23
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aquino right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				151,
+				-25
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "LEFT_FAIL",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				-47
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "DOWN_FAIL",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				15
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "UP_FAIL",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-48,
+				-28
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "RIGHT_FAIL",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-14,
+				10
+			],
+			"anim": "transform",
+			"fps": 24,
+			"name": "POST IDLE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/AQUINOGRANDE2002",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		153,
+		0
+	],
+	"camera_position": [
+		300,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

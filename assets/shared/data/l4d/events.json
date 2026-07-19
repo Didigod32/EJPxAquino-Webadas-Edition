@@ -1,0 +1,80 @@
+{
+	"events": [
+		[
+			54039.7350993378,
+			[
+				["ZoomCamera", "8,stage", "quadin,1.1"],
+				["FocusCamera", "Position,4", "quadin,1082,448"]
+			]
+		],
+		[
+			54834.4370860927,
+			[
+				["ZoomCamera", "8,stage", "quadin,0.55"]
+			]
+		],
+		[
+			55430.4637483444,
+			[
+				["Change Character", "dad", "Nax-horda"],
+				["Change Character", "bf", "Soarinmi-horda"]
+			]
+		],
+		[
+			55629.1390728477,
+			[
+				["FocusCamera", "reset", "classic"]
+			]
+		],
+		[
+			123973.509933775,
+			[
+				["ZoomCamera", "16,stage", "quadin,0.9"],
+				["FocusCamera", "Position,4", "quadin,1082,448"]
+			]
+		],
+		[
+			125562.913907285,
+			[
+				["Change Character", "bf", "Soarinmi"],
+				["Change Character", "dad", "Nax"],
+				["FocusCamera", "reset", "classic"]
+			]
+		],
+		[
+			136688.741721854,
+			[
+				["ZoomCamera", "8,stage", "quadin,1.1"],
+				["FocusCamera", "8,stage", "quadin,0.55"]
+			]
+		],
+		[
+			137483.443708609,
+			[
+				["ZoomCamera", "8,stage", "quadout,0.55"]
+			]
+		],
+		[
+			138178.80794702,
+			[
+				["Change Character", "dad", "Nax-horda"],
+				["Change Character", "bf", "Soarinmi-horda"]
+			]
+		],
+		[
+			162913.907284768,
+			[
+				["ZoomCamera", "8,stage", "quadin,0.9"],
+				["FocusCamera", "reset", ""]
+			]
+		],
+		[
+			163609.271523179,
+			[
+				["Change Character", "bf", "Soarinmi"],
+				["Change Character", "dad", "Nax"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Aquino_madness_assets.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aquino grunt down note0000" x="0" y="0" width="523" height="627" frameX="-1" frameY="-26" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0001" x="0" y="0" width="523" height="627" frameX="-1" frameY="-26" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0002" x="523" y="0" width="511" height="648" frameX="0" frameY="-5" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0003" x="523" y="0" width="511" height="648" frameX="0" frameY="-5" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0004" x="1034" y="0" width="500" height="652" frameX="-6" frameY="-1" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0005" x="1034" y="0" width="500" height="652" frameX="-6" frameY="-1" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0006" x="1534" y="0" width="498" height="653" frameX="-8" frameY="0" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0007" x="1534" y="0" width="498" height="653" frameX="-8" frameY="0" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0008" x="1534" y="0" width="498" height="653" frameX="-8" frameY="0" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt down note0009" x="1534" y="0" width="498" height="653" frameX="-8" frameY="0" frameWidth="524" frameHeight="653"/>
+	<SubTexture name="Aquino grunt idle dance0000" x="2032" y="0" width="477" height="716" frameX="0" frameY="-18" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0001" x="2032" y="0" width="477" height="716" frameX="0" frameY="-18" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0002" x="2509" y="0" width="472" height="717" frameX="-1" frameY="-15" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0003" x="2509" y="0" width="472" height="717" frameX="-1" frameY="-15" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0004" x="2981" y="0" width="471" height="726" frameX="-3" frameY="-6" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0005" x="2981" y="0" width="471" height="726" frameX="-3" frameY="-6" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0006" x="3452" y="0" width="472" height="731" frameX="-2" frameY="-1" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0007" x="3452" y="0" width="472" height="731" frameX="-2" frameY="-1" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0008" x="0" y="731" width="472" height="732" frameX="-2" frameY="0" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0009" x="0" y="731" width="472" height="732" frameX="-2" frameY="0" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0010" x="472" y="731" width="472" height="732" frameX="-2" frameY="0" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0011" x="472" y="731" width="472" height="732" frameX="-2" frameY="0" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0012" x="472" y="731" width="472" height="732" frameX="-2" frameY="0" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt idle dance0013" x="472" y="731" width="472" height="732" frameX="-2" frameY="0" frameWidth="477" frameHeight="734"/>
+	<SubTexture name="Aquino grunt left note0000" x="944" y="731" width="514" height="685" frameX="-2" frameY="-1" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0001" x="944" y="731" width="514" height="685" frameX="-2" frameY="-1" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0002" x="1458" y="731" width="523" height="683" frameX="0" frameY="-3" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0003" x="1458" y="731" width="523" height="683" frameX="0" frameY="-3" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0004" x="1981" y="731" width="519" height="685" frameX="-6" frameY="-1" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0005" x="1981" y="731" width="519" height="685" frameX="-6" frameY="-1" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0006" x="2500" y="731" width="516" height="686" frameX="-9" frameY="0" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0007" x="2500" y="731" width="516" height="686" frameX="-9" frameY="0" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0008" x="2500" y="731" width="516" height="686" frameX="-9" frameY="0" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt left note0009" x="2500" y="731" width="516" height="686" frameX="-9" frameY="0" frameWidth="525" frameHeight="686"/>
+	<SubTexture name="Aquino grunt right note0000" x="3016" y="731" width="475" height="711" frameX="-7" frameY="-8" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0001" x="3016" y="731" width="475" height="711" frameX="-7" frameY="-8" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0002" x="3491" y="731" width="476" height="717" frameX="-1" frameY="-3" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0003" x="3491" y="731" width="476" height="717" frameX="-1" frameY="-3" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0004" x="0" y="1463" width="478" height="720" frameX="0" frameY="0" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0005" x="0" y="1463" width="478" height="720" frameX="0" frameY="0" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0006" x="478" y="1463" width="477" height="720" frameX="0" frameY="0" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0007" x="478" y="1463" width="477" height="720" frameX="0" frameY="0" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0008" x="478" y="1463" width="477" height="720" frameX="0" frameY="0" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="Aquino grunt right note0009" x="478" y="1463" width="477" height="720" frameX="0" frameY="0" frameWidth="482" frameHeight="720"/>
+	<SubTexture name="aquino grunt up note0000" x="955" y="1463" width="474" height="759" frameX="0" frameY="0" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0001" x="955" y="1463" width="474" height="759" frameX="0" frameY="0" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0002" x="1429" y="1463" width="466" height="743" frameX="-7" frameY="-17" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0003" x="1429" y="1463" width="466" height="743" frameX="-7" frameY="-17" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0004" x="1895" y="1463" width="472" height="742" frameX="-5" frameY="-18" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0005" x="1895" y="1463" width="472" height="742" frameX="-5" frameY="-18" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0006" x="2367" y="1463" width="472" height="741" frameX="-6" frameY="-19" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0007" x="2367" y="1463" width="472" height="741" frameX="-6" frameY="-19" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0008" x="2367" y="1463" width="472" height="741" frameX="-6" frameY="-19" frameWidth="478" frameHeight="760"/>
+	<SubTexture name="aquino grunt up note0009" x="2367" y="1463" width="472" height="741" frameX="-6" frameY="-19" frameWidth="478" frameHeight="760"/>
+</TextureAtlas>

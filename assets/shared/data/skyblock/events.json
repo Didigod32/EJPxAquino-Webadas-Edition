@@ -1,0 +1,158 @@
+{
+	"events": [
+		[
+			0,
+			[
+				["Camera Zoom Speed", "16", "0.05"],
+				["Custom Default Zoom", "1.5", "8"]
+			]
+		],
+		[
+			18909.0909090909,
+			[
+				["Camera Zoom Speed", "16", "1"]
+			]
+		],
+		[
+			18924.2424242424,
+			[
+				["Custom Default Zoom", "1.2", "1"]
+			]
+		],
+		[
+			30545.4545454546,
+			[
+				["Camera Zoom Speed", "8", "1.1"]
+			]
+		],
+		[
+			53818.1818181818,
+			[
+				["Camera Zoom Speed", "4", "0.9"]
+			]
+		],
+		[
+			58363.6363636364,
+			[
+				["Camera Zoom Speed", "16", "0.9"]
+			]
+		],
+		[
+			59636.3636363637,
+			[
+				["Camera Zoom Speed", "4", "0.9"]
+			]
+		],
+		[
+			77090.9090909091,
+			[
+				["Camera Zoom Speed", "16", "0.9"]
+			]
+		],
+		[
+			77886.3636363637,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singUPmiss", "bf"]
+			]
+		],
+		[
+			79295.4545454546,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singUPmiss", "bf"]
+			]
+		],
+		[
+			80772.7272727273,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singDOWNmiss", "bf"]
+			]
+		],
+		[
+			81295.4545454546,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singRIGHTmiss", "bf"]
+			]
+		],
+		[
+			82212.1212121213,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singUPmiss", "bf"]
+			]
+		],
+		[
+			83636.3636363637,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singDOWNmiss", "bf"]
+			]
+		],
+		[
+			86575.7575757576,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singRIGHTmiss", "bf"]
+			]
+		],
+		[
+			89454.5454545455,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singLEFTmiss", "bf"]
+			]
+		],
+		[
+			90969.696969697,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singLEFTmiss", "bf"]
+			]
+		],
+		[
+			92378.7878787879,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singUPmiss", "bf"]
+			]
+		],
+		[
+			94583.3333333334,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singLEFTmiss", "bf"]
+			]
+		],
+		[
+			95287.8787878788,
+			[
+				["Play Animation", "singLEFTmiss", "bf"],
+				["Play Animation", "ataque", "dad"]
+			]
+		],
+		[
+			96742.4242424243,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singUPmiss", "bf"]
+			]
+		],
+		[
+			98750.0000000001,
+			[
+				["Play Animation", "ataque", "dad"],
+				["Play Animation", "singUPmiss", "bf"]
+			]
+		],
+		[
+			100363.636363636,
+			[
+				["Camera Zoom Speed", "8", "1"]
+			]
+		]
+	],
+	"format": "psych_v1"
+}

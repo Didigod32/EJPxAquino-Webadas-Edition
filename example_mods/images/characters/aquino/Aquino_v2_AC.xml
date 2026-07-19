@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Aquino_v2_AC.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0000" x="0" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0001" x="393" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0002" x="393" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0003" x="786" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0004" x="786" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0005" x="1179" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0006" x="1179" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0007" x="786" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0008" x="786" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC  NOTA DER FALL0009" x="1179" y="0" width="393" height="445"/>
+	<SubTexture name="AQUINO_AC IDLE0000" x="1572" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0001" x="1572" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0002" x="1969" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0003" x="1969" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0004" x="2366" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0005" x="2763" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0006" x="3160" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0007" x="3160" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0008" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0009" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0010" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0011" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0012" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0013" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC IDLE0014" x="3557" y="0" width="397" height="431"/>
+	<SubTexture name="AQUINO_AC NERVIOSOr0000" x="0" y="445" width="388" height="435"/>
+	<SubTexture name="AQUINO_AC NERVIOSOr0001" x="388" y="445" width="388" height="435"/>
+	<SubTexture name="AQUINO_AC NERVIOSOr0002" x="776" y="445" width="388" height="435"/>
+	<SubTexture name="AQUINO_AC NERVIOSOr0003" x="1164" y="445" width="388" height="435"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0000" x="1552" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0001" x="1552" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0002" x="1922" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0003" x="1922" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0004" x="2292" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0005" x="2292" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0006" x="2292" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0007" x="2292" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0008" x="2292" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA0009" x="2292" y="445" width="370" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0000" x="2662" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0001" x="2662" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0002" x="3048" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0003" x="3048" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0004" x="3434" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0005" x="3434" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0006" x="3434" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0007" x="3434" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0008" x="3434" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA ALT0009" x="3434" y="445" width="386" height="384"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0000" x="0" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0001" x="370" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0002" x="370" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0003" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0004" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0005" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0006" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0007" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0008" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ABA FALL0009" x="740" y="880" width="370" height="410"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0000" x="1110" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0001" x="1110" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0002" x="1480" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0003" x="1480" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0004" x="1850" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0005" x="1850" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0006" x="1850" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0007" x="1850" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0008" x="1850" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR0009" x="1850" y="880" width="370" height="479"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0000" x="2220" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0001" x="2220" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0002" x="2594" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0003" x="2594" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0004" x="2968" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0005" x="2968" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0006" x="2968" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0007" x="2968" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0008" x="2968" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR ALT0009" x="2968" y="880" width="374" height="482"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0000" x="3342" y="880" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0001" x="3713" y="880" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0002" x="3713" y="880" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0003" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0004" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0005" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0006" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0007" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0008" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA ARR FALL0009" x="0" y="1362" width="371" height="480"/>
+	<SubTexture name="AQUINO_AC NOTA DER0000" x="371" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0001" x="371" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0002" x="763" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0003" x="763" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0004" x="1155" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0005" x="1155" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0006" x="1155" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0007" x="1155" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0008" x="1155" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER0009" x="1155" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0000" x="1547" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0001" x="1547" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0002" x="1939" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0003" x="1939" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0004" x="2331" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0005" x="2331" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0006" x="2331" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0007" x="2331" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0008" x="2331" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA DER ALT0009" x="2331" y="1362" width="392" height="422"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0000" x="2723" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0001" x="2723" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0002" x="3087" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0003" x="3087" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0004" x="3451" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0005" x="3451" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0006" x="3451" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0007" x="3451" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0008" x="3451" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ0009" x="3451" y="1362" width="364" height="430"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0000" x="0" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0001" x="0" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0002" x="408" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0003" x="408" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0004" x="816" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0005" x="816" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0006" x="816" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0007" x="816" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0008" x="816" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ ALT0009" x="816" y="1842" width="408" height="444"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0000" x="1224" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0001" x="1588" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0002" x="1588" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0003" x="1952" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0004" x="1952" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0005" x="2316" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0006" x="2316" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0007" x="1952" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0008" x="1952" y="1842" width="364" height="442"/>
+	<SubTexture name="AQUINO_AC NOTA IZQ FALL0009" x="2316" y="1842" width="364" height="442"/>
+</TextureAtlas>

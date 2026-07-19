@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Nax_assets.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Nax right note0000" x="3421" y="0" width="423" height="709" frameX="-17" frameY="-5" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0001" x="3421" y="0" width="423" height="709" frameX="-17" frameY="-5" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0002" x="869" y="709" width="427" height="714" frameX="-4" frameY="0" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0003" x="869" y="709" width="427" height="714" frameX="-4" frameY="0" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0004" x="0" y="709" width="431" height="716" frameX="2" frameY="2" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0005" x="0" y="709" width="431" height="716" frameX="2" frameY="2" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0006" x="0" y="709" width="431" height="716" frameX="2" frameY="2" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0007" x="0" y="709" width="431" height="716" frameX="2" frameY="2" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0008" x="0" y="709" width="431" height="716" frameX="2" frameY="2" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="Nax right note0009" x="0" y="709" width="431" height="716" frameX="2" frameY="2" frameWidth="439" frameHeight="712"/>
+	<SubTexture name="nax0000" x="1251" y="1425" width="428" height="709" frameX="2" frameY="-7" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0001" x="1251" y="1425" width="428" height="709" frameX="2" frameY="-7" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0002" x="2159" y="1438" width="425" height="713" frameX="1" frameY="-3" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0003" x="2159" y="1438" width="425" height="713" frameX="1" frameY="-3" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0004" x="3001" y="0" width="420" height="715" frameX="1" frameY="-1" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0005" x="3001" y="0" width="420" height="715" frameX="1" frameY="-1" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0006" x="3421" y="709" width="418" height="717" frameX="1" frameY="1" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0007" x="3421" y="709" width="418" height="717" frameX="1" frameY="1" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0008" x="419" y="2153" width="420" height="718" frameX="1" frameY="2" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0009" x="419" y="2153" width="420" height="718" frameX="1" frameY="2" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0010" x="419" y="2153" width="420" height="718" frameX="1" frameY="2" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0011" x="419" y="2153" width="420" height="718" frameX="1" frameY="2" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0012" x="419" y="2153" width="420" height="718" frameX="1" frameY="2" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax0013" x="419" y="2153" width="420" height="718" frameX="1" frameY="2" frameWidth="424" frameHeight="714"/>
+	<SubTexture name="nax decepcion0000" x="1251" y="1425" width="428" height="709" frameX="-1" frameY="-17" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0001" x="1251" y="1425" width="428" height="709" frameX="-1" frameY="-17" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0002" x="2159" y="0" width="425" height="714" frameX="-5" frameY="-12" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0003" x="2159" y="0" width="425" height="714" frameX="-5" frameY="-12" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0004" x="0" y="2153" width="419" height="721" frameX="1" frameY="-5" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0005" x="2159" y="714" width="419" height="724" frameX="1" frameY="-2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0006" x="2584" y="0" width="417" height="727" frameX="2" frameY="1" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0007" x="2584" y="0" width="417" height="727" frameX="2" frameY="1" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0008" x="1300" y="0" width="418" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0009" x="1718" y="689" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0010" x="417" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0011" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0012" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0013" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0014" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0015" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0016" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0017" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0018" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0019" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0020" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0021" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0022" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0023" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0024" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0025" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0026" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0027" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0028" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0029" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0030" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0031" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0032" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0033" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0034" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0035" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0036" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0037" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0038" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0039" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0040" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0041" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0042" x="834" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0043" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax decepcion0044" x="0" y="1425" width="417" height="728" frameX="2" frameY="2" frameWidth="428" frameHeight="724"/>
+	<SubTexture name="nax down note0000" x="1679" y="1425" width="442" height="685" frameX="2" frameY="-9" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0001" x="1679" y="1425" width="442" height="685" frameX="2" frameY="-9" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0002" x="1718" y="0" width="441" height="689" frameX="0" frameY="-5" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0003" x="1718" y="0" width="441" height="689" frameX="0" frameY="-5" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0004" x="839" y="2153" width="432" height="696" frameX="-1" frameY="2" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0005" x="1271" y="2153" width="430" height="696" frameX="-1" frameY="2" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0006" x="1271" y="2153" width="430" height="696" frameX="-1" frameY="2" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0007" x="1271" y="2153" width="430" height="696" frameX="-1" frameY="2" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0008" x="1271" y="2153" width="430" height="696" frameX="-1" frameY="2" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax down note0009" x="1271" y="2153" width="430" height="696" frameX="-1" frameY="2" frameWidth="439" frameHeight="693"/>
+	<SubTexture name="nax left note0000" x="0" y="0" width="436" height="709" frameX="2" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0001" x="0" y="0" width="436" height="709" frameX="2" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0002" x="436" y="0" width="433" height="709" frameX="-6" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0003" x="436" y="0" width="433" height="709" frameX="-6" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0004" x="436" y="709" width="431" height="709" frameX="-11" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0005" x="869" y="0" width="431" height="709" frameX="-11" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0006" x="869" y="0" width="431" height="709" frameX="-11" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0007" x="869" y="0" width="431" height="709" frameX="-11" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0008" x="869" y="0" width="431" height="709" frameX="-11" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax left note0009" x="869" y="0" width="431" height="709" frameX="-11" frameY="2" frameWidth="440" frameHeight="705"/>
+	<SubTexture name="nax up note0000" x="3421" y="2131" width="405" height="713" frameX="-3" frameY="2" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0001" x="3421" y="2131" width="405" height="713" frameX="-3" frameY="2" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0002" x="3421" y="1426" width="414" height="705" frameX="-1" frameY="-6" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0003" x="3421" y="1426" width="414" height="705" frameX="-1" frameY="-6" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0004" x="0" y="2874" width="426" height="699" frameX="2" frameY="-12" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0005" x="0" y="2874" width="426" height="699" frameX="2" frameY="-12" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0006" x="0" y="2874" width="426" height="699" frameX="2" frameY="-12" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0007" x="0" y="2874" width="426" height="699" frameX="2" frameY="-12" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0008" x="0" y="2874" width="426" height="699" frameX="2" frameY="-12" frameWidth="422" frameHeight="709"/>
+	<SubTexture name="nax up note0009" x="0" y="2874" width="426" height="699" frameX="2" frameY="-12" frameWidth="422" frameHeight="709"/>
+</TextureAtlas>

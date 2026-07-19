@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Locochon_duende_risas.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="risa0000" x="0" y="0" width="756" height="585" frameX="0" frameY="-9" frameWidth="756" frameHeight="594"/>
+	<SubTexture name="risa0001" x="0" y="0" width="756" height="585" frameX="0" frameY="-9" frameWidth="756" frameHeight="594"/>
+	<SubTexture name="risa0002" x="756" y="0" width="756" height="590" frameX="0" frameY="-4" frameWidth="756" frameHeight="594"/>
+	<SubTexture name="risa0003" x="756" y="0" width="756" height="590" frameX="0" frameY="-4" frameWidth="756" frameHeight="594"/>
+	<SubTexture name="risa0004" x="0" y="590" width="756" height="592" frameX="0" frameY="-2" frameWidth="756" frameHeight="594"/>
+	<SubTexture name="risa0005" x="0" y="590" width="756" height="592" frameX="0" frameY="-2" frameWidth="756" frameHeight="594"/>
+	<SubTexture name="risa0006" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0007" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0008" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0009" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0010" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0011" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0012" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0013" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0014" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0015" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0016" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0017" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0018" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0019" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0020" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0021" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0022" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0023" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0024" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0025" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0026" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0027" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0028" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0029" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0030" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0031" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0032" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0033" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0034" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0035" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0036" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0037" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0038" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0039" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0040" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0041" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0042" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0043" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0044" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0045" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0046" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0047" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0048" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0049" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0050" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0051" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0052" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0053" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0054" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0055" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0056" x="756" y="590" width="756" height="594"/>
+	<SubTexture name="risa0057" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0058" x="0" y="1184" width="756" height="594"/>
+	<SubTexture name="risa0059" x="0" y="1184" width="756" height="594"/>
+</TextureAtlas>

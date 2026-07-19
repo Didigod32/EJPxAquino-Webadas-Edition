@@ -1,0 +1,309 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				16,
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "quinocun idle"
+		},
+		{
+			"offsets": [
+				13,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "quinocun nota derecha"
+		},
+		{
+			"offsets": [
+				14,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "quinocun nota abajo"
+		},
+		{
+			"offsets": [
+				-4,
+				21
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "quinocun nota arriba"
+		},
+		{
+			"offsets": [
+				-40,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "quinocun nota izquierda"
+		},
+		{
+			"offsets": [
+				10,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "quinocun nota derecha fallo"
+		},
+		{
+			"offsets": [
+				29,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "quinocun nota abajo fallo"
+		},
+		{
+			"offsets": [
+				2,
+				32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "quinocun nota arriba fallo"
+		},
+		{
+			"offsets": [
+				-35,
+				3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			],
+			"name": "quinocun nota izquierda fallo"
+		},
+		{
+			"offsets": [
+				10,
+				-1
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFTmiss-loop",
+			"indices": [
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "quinocun nota derecha fallo"
+		},
+		{
+			"offsets": [
+				29,
+				-9
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singDOWNmiss-loop",
+			"indices": [
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "quinocun nota abajo fallo"
+		},
+		{
+			"offsets": [
+				2,
+				32
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUPmiss-loop",
+			"indices": [
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "quinocun nota arriba fallo"
+		},
+		{
+			"offsets": [
+				-35,
+				3
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHTmiss-loop",
+			"indices": [
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "quinocun nota izquierda fallo"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				456,
+				14
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "quinocun ataque ;v",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino_cuphead-v3",
+	"position": [
+		90,
+		50
+	],
+	"healthicon": "icon-aqcup",
+	"flip_x": true,
+	"healthbar_colors": [
+		234,
+		96,
+		131
+	],
+	"camera_position": [
+		350,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

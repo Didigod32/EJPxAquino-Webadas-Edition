@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-532,
+				-8
+			],
+			"anim": "idle",
+			"fps": 12,
+			"name": "pato-duxo IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-530,
+				-7
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "pato-duxo DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-531,
+				-7
+			],
+			"anim": "singRIGHT",
+			"fps": 12,
+			"name": "pato-duxo RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-538,
+				-10
+			],
+			"anim": "singLEFT",
+			"fps": 12,
+			"name": "pato-duxo LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-529,
+				-8
+			],
+			"anim": "singUP",
+			"fps": 12,
+			"name": "pato-duxo UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-520,
+				-10
+			],
+			"anim": "whentedisparan",
+			"fps": 24,
+			"name": "pato-duxo DEAD",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/duxo/pato-duxo",
+	"position": [
+		250,
+		500
+	],
+	"healthicon": "icon-duxopato-pixel",
+	"flip_x": false,
+	"healthbar_colors": [
+		162,
+		148,
+		171
+	],
+	"camera_position": [
+		-290,
+		-690
+	],
+	"sing_duration": 4,
+	"scale": 5.79999999999999
+}

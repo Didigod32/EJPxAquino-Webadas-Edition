@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="new_tommy.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TOMY DOWN POSE0000" x="0" y="0" width="1129" height="667" frameX="0" frameY="-4" frameWidth="1129" frameHeight="671"/>
+	<SubTexture name="TOMY DOWN POSE0001" x="0" y="0" width="1129" height="667" frameX="0" frameY="-4" frameWidth="1129" frameHeight="671"/>
+	<SubTexture name="TOMY DOWN POSE0002" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0003" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0004" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0005" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0006" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0007" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0008" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0009" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0010" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0011" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0012" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0013" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY DOWN POSE0014" x="1129" y="0" width="1129" height="671"/>
+	<SubTexture name="TOMY IDLE0000" x="2258" y="0" width="1129" height="817" frameX="0" frameY="-6" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0001" x="3387" y="0" width="1129" height="816" frameX="0" frameY="-7" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0002" x="4516" y="0" width="1129" height="818" frameX="0" frameY="-5" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0003" x="5645" y="0" width="1129" height="817" frameX="0" frameY="-6" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0004" x="6774" y="0" width="1129" height="822" frameX="0" frameY="-1" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0005" x="0" y="822" width="1129" height="822" frameX="0" frameY="-1" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0006" x="1129" y="822" width="1129" height="823"/>
+	<SubTexture name="TOMY IDLE0007" x="2258" y="822" width="1129" height="823"/>
+	<SubTexture name="TOMY IDLE0008" x="3387" y="822" width="1129" height="823"/>
+	<SubTexture name="TOMY IDLE0009" x="4516" y="822" width="1129" height="822" frameX="0" frameY="-1" frameWidth="1129" frameHeight="823"/>
+	<SubTexture name="TOMY IDLE0010" x="3387" y="822" width="1129" height="823"/>
+	<SubTexture name="TOMY LEFT POSE0000" x="5645" y="822" width="1129" height="827"/>
+	<SubTexture name="TOMY LEFT POSE0001" x="5645" y="822" width="1129" height="827"/>
+	<SubTexture name="TOMY LEFT POSE0002" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0003" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0004" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0005" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0006" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0007" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0008" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY LEFT POSE0009" x="6774" y="822" width="1129" height="826" frameX="0" frameY="-1" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0000" x="0" y="1649" width="1129" height="827"/>
+	<SubTexture name="TOMY RIGHT POSE0001" x="0" y="1649" width="1129" height="827"/>
+	<SubTexture name="TOMY RIGHT POSE0002" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0003" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0004" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0005" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0006" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0007" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0008" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY RIGHT POSE0009" x="1129" y="1649" width="1129" height="824" frameX="0" frameY="-3" frameWidth="1129" frameHeight="827"/>
+	<SubTexture name="TOMY UP POSE0000" x="2258" y="1649" width="1129" height="816" frameX="0" frameY="-1" frameWidth="1129" frameHeight="817"/>
+	<SubTexture name="TOMY UP POSE0001" x="2258" y="1649" width="1129" height="816" frameX="0" frameY="-1" frameWidth="1129" frameHeight="817"/>
+	<SubTexture name="TOMY UP POSE0002" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0003" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0004" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0005" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0006" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0007" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0008" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0009" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0010" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0011" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0012" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0013" x="3387" y="1649" width="1129" height="817"/>
+	<SubTexture name="TOMY UP POSE0014" x="3387" y="1649" width="1129" height="817"/>
+</TextureAtlas>

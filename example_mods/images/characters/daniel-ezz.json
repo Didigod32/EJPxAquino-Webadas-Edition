@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE DANCE"
+		},
+		{
+			"offsets": [
+				48,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LEFT NOTE"
+		},
+		{
+			"offsets": [
+				7,
+				-55
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "NOTE DOWN"
+		},
+		{
+			"offsets": [
+				10,
+				9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "UP NOTE"
+		},
+		{
+			"offsets": [
+				-29,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RIGHT NOTE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/daniel/Daniel_Ez_assets",
+	"position": [
+		50,
+		150
+	],
+	"healthicon": "icon-danizz",
+	"flip_x": false,
+	"healthbar_colors": [
+		123,
+		73,
+		66
+	],
+	"camera_position": [
+		-40,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 1.5
+}

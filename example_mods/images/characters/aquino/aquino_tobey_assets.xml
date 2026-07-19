@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="aquino_tobey_assets.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Aquino tobey down miss note0000" x="7505" y="2299" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0001" x="0" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0002" x="544" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0003" x="1088" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0004" x="1632" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0005" x="2176" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0006" x="2720" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0007" x="3264" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0008" x="3808" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0009" x="4352" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0010" x="4896" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0011" x="5440" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0012" x="5984" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0013" x="6528" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down miss note0014" x="7072" y="2954" width="544" height="503"/>
+	<SubTexture name="Aquino tobey down note0000" x="0" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0001" x="546" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0002" x="1092" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0003" x="1638" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0004" x="2184" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0005" x="2730" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0006" x="3276" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0007" x="3822" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0008" x="4368" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey down note0009" x="4914" y="0" width="546" height="501"/>
+	<SubTexture name="Aquino tobey idle dance0000" x="5460" y="0" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0001" x="5953" y="0" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0002" x="6446" y="0" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0003" x="6939" y="0" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0004" x="7432" y="0" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0005" x="0" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0006" x="493" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0007" x="986" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0008" x="1479" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0009" x="1972" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0010" x="2465" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0011" x="2958" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0012" x="3451" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0013" x="3944" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey idle dance0014" x="4437" y="565" width="493" height="565"/>
+	<SubTexture name="Aquino tobey right note0000" x="4930" y="565" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0001" x="5418" y="565" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0002" x="5906" y="565" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0003" x="6394" y="565" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0004" x="6882" y="565" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0005" x="7370" y="565" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0006" x="0" y="1130" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0007" x="488" y="1130" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0008" x="976" y="1130" width="488" height="550"/>
+	<SubTexture name="Aquino tobey right note0009" x="1464" y="1130" width="488" height="550"/>
+	<SubTexture name="Aquino tobey up miss note0000" x="7616" y="2954" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0001" x="0" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0002" x="498" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0003" x="996" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0004" x="1494" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0005" x="1992" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0006" x="2490" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0007" x="2988" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0008" x="3486" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0009" x="3984" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0010" x="4482" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0011" x="4980" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0012" x="5478" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0013" x="5976" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0014" x="6474" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0015" x="6972" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up miss note0016" x="7470" y="3579" width="498" height="625"/>
+	<SubTexture name="Aquino tobey up note0000" x="1952" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0001" x="2412" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0002" x="2872" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0003" x="3332" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0004" x="3792" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0005" x="4252" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0006" x="4712" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0007" x="5172" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0008" x="5632" y="1130" width="460" height="623"/>
+	<SubTexture name="Aquino tobey up note0009" x="6092" y="1130" width="460" height="623"/>
+	<SubTexture name="aquino left note0000" x="6552" y="1130" width="473" height="546"/>
+	<SubTexture name="aquino left note0001" x="7025" y="1130" width="473" height="546"/>
+	<SubTexture name="aquino left note0002" x="7498" y="1130" width="473" height="546"/>
+	<SubTexture name="aquino left note0003" x="0" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0004" x="473" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0005" x="946" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0006" x="1419" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0007" x="1892" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0008" x="2365" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0009" x="2838" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0010" x="3311" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0011" x="3784" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0012" x="4257" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0013" x="4730" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0014" x="5203" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0015" x="5676" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0016" x="6149" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0017" x="6622" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0018" x="7095" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0019" x="7568" y="1753" width="473" height="546"/>
+	<SubTexture name="aquino left note0020" x="0" y="2299" width="473" height="546"/>
+	<SubTexture name="aquino left note0021" x="473" y="2299" width="473" height="546"/>
+	<SubTexture name="aquino left note0022" x="946" y="2299" width="473" height="546"/>
+	<SubTexture name="aquino left note0023" x="1419" y="2299" width="473" height="546"/>
+	<SubTexture name="aquino left note0024" x="1892" y="2299" width="473" height="546"/>
+	<SubTexture name="aquino tobey dodge0000" x="2365" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0001" x="2879" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0002" x="3393" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0003" x="3907" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0004" x="4421" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0005" x="4935" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0006" x="5449" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0007" x="5963" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0008" x="6477" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey dodge0009" x="6991" y="2299" width="514" height="655"/>
+	<SubTexture name="aquino tobey left miss note0000" x="0" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0001" x="498" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0002" x="996" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0003" x="1494" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0004" x="1992" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0005" x="2490" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0006" x="2988" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0007" x="3486" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0008" x="3984" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0009" x="4482" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0010" x="4980" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0011" x="5478" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0012" x="5976" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0013" x="6474" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey left miss note0014" x="6972" y="4204" width="498" height="554"/>
+	<SubTexture name="aquino tobey right miss note0000" x="7470" y="4204" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0001" x="0" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0002" x="490" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0003" x="980" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0004" x="1470" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0005" x="1960" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0006" x="2450" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0007" x="2940" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0008" x="3430" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0009" x="3920" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0010" x="4410" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0011" x="4900" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0012" x="5390" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0013" x="5880" y="4758" width="490" height="549"/>
+	<SubTexture name="aquino tobey right miss note0014" x="6370" y="4758" width="490" height="549"/>
+</TextureAtlas>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Te lo dejo de tarea heroe.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="te lo dejo0000" x="0" y="0" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0001" x="0" y="0" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0002" x="756" y="0" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0003" x="1512" y="0" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0004" x="2268" y="0" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0005" x="3024" y="0" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0006" x="0" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0007" x="756" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0008" x="1512" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0009" x="2268" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0010" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0011" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0012" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0013" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0014" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0015" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0016" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0017" x="3024" y="585" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0018" x="0" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0019" x="756" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0020" x="1512" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0021" x="1512" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0022" x="2268" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0023" x="3024" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0024" x="0" y="1170" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0025" x="0" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0026" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0027" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0028" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0029" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0030" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0031" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0032" x="756" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0033" x="1512" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0034" x="1512" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0035" x="1512" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0036" x="2268" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0037" x="2268" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0038" x="2268" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0039" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0040" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0041" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0042" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0043" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0044" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0045" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0046" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0047" x="0" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0048" x="0" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0049" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0050" x="3024" y="1755" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0051" x="756" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0052" x="756" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0053" x="756" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0054" x="1512" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0055" x="1512" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0056" x="1512" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0057" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0058" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0059" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0060" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0061" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0062" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0063" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0064" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0065" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0066" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0067" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0068" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0069" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0070" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0071" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0072" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0073" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0074" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0075" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0076" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0077" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0078" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0079" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0080" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0081" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0082" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0083" x="2268" y="2340" width="756" height="588"/>
+	<SubTexture name="te lo dejo0084" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0085" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+	<SubTexture name="te lo dejo0086" x="3024" y="2340" width="756" height="585" frameX="0" frameY="-3" frameWidth="756" frameHeight="588"/>
+</TextureAtlas>

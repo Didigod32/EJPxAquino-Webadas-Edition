@@ -1,0 +1,56 @@
+{
+	"song": {
+		"events": [
+			[
+				10,
+				[
+					[
+						"Video",
+						"",
+						""
+					]
+				]
+			],
+			[
+				145161.290322581,
+				[
+					[
+						"Change Character",
+						"dad",
+						"mario-smb3"
+					],
+					[
+						"Change Character",
+						"bf",
+						"Aquino-smb3"
+					],
+					[
+						"MM Change",
+						"smb3",
+						""
+					]
+				]
+			],
+			[
+				276769.153225806,
+				[
+					[
+						"MM Change",
+						"smw",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"mario-smw"
+					],
+					[
+						"Change Character",
+						"bf",
+						"Aquino-smw"
+					]
+				]
+			]
+		]
+	}
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Daniel_Ez_assets.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="IDLE DANCE0000" x="0" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0001" x="0" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0002" x="231" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0003" x="231" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0004" x="462" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0005" x="462" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0006" x="693" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0007" x="924" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0008" x="1155" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0009" x="1155" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0010" x="1386" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0011" x="1386" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0012" x="1386" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0013" x="1386" y="0" width="231" height="468"/>
+	<SubTexture name="IDLE DANCE0014" x="1386" y="0" width="231" height="468"/>
+	<SubTexture name="LEFT NOTE0000" x="1617" y="0" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0001" x="1617" y="0" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0002" x="0" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0003" x="0" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0004" x="222" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0005" x="222" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0006" x="444" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0007" x="444" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0008" x="444" y="468" width="222" height="467"/>
+	<SubTexture name="LEFT NOTE0009" x="444" y="468" width="222" height="467"/>
+	<SubTexture name="NOTE DOWN0000" x="666" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0001" x="666" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0002" x="896" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0003" x="896" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0004" x="1126" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0005" x="1356" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0006" x="1586" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0007" x="1816" y="468" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0008" x="0" y="935" width="230" height="433"/>
+	<SubTexture name="NOTE DOWN0009" x="0" y="935" width="230" height="433"/>
+	<SubTexture name="RIGHT NOTE0000" x="230" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0001" x="230" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0002" x="476" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0003" x="476" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0004" x="722" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0005" x="722" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0006" x="968" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0007" x="968" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0008" x="1214" y="935" width="246" height="440"/>
+	<SubTexture name="RIGHT NOTE0009" x="1214" y="935" width="246" height="440"/>
+	<SubTexture name="UP NOTE0000" x="1460" y="935" width="237" height="473"/>
+	<SubTexture name="UP NOTE0001" x="1460" y="935" width="237" height="473"/>
+	<SubTexture name="UP NOTE0002" x="1697" y="935" width="237" height="473"/>
+	<SubTexture name="UP NOTE0003" x="1697" y="935" width="237" height="473"/>
+	<SubTexture name="UP NOTE0004" x="0" y="1408" width="237" height="473"/>
+	<SubTexture name="UP NOTE0005" x="237" y="1408" width="237" height="473"/>
+	<SubTexture name="UP NOTE0006" x="474" y="1408" width="237" height="473"/>
+	<SubTexture name="UP NOTE0007" x="474" y="1408" width="237" height="473"/>
+	<SubTexture name="UP NOTE0008" x="711" y="1408" width="237" height="473"/>
+	<SubTexture name="UP NOTE0009" x="711" y="1408" width="237" height="473"/>
+</TextureAtlas>

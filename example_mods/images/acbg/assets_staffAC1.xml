@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="assets_staffAC1.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="staffAC_10000" x="0" y="0" width="394" height="562" frameX="0" frameY="-7" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10001" x="0" y="0" width="394" height="562" frameX="0" frameY="-7" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10002" x="394" y="0" width="394" height="564" frameX="-1" frameY="-5" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10003" x="394" y="0" width="394" height="564" frameX="-1" frameY="-5" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10004" x="788" y="0" width="391" height="567" frameX="-4" frameY="-2" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10005" x="788" y="0" width="391" height="567" frameX="-4" frameY="-2" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10006" x="1179" y="0" width="389" height="569" frameX="-6" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10007" x="1179" y="0" width="389" height="569" frameX="-6" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10008" x="1568" y="0" width="387" height="569" frameX="-8" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10009" x="1568" y="0" width="387" height="569" frameX="-8" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10010" x="1568" y="0" width="387" height="569" frameX="-8" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10011" x="1568" y="0" width="387" height="569" frameX="-8" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10012" x="1568" y="0" width="387" height="569" frameX="-8" frameY="0" frameWidth="395" frameHeight="569"/>
+	<SubTexture name="staffAC_10013" x="1568" y="0" width="387" height="569" frameX="-8" frameY="0" frameWidth="395" frameHeight="569"/>
+</TextureAtlas>

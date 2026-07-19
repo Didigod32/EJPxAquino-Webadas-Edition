@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="arbol.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Arbol bv0000" x="0" y="0" width="487" height="301"/>
+	<SubTexture name="Arbol bv0001" x="0" y="0" width="487" height="301"/>
+	<SubTexture name="Arbol bv0002" x="487" y="0" width="487" height="301"/>
+	<SubTexture name="Arbol bv0003" x="487" y="0" width="487" height="301"/>
+	<SubTexture name="Arbol bv0004" x="0" y="301" width="487" height="301"/>
+	<SubTexture name="Arbol bv0005" x="0" y="301" width="487" height="301"/>
+	<SubTexture name="Arbol bv0006" x="487" y="301" width="487" height="301"/>
+	<SubTexture name="Arbol bv0007" x="487" y="301" width="487" height="301"/>
+</TextureAtlas>

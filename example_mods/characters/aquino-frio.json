@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Aquino idle"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Aquino note left"
+		},
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Aquino note down"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Aquino note up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Aquino note right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/aquinohaycara",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-aquino-frio-pixel",
+	"flip_x": false,
+	"healthbar_colors": [
+		220,
+		182,
+		181
+	],
+	"camera_position": [
+		-200,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

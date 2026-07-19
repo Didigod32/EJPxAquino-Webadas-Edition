@@ -1,0 +1,8 @@
+V1 = Duration,Mode
+V2 = Ease, Zoom
+
+Duration should be in steps (Default 4 steps)
+Mode can be anything else (Default is direct)
+if mode is direct the zoom it will be instantaneous
+Ease can be any FlxTween, just put the ease name (Default is linear)
+Zoom = choosen zoom (Default is current stage zoom)

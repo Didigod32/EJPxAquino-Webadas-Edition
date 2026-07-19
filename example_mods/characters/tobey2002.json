@@ -1,0 +1,188 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tobey idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				128,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "tobey left note",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-66
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "tobey down note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				49
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "tobey up note",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				22
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "tobey right note",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				144,
+				41
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Aquino tobey left note miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				-27
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Aquino tobey down note miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				48
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Aquino tobey up note miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				1,
+				14
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Aquino tobey right note miss",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "death",
+			"fps": 24,
+			"name": "Aquino tobey death start",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-2,
+				8
+			],
+			"anim": "deathloop",
+			"fps": 24,
+			"name": "Aquino tobey death loop",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				88,
+				95
+			],
+			"anim": "deathconfirm",
+			"fps": 24,
+			"name": "Aquino tobey death confirm",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/tobey2002",
+	"position": [
+		360,
+		320
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		560,
+		-260
+	],
+	"sing_duration": 4,
+	"scale": 1.1
+}

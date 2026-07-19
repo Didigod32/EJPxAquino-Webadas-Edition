@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="hollow_death4.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="aquino hollow death 40000" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40001" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40002" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40003" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40004" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40005" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40006" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40007" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40008" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40009" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40010" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40011" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40012" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40013" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40014" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40015" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40016" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40017" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40018" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40019" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40020" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40021" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40022" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40023" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40024" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40025" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40026" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40027" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40028" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40029" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40030" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40031" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40032" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40033" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40034" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40035" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40036" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40037" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40038" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40039" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40040" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40041" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40042" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40043" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40044" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40045" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40046" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40047" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40048" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40049" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40050" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40051" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40052" x="0" y="0" width="544" height="528" frameX="-1627" frameY="-1583" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40053" x="544" y="0" width="889" height="861" frameX="-1456" frameY="-1415" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40054" x="1433" y="0" width="1915" height="1858" frameX="-953" frameY="-919" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40055" x="3348" y="0" width="2893" height="2800" frameX="-481" frameY="-461" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40056" x="0" y="2800" width="3876" height="3740"/>
+	<SubTexture name="aquino hollow death 40057" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40058" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40059" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40060" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40061" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40062" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40063" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+	<SubTexture name="aquino hollow death 40064" x="0" y="0" width="0" height="0" frameX="-1850" frameY="-1698" frameWidth="3876" frameHeight="3740"/>
+</TextureAtlas>

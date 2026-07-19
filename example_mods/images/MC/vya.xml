@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="vya.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="vegetacion y antorcha0000" x="0" y="0" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0001" x="0" y="0" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0002" x="0" y="301" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0003" x="0" y="301" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0004" x="0" y="602" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0005" x="0" y="602" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0006" x="0" y="301" width="487" height="301"/>
+	<SubTexture name="vegetacion y antorcha0007" x="0" y="301" width="487" height="301"/>
+</TextureAtlas>

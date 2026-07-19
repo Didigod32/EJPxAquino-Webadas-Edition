@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "IDLE DANCE"
+		},
+		{
+			"offsets": [
+				-15,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "NOTE LEFT"
+		},
+		{
+			"offsets": [
+				-21,
+				-55
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "NOTE DOWN"
+		},
+		{
+			"offsets": [
+				-26,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "NOTE UP"
+		},
+		{
+			"offsets": [
+				-29,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				17,
+				-11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "LEFT MISS"
+		},
+		{
+			"offsets": [
+				-12,
+				-54
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "DOWN MISS"
+		},
+		{
+			"offsets": [
+				-21,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "UP MISS"
+		},
+		{
+			"offsets": [
+				-28,
+				-8
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "RIGHT MISS"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				6,
+				-3
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "HEY",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nada",
+	"position": [
+		100,
+		130
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		-150,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

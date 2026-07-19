@@ -1,0 +1,236 @@
+{
+	"song": {
+		"events": [
+			[
+				900,
+				[
+					[
+						"Custom Default Zoom",
+						"0.9",
+						"10"
+					]
+				]
+			],
+			[
+				28775,
+				[
+					[
+						"Custom Default Zoom",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				28783.3333333333,
+				[
+					[
+						"Camera Zoom Speed",
+						"8",
+						"2"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Custom Default Zoom",
+						"0.8",
+						"0.1"
+					]
+				]
+			],
+			[
+				50450,
+				[
+					[
+						"Custom Default Zoom",
+						"0.9",
+						"0.1"
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"Custom Default Zoom",
+						"1",
+						"0.1"
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Custom Default Zoom",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Custom Default Zoom",
+						"0.65",
+						"0.1"
+					]
+				]
+			],
+			[
+				62383.3333333333,
+				[
+					[
+						"Custom Default Zoom",
+						"0.9",
+						"0.1"
+					]
+				]
+			],
+			[
+				64800,
+				[
+					[
+						"Custom Default Zoom",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				67183.3333333333,
+				[
+					[
+						"Custom Default Zoom",
+						"0.65",
+						"5"
+					]
+				]
+			],
+			[
+				93600,
+				[
+					[
+						"Custom Default Zoom",
+						"0.7",
+						"0.1"
+					]
+				]
+			],
+			[
+				93900,
+				[
+					[
+						"Custom Default Zoom",
+						"0.72",
+						"0.1"
+					]
+				]
+			],
+			[
+				94200,
+				[
+					[
+						"Custom Default Zoom",
+						"0.76",
+						"0.1"
+					]
+				]
+			],
+			[
+				94500,
+				[
+					[
+						"Custom Default Zoom",
+						"0.78",
+						"0.1"
+					]
+				]
+			],
+			[
+				94800,
+				[
+					[
+						"Custom Default Zoom",
+						"0.8",
+						"0.1"
+					]
+				]
+			],
+			[
+				95100,
+				[
+					[
+						"Custom Default Zoom",
+						"0.82",
+						"0.1"
+					]
+				]
+			],
+			[
+				95400,
+				[
+					[
+						"Custom Default Zoom",
+						"0.84",
+						"0.1"
+					]
+				]
+			],
+			[
+				95700,
+				[
+					[
+						"Custom Default Zoom",
+						"0.88",
+						"0.1"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Custom Default Zoom",
+						"0.86",
+						"0.1"
+					]
+				]
+			],
+			[
+				96300,
+				[
+					[
+						"Custom Default Zoom",
+						"0.82",
+						"0.1"
+					]
+				]
+			],
+			[
+				96600,
+				[
+					[
+						"Custom Default Zoom",
+						"0.8",
+						"0.1"
+					]
+				]
+			],
+			[
+				97500,
+				[
+					[
+						"Custom Default Zoom",
+						"0.65",
+						"0.1"
+					]
+				]
+			]
+		]
+	}
+}

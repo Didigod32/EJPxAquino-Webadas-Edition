@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Aquinov2_ptmr_eso_no_vale.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ptm-eso-no0000" x="0" y="0" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0001" x="0" y="0" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0002" x="400" y="0" width="400" height="790" frameX="-48" frameY="0" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0003" x="400" y="0" width="400" height="790" frameX="-48" frameY="0" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0004" x="800" y="0" width="517" height="761" frameX="-4" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0005" x="800" y="0" width="517" height="761" frameX="-4" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0006" x="1317" y="0" width="518" height="761" frameX="-3" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0007" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0008" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0009" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0010" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0011" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0012" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0013" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0014" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0015" x="0" y="790" width="518" height="761" frameX="0" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0016" x="518" y="790" width="515" height="761" frameX="-13" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0017" x="518" y="790" width="515" height="761" frameX="-13" frameY="-29" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0018" x="1033" y="790" width="399" height="789" frameX="-49" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0019" x="1033" y="790" width="399" height="789" frameX="-49" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0020" x="1432" y="790" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0021" x="1432" y="790" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0022" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0023" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0024" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0025" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0026" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0027" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0028" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0029" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0030" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0031" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0032" x="0" y="1579" width="409" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0033" x="409" y="1579" width="401" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0034" x="409" y="1579" width="401" height="789" frameX="-50" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0035" x="810" y="1579" width="399" height="789" frameX="-49" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0036" x="810" y="1579" width="399" height="789" frameX="-49" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0037" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0038" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0039" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0040" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0041" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0042" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0043" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0044" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0045" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0046" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0047" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0048" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0049" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0050" x="1209" y="1579" width="401" height="789" frameX="-47" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0051" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0052" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0053" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0054" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0055" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0056" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0057" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0058" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+	<SubTexture name="ptm-eso-no0059" x="1610" y="1579" width="400" height="789" frameX="-48" frameY="-1" frameWidth="528" frameHeight="790"/>
+</TextureAtlas>

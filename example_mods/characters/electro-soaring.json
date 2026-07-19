@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				170,
+				-110
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-10,
+				-170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-20,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up"
+		},
+		{
+			"offsets": [
+				-170,
+				-80
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-75,
+				-29
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "bom",
+			"loop": false,
+			"name": "bom"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soaring/soan",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "icon-soaring-electro",
+	"flip_x": false,
+	"healthbar_colors": [
+		239,
+		198,
+		33
+	],
+	"camera_position": [
+		-600,
+		-250
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

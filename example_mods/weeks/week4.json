@@ -1,0 +1,50 @@
+{
+	"storyName": "Admins, acepten mi publicación",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week4",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"Banned",
+			"danizz",
+			[
+				123,
+				73,
+				66
+			]
+		],
+		[
+			"Community",
+			"lioncat",
+			[
+				244,
+				17,
+				74
+			]
+		],
+		[
+			"Decadencia",
+			"danizz",
+			[
+				123,
+				73,
+				66
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Aquino comiunoti",
+	"hiddenUntilUnlocked": false
+}

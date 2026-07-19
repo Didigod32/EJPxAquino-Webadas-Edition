@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "idle",
+			"fps": 24,
+			"name": "loco duende verde idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [17, 80],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "loco duende verde lleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, -5],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "loco duende verde down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [24, 86],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "loco duende verde up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, 12],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "loco duende verde right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, -3],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "locochon duende verde idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [17, 80],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "locochon duende verde left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, -5],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "locochon duende verde down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 80],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "locochon duende verde up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [10, 20],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "locochon duende verde right",
+			"indices": []
+		},
+		{
+			"offsets": [0, 25],
+			"loop": false,
+			"fps": 24,
+			"anim": "el duende",
+			"indices": [],
+			"name": "El duende verde"
+		},
+		{
+			"offsets": [-1, 2],
+			"loop": false,
+			"fps": 24,
+			"anim": "te lo dejo",
+			"indices": [],
+			"name": "te lo dejo"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "risa",
+			"loop": false,
+			"name": "risa"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/locochon/Locochon_duende_verde_assets, characters/locochon/el_duende_verde_lo_hizo, characters/locochon/Te_lo_dejo_de_tarea_heroe, characters/locochon/Locochon_duende_risas",
+	"position": [0, 100],
+	"healthicon": "icon-locochon-duendeverde",
+	"flip_x": false,
+	"healthbar_colors": [34, 112, 54],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

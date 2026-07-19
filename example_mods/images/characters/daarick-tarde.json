@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "daarick atardecer idle"
+		},
+		{
+			"offsets": [
+				28,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Daarick right note atardecer"
+		},
+		{
+			"offsets": [
+				48,
+				-97
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Daarick down note atardecer"
+		},
+		{
+			"offsets": [
+				28,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Daarick up note atardecer"
+		},
+		{
+			"offsets": [
+				94,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Daarick left note atardecer"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/daarick/Daarick_atardecer_assets",
+	"position": [
+		-300,
+		130
+	],
+	"healthicon": "icon-daarick",
+	"flip_x": false,
+	"healthbar_colors": [
+		75,
+		172,
+		214
+	],
+	"camera_position": [
+		260,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

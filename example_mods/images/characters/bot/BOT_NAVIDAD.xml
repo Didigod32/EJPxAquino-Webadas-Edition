@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BOT_NAVIDAD.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BOTIDLE0000" x="0" y="0" width="699" height="625" frameX="-2" frameY="-21" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0001" x="699" y="0" width="703" height="625" frameX="0" frameY="-21" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0002" x="1402" y="0" width="703" height="623" frameX="0" frameY="-23" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0003" x="2105" y="0" width="699" height="623" frameX="-2" frameY="-23" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0004" x="2804" y="0" width="699" height="627" frameX="-2" frameY="-19" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0005" x="0" y="627" width="699" height="627" frameX="-2" frameY="-19" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0006" x="699" y="627" width="699" height="627" frameX="-2" frameY="-19" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0007" x="1398" y="627" width="699" height="643" frameX="-2" frameY="-3" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0008" x="1398" y="627" width="699" height="643" frameX="-2" frameY="-3" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0009" x="1398" y="627" width="699" height="643" frameX="-2" frameY="-3" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0010" x="2097" y="627" width="699" height="646" frameX="-2" frameY="0" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0011" x="2097" y="627" width="699" height="646" frameX="-2" frameY="0" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0012" x="2097" y="627" width="699" height="646" frameX="-2" frameY="0" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0013" x="2796" y="627" width="699" height="646" frameX="-2" frameY="0" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0014" x="2796" y="627" width="699" height="646" frameX="-2" frameY="0" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0015" x="0" y="1273" width="699" height="640" frameX="-2" frameY="-6" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0016" x="699" y="1273" width="703" height="640" frameX="0" frameY="-6" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0017" x="1402" y="1273" width="703" height="639" frameX="0" frameY="-7" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0018" x="2105" y="1273" width="699" height="639" frameX="-2" frameY="-7" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0019" x="2804" y="1273" width="699" height="639" frameX="-2" frameY="-7" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0020" x="0" y="1913" width="699" height="639" frameX="-2" frameY="-7" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0021" x="699" y="1913" width="699" height="638" frameX="-2" frameY="-8" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0022" x="1398" y="1913" width="699" height="632" frameX="-2" frameY="-14" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0023" x="1398" y="1913" width="699" height="632" frameX="-2" frameY="-14" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0024" x="1398" y="1913" width="699" height="632" frameX="-2" frameY="-14" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0025" x="2097" y="1913" width="699" height="631" frameX="-2" frameY="-15" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0026" x="2097" y="1913" width="699" height="631" frameX="-2" frameY="-15" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0027" x="2097" y="1913" width="699" height="631" frameX="-2" frameY="-15" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0028" x="2796" y="1913" width="699" height="631" frameX="-2" frameY="-15" frameWidth="703" frameHeight="646"/>
+	<SubTexture name="BOTIDLE0029" x="2796" y="1913" width="699" height="631" frameX="-2" frameY="-15" frameWidth="703" frameHeight="646"/>
+</TextureAtlas>

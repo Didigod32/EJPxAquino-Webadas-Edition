@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pato-c3jo.png"><SubTexture name="pato-c3jo preIDLE0000" x="115" y="288" width="29" height="39" frameX="-65" frameY="-60" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo preIDLE0001" x="144" y="288" width="29" height="39" frameX="-65" frameY="-60" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo preIDLE0002" x="173" y="288" width="29" height="39" frameX="-65" frameY="-60" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo preIDLE0003" x="202" y="288" width="29" height="39" frameX="-65" frameY="-60" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0000" x="0" y="0" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0001" x="115" y="0" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0002" x="0" y="82" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0003" x="115" y="82" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0004" x="230" y="0" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0005" x="230" y="82" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0006" x="0" y="164" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0007" x="115" y="164" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0008" x="230" y="164" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo JUMP0009" x="0" y="246" width="115" height="82" frameX="-50" frameY="-23" frameWidth="248" frameHeight="248" />
+<SubTexture name="pato-c3jo IDLE0000" x="115" y="246" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo IDLE0001" x="157" y="246" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo IDLE0002" x="199" y="246" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo IDLE0003" x="241" y="246" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo IDLE0004" x="283" y="246" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo LEFT0000" x="345" y="0" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo LEFT0001" x="345" y="42" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo LEFT0002" x="345" y="84" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo UP0000" x="345" y="126" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo UP0001" x="345" y="168" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo UP0002" x="345" y="210" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo DOWN0000" x="345" y="252" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo DOWN0001" x="0" y="328" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo DOWN0002" x="42" y="328" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo RIGHT0000" x="84" y="328" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo RIGHT0001" x="126" y="328" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+<SubTexture name="pato-c3jo RIGHT0002" x="168" y="328" width="42" height="42" frameX="-6" frameY="-11" frameWidth="60" frameHeight="60" />
+</TextureAtlas>

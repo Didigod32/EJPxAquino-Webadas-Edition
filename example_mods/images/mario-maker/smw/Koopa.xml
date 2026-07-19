@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Koopa.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Koopa0000" x="0" y="0" width="20" height="31" frameX="-14" frameY="-19" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0001" x="0" y="0" width="20" height="31" frameX="-14" frameY="-19" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0002" x="0" y="0" width="20" height="31" frameX="-14" frameY="-19" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0003" x="0" y="0" width="20" height="31" frameX="-14" frameY="-19" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0004" x="0" y="0" width="20" height="31" frameX="-14" frameY="-19" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0005" x="20" y="0" width="20" height="30" frameX="-14" frameY="-20" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0006" x="20" y="0" width="20" height="30" frameX="-14" frameY="-20" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0007" x="20" y="0" width="20" height="30" frameX="-14" frameY="-20" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0008" x="20" y="0" width="20" height="30" frameX="-14" frameY="-20" frameWidth="48" frameHeight="64"/>
+	<SubTexture name="Koopa0009" x="20" y="0" width="20" height="30" frameX="-14" frameY="-20" frameWidth="48" frameHeight="64"/>
+</TextureAtlas>

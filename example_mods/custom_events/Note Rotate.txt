@@ -1,0 +1,5 @@
+Makes a Note Rotate with custom Degrees and Tween.
+
+Value 1: Degrees Value
+180 = 1/2 spin, 360 = 1 spin, 720 = 2 spin
+Value 2: Tween Duration (in seconds)

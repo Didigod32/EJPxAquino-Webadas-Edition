@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "duxo idle"
+		},
+		{
+			"offsets": [
+				-7,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "duxo left"
+		},
+		{
+			"offsets": [
+				8,
+				-94
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "duxo down"
+		},
+		{
+			"offsets": [
+				-11,
+				13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "duxo up"
+		},
+		{
+			"offsets": [
+				-14,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "duxo right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/duxo/duxo",
+	"position": [
+		-30,
+		160
+	],
+	"healthicon": "icon-duxo-normal",
+	"flip_x": false,
+	"healthbar_colors": [
+		183,
+		154,
+		244
+	],
+	"camera_position": [
+		50,
+		-30
+	],
+	"sing_duration": 4,
+	"scale": 1.2
+}

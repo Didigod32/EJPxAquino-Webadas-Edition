@@ -1,0 +1,86 @@
+{
+	"storyName": "Friazo literalmente",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "weekb",
+	"freeplayColor": [
+		0,
+		0,
+		0
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Hypothermia",
+			"duxo-frio-pixel",
+			[
+				147,
+				127,
+				139
+			]
+		],
+		[
+			"Last dove",
+			"duxo-normal",
+			[
+				183,
+				154,
+				244
+			]
+		],
+		[
+			"hollow",
+			"hornet",
+			[
+				184,
+				93,
+				100
+			]
+		],
+		[
+			"pixel",
+			"duxopato-pixel",
+			[
+				162,
+				148,
+				171
+			]
+		],
+		[
+			"l4d",
+			"face",
+			[
+				166,
+				166,
+				166
+			]
+		],
+		[
+			"majatori",
+			"face",
+			[
+				166,
+				166,
+				166
+			]
+		],
+		[
+			"trident bros",
+			"face",
+			[
+				166,
+				166,
+				166
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Hypothermia"
+}

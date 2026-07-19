@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "C3jo idle0"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle2",
+			"indices": [],
+			"name": "c3jo idle parpadeo"
+		},
+		{
+			"offsets": [
+				82,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "C3jo right note"
+		},
+		{
+			"offsets": [
+				268,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "c3jo down note"
+		},
+		{
+			"offsets": [
+				-21,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "c3jo up note"
+		},
+		{
+			"offsets": [
+				-67,
+				-53
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "c3jo left note"
+		},
+		{
+			"offsets": [
+				83,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "shot",
+			"indices": [],
+			"name": "c3jo shot"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/c3jo/c3jo_cuphead",
+	"position": [
+		-220,
+		30
+	],
+	"healthicon": "icon-c3cup",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		102,
+		51
+	],
+	"camera_position": [
+		-30,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1.6
+}

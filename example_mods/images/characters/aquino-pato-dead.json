@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				591,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "pato-dead firstDeath"
+		},
+		{
+			"offsets": [
+				591,
+				5
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "pato-dead deathLoop"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				591,
+				5
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "pato-dead deathLoop",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/aquino/pato-dead",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		0,
+		-330
+	],
+	"sing_duration": 4,
+	"scale": 3.7
+}

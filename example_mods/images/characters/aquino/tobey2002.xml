@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tobey2002.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Aquino tobey death confirm0000" x="3504" y="0" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0001" x="4717" y="0" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0002" x="5930" y="0" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0003" x="0" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0004" x="1213" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0005" x="2426" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0006" x="3639" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0007" x="3639" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0008" x="4852" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0009" x="4852" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0010" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0011" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0012" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0013" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0014" x="0" y="1602" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0015" x="0" y="1602" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0016" x="1213" y="1602" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0017" x="2426" y="1602" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0018" x="3639" y="1602" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0019" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0020" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0021" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0022" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0023" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0024" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0025" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0026" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0027" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0028" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death confirm0029" x="6065" y="801" width="1213" height="801"/>
+	<SubTexture name="Aquino tobey death loop0000" x="4852" y="1602" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0001" x="5880" y="1602" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0002" x="6908" y="1602" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0003" x="0" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0004" x="1028" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0005" x="2056" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0006" x="3084" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0007" x="4112" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0008" x="5140" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0009" x="6168" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0010" x="6168" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0011" x="5140" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0012" x="5140" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0013" x="6168" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death loop0014" x="6168" y="2403" width="1028" height="715"/>
+	<SubTexture name="Aquino tobey death start0000" x="0" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0001" x="0" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0002" x="1029" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0003" x="1029" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0004" x="2058" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0005" x="2058" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0006" x="3087" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0007" x="4116" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0008" x="5145" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0009" x="5145" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0010" x="6174" y="3118" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0011" x="0" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0012" x="1029" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0013" x="2058" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0014" x="3087" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0015" x="4116" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0016" x="5145" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0017" x="6174" y="3827" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0018" x="0" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0019" x="1029" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0020" x="2058" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0021" x="3087" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0022" x="4116" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0023" x="5145" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0024" x="6174" y="4536" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0025" x="0" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0026" x="1029" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0027" x="2058" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0028" x="3087" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0029" x="3087" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0030" x="4116" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0031" x="4116" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0032" x="3087" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0033" x="3087" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey death start0034" x="4116" y="5245" width="1029" height="709"/>
+	<SubTexture name="Aquino tobey down note miss0000" x="0" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0001" x="0" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0002" x="245" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0003" x="245" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0004" x="490" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0005" x="490" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0006" x="490" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0007" x="490" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0008" x="490" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey down note miss0009" x="490" y="0" width="245" height="461"/>
+	<SubTexture name="Aquino tobey left note miss 0000" x="735" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0001" x="735" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0002" x="1108" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0003" x="1108" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0004" x="1481" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0005" x="1481" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0006" x="1481" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0007" x="1481" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0008" x="1481" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey left note miss 0009" x="1481" y="0" width="373" height="511"/>
+	<SubTexture name="Aquino tobey right note miss0000" x="1854" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0001" x="1854" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0002" x="2187" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0003" x="2187" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0004" x="2520" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0005" x="2520" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0006" x="2520" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0007" x="2520" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0008" x="2520" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey right note miss0009" x="2520" y="0" width="333" height="497"/>
+	<SubTexture name="Aquino tobey up note miss0000" x="2853" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0001" x="2853" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0002" x="3070" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0003" x="3070" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0004" x="3287" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0005" x="3287" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0006" x="3287" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0007" x="3287" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0008" x="3287" y="0" width="217" height="525"/>
+	<SubTexture name="Aquino tobey up note miss0009" x="3287" y="0" width="217" height="525"/>
+	<SubTexture name="tobey down note0000" x="5145" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0001" x="5145" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0002" x="5398" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0003" x="5398" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0004" x="5651" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0005" x="5651" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0006" x="5651" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0007" x="5651" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0008" x="5651" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey down note0009" x="5651" y="5245" width="253" height="385"/>
+	<SubTexture name="tobey idle dance0000" x="5904" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0001" x="5904" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0002" x="6144" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0003" x="6144" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0004" x="6384" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0005" x="6384" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0006" x="6624" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0007" x="6624" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0008" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0009" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0010" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0011" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0012" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0013" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey idle dance0014" x="6864" y="5245" width="240" height="463"/>
+	<SubTexture name="tobey left note0000" x="7104" y="5245" width="370" height="467"/>
+	<SubTexture name="tobey left note0001" x="7104" y="5245" width="370" height="467"/>
+	<SubTexture name="tobey left note0002" x="7474" y="5245" width="370" height="467"/>
+	<SubTexture name="tobey left note0003" x="7474" y="5245" width="370" height="467"/>
+	<SubTexture name="tobey left note0004" x="0" y="5954" width="370" height="467"/>
+	<SubTexture name="tobey left note0005" x="0" y="5954" width="370" height="467"/>
+	<SubTexture name="tobey left note0006" x="0" y="5954" width="370" height="467"/>
+	<SubTexture name="tobey left note0007" x="0" y="5954" width="370" height="467"/>
+	<SubTexture name="tobey left note0008" x="0" y="5954" width="370" height="467"/>
+	<SubTexture name="tobey left note0009" x="0" y="5954" width="370" height="467"/>
+	<SubTexture name="tobey right note0000" x="370" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0001" x="370" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0002" x="690" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0003" x="690" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0004" x="1010" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0005" x="1330" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0006" x="1330" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0007" x="1330" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0008" x="1330" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey right note0009" x="1330" y="5954" width="320" height="449"/>
+	<SubTexture name="tobey up note0000" x="1650" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0001" x="1650" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0002" x="1864" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0003" x="1864" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0004" x="2078" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0005" x="2078" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0006" x="2078" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0007" x="2078" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0008" x="2078" y="5954" width="214" height="473"/>
+	<SubTexture name="tobey up note0009" x="2078" y="5954" width="214" height="473"/>
+</TextureAtlas>

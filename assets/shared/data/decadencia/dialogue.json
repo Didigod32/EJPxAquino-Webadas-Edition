@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "da",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Entonces eso es todo Aquino"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "da",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Entendiste?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Igual si la cagas solo nos desapareceran "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Nada fuera de lo comun"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Comprendo comprendo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No problemo "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "da",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "te apetece una ultima cancion antes de que te vayas?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Eso estaria bien mi amigo amante del huevo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Grupo en decadencia "
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Que estupidez ",
+			"boxState": "normal",
+			"portrait": "aquino",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "excited",
+			"text": "XDDDDDDDD",
+			"boxState": "normal",
+			"portrait": "aquino",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "Vaya vaya vaya",
+			"boxState": "normal",
+			"portrait": "ac",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "excited",
+			"text": "No me dejaran de lado en esto verdad?",
+			"boxState": "normal",
+			"portrait": "ac",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "Dale Antony",
+			"boxState": "normal",
+			"portrait": "aquino",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "excited",
+			"text": "Bot pon la siguiente cancion y procura que no se te trabe el parlante",
+			"boxState": "normal",
+			"portrait": "aquino",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "me pica el poto",
+			"boxState": "normal",
+			"portrait": "bot",
+			"speed": 0.05,
+			"sound": ""
+		}
+	]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Goomba.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Goomba0000" x="0" y="0" width="20" height="20" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0001" x="0" y="0" width="20" height="20" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0002" x="0" y="0" width="20" height="20" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0003" x="0" y="0" width="20" height="20" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0004" x="0" y="0" width="20" height="20" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0005" x="20" y="0" width="20" height="19" frameX="-14" frameY="-15" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0006" x="20" y="0" width="20" height="19" frameX="-14" frameY="-15" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0007" x="20" y="0" width="20" height="19" frameX="-14" frameY="-15" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0008" x="20" y="0" width="20" height="19" frameX="-14" frameY="-15" frameWidth="48" frameHeight="48"/>
+	<SubTexture name="Goomba0009" x="20" y="0" width="20" height="19" frameX="-14" frameY="-15" frameWidth="48" frameHeight="48"/>
+</TextureAtlas>

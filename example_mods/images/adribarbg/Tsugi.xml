@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tsugi.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tsugi0000" x="0" y="0" width="114" height="360" frameX="0" frameY="-1" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0001" x="0" y="0" width="114" height="360" frameX="0" frameY="-1" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0002" x="114" y="0" width="114" height="361"/>
+	<SubTexture name="Tsugi0003" x="114" y="0" width="114" height="361"/>
+	<SubTexture name="Tsugi0004" x="228" y="0" width="113" height="359" frameX="-1" frameY="-2" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0005" x="228" y="0" width="113" height="359" frameX="-1" frameY="-2" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0006" x="341" y="0" width="113" height="359" frameX="-1" frameY="-2" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0007" x="341" y="0" width="113" height="359" frameX="-1" frameY="-2" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0008" x="341" y="0" width="113" height="359" frameX="-1" frameY="-3" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0009" x="341" y="0" width="113" height="359" frameX="-1" frameY="-3" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0010" x="341" y="0" width="113" height="359" frameX="-1" frameY="-3" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0011" x="341" y="0" width="113" height="359" frameX="-1" frameY="-3" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0012" x="341" y="0" width="113" height="359" frameX="-1" frameY="-3" frameWidth="114" frameHeight="361"/>
+	<SubTexture name="Tsugi0013" x="341" y="0" width="113" height="359" frameX="-1" frameY="-3" frameWidth="114" frameHeight="361"/>
+</TextureAtlas>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="adrianv2.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Adrian idle dance 0000" x="0" y="0" width="476" height="744" frameX="-2" frameY="-10" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0001" x="0" y="0" width="476" height="744" frameX="-2" frameY="-10" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0002" x="476" y="0" width="476" height="747" frameX="0" frameY="-7" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0003" x="476" y="0" width="476" height="747" frameX="0" frameY="-7" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0004" x="952" y="0" width="472" height="751" frameX="-3" frameY="-3" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0005" x="952" y="0" width="472" height="751" frameX="-3" frameY="-3" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0006" x="1424" y="0" width="468" height="753" frameX="-6" frameY="-1" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0007" x="1892" y="0" width="466" height="753" frameX="-8" frameY="-1" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0008" x="2358" y="0" width="466" height="754" frameX="-8" frameY="0" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0009" x="2824" y="0" width="467" height="752" frameX="-7" frameY="-2" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0010" x="2824" y="0" width="467" height="752" frameX="-7" frameY="-2" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0011" x="3291" y="0" width="469" height="751" frameX="-6" frameY="-3" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0012" x="3291" y="0" width="469" height="751" frameX="-6" frameY="-3" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0013" x="3291" y="0" width="469" height="751" frameX="-6" frameY="-3" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian idle dance 0014" x="3291" y="0" width="469" height="751" frameX="-6" frameY="-3" frameWidth="478" frameHeight="754"/>
+	<SubTexture name="Adrian left note0000" x="0" y="754" width="522" height="680" frameX="0" frameY="-27" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0001" x="0" y="754" width="522" height="680" frameX="0" frameY="-27" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0002" x="522" y="754" width="480" height="700" frameX="-40" frameY="-6" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0003" x="522" y="754" width="480" height="700" frameX="-40" frameY="-6" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0004" x="1002" y="754" width="471" height="707" frameX="-50" frameY="0" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0005" x="1473" y="754" width="471" height="707" frameX="-50" frameY="0" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0006" x="1944" y="754" width="470" height="707" frameX="-51" frameY="0" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0007" x="1944" y="754" width="470" height="707" frameX="-51" frameY="0" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0008" x="2414" y="754" width="470" height="707" frameX="-51" frameY="0" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian left note0009" x="2414" y="754" width="470" height="707" frameX="-51" frameY="0" frameWidth="522" frameHeight="707"/>
+	<SubTexture name="Adrian right note0000" x="2884" y="754" width="530" height="642" frameX="0" frameY="-15" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0001" x="2884" y="754" width="530" height="642" frameX="0" frameY="-15" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0002" x="3414" y="754" width="497" height="653" frameX="0" frameY="-4" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0003" x="3414" y="754" width="497" height="653" frameX="0" frameY="-4" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0004" x="0" y="1461" width="482" height="656" frameX="0" frameY="0" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0005" x="482" y="1461" width="482" height="656" frameX="0" frameY="0" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0006" x="964" y="1461" width="482" height="656" frameX="0" frameY="0" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0007" x="964" y="1461" width="482" height="656" frameX="0" frameY="0" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0008" x="482" y="1461" width="482" height="656" frameX="0" frameY="0" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="Adrian right note0009" x="482" y="1461" width="482" height="656" frameX="0" frameY="0" frameWidth="530" frameHeight="657"/>
+	<SubTexture name="adrian down note0000" x="1446" y="1461" width="556" height="691" frameX="-29" frameY="-15" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0001" x="1446" y="1461" width="556" height="691" frameX="-29" frameY="-15" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0002" x="2002" y="1461" width="561" height="701" frameX="-15" frameY="-5" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0003" x="2002" y="1461" width="561" height="701" frameX="-15" frameY="-5" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0004" x="2563" y="1461" width="567" height="703" frameX="-5" frameY="-3" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0005" x="3130" y="1461" width="570" height="706" frameX="-2" frameY="0" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0006" x="0" y="2167" width="572" height="706" frameX="0" frameY="0" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0007" x="0" y="2167" width="572" height="706" frameX="0" frameY="0" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0008" x="0" y="2167" width="572" height="706" frameX="0" frameY="0" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian down note0009" x="0" y="2167" width="572" height="706" frameX="0" frameY="0" frameWidth="585" frameHeight="706"/>
+	<SubTexture name="adrian up note0000" x="572" y="2167" width="497" height="794" frameX="0" frameY="0" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0001" x="572" y="2167" width="497" height="794" frameX="0" frameY="0" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0002" x="1069" y="2167" width="482" height="782" frameX="-15" frameY="-12" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0003" x="1069" y="2167" width="482" height="782" frameX="-15" frameY="-12" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0004" x="1551" y="2167" width="478" height="775" frameX="-27" frameY="-19" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0005" x="2029" y="2167" width="475" height="773" frameX="-30" frameY="-21" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0006" x="2504" y="2167" width="475" height="773" frameX="-34" frameY="-21" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0007" x="2979" y="2167" width="475" height="773" frameX="-34" frameY="-21" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0008" x="3454" y="2167" width="475" height="773" frameX="-34" frameY="-21" frameWidth="509" frameHeight="794"/>
+	<SubTexture name="adrian up note0009" x="3454" y="2167" width="475" height="773" frameX="-34" frameY="-21" frameWidth="509" frameHeight="794"/>
+</TextureAtlas>

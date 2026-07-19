@@ -1,0 +1,180 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "que lindo dia "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Verdad que si"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "a?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Carajo Bot te dije que me esperaras"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Tuve que comprarles quinua y empanadas\\na esos muertos de hambre"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Que sirva de leccion muchachos, nuestras\\nacciones tienen  consecuencias y estas consecuencias nos persiguen y nos perseguiran eternamente hasta que finalmente den en nuestra vida para que poddadmos pagar cadad una ded ellasws"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "klla lacra"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Oh Dios Aquino eres tu? sjkakjfqwfj"
+		},
+		{
+			"sound": "",
+			"speed": 0.08,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "supongo que si\\n\\ndigo\\npues...."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "nadie seria tan patetico de disfrazarse como yo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ah si cierto"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Aquino soy muy fan tuya como ya te habras dado cuenta"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Viendo que traen un microfono y una bocina gigante totalmente normal"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ajam"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Quisieras cantar una de mis canciones favoritas? (ya no es la de los hermanos brothers)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ehh pues claro "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Estare por aqui hasta que habra ese edificio de ahi"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Genial"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(Aquino esta cancion es una mierda)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "(no tenemos que mas hacer) A darle chica morada que no aspira confianza"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "tw",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Por cierto la AC solo atiende en tarde hoy"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "que"
+		}
+	]
+}

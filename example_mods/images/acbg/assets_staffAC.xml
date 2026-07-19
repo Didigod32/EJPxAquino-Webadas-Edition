@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="assets_staffAC.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="staffAC_x20000" x="0" y="0" width="651" height="738" frameX="0" frameY="-5" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20001" x="0" y="0" width="651" height="738" frameX="0" frameY="-5" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20002" x="651" y="0" width="649" height="740" frameX="-1" frameY="-3" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20003" x="651" y="0" width="649" height="740" frameX="-1" frameY="-3" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20004" x="1300" y="0" width="650" height="742" frameX="0" frameY="-1" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20005" x="1300" y="0" width="650" height="742" frameX="0" frameY="-1" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20006" x="0" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20007" x="0" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20008" x="650" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20009" x="650" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20010" x="650" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20011" x="650" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20012" x="650" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+	<SubTexture name="staffAC_x20013" x="650" y="742" width="650" height="743" frameX="0" frameY="0" frameWidth="651" frameHeight="743"/>
+</TextureAtlas>

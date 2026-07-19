@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="tren.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="el tren chu chu0000" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0001" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0002" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0003" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0004" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0005" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0006" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0007" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0008" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0009" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0010" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0011" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0012" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0013" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0014" x="0" y="0" width="0" height="0" frameX="0" frameY="10" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0015" x="0" y="0" width="1435" height="1121" frameX="-1" frameY="-7" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0016" x="0" y="0" width="1435" height="1121" frameX="-1" frameY="-7" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0017" x="0" y="0" width="1435" height="1121" frameX="-1" frameY="-7" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0018" x="1435" y="0" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0019" x="1435" y="0" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0020" x="1435" y="0" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0021" x="0" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0022" x="0" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0023" x="0" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0024" x="1435" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0025" x="1435" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0026" x="1435" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0027" x="0" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0028" x="0" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0029" x="0" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0030" x="0" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0031" x="0" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0032" x="0" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0033" x="1435" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0034" x="1435" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0035" x="1435" y="1121" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0036" x="0" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0037" x="0" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0038" x="0" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0039" x="1435" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0040" x="1435" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0041" x="1435" y="2242" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0042" x="0" y="3363" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0043" x="0" y="3363" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0044" x="0" y="3363" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0045" x="1435" y="3363" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0046" x="1435" y="3363" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0047" x="1435" y="3363" width="1435" height="1121" frameX="0" frameY="0" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0048" x="2870" y="3363" width="99" height="89" frameX="-769" frameY="-517" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0049" x="2870" y="3363" width="99" height="89" frameX="-769" frameY="-517" frameWidth="1436" frameHeight="1128"/>
+	<SubTexture name="el tren chu chu0050" x="2870" y="3363" width="99" height="89" frameX="-769" frameY="-517" frameWidth="1436" frameHeight="1128"/>
+</TextureAtlas>

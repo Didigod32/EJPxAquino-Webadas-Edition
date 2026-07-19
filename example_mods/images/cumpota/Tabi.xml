@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Tabi.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle_Tabi instancia 10000" x="14" y="14" width="690" height="673" frameX="-5" frameY="-28" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10001" x="14" y="14" width="690" height="673" frameX="-5" frameY="-28" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10002" x="731" y="14" width="679" height="692" frameX="-9" frameY="-22" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10003" x="731" y="14" width="679" height="692" frameX="-9" frameY="-22" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10004" x="1437" y="14" width="696" height="708" frameX="-4" frameY="-17" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10005" x="1437" y="14" width="696" height="708" frameX="-4" frameY="-17" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10006" x="2160" y="14" width="714" height="720" frameX="0" frameY="-13" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10007" x="2160" y="14" width="714" height="720" frameX="0" frameY="-13" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10008" x="2901" y="14" width="694" height="715" frameX="-4" frameY="-6" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10009" x="2901" y="14" width="694" height="715" frameX="-4" frameY="-6" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10010" x="14" y="761" width="660" height="684" frameX="-20" frameY="0" frameWidth="714" frameHeight="733"/>
+	<SubTexture name="Idle_Tabi instancia 10011" x="14" y="761" width="660" height="684" frameX="-20" frameY="0" frameWidth="714" frameHeight="733"/>
+</TextureAtlas>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Locochon_duende_verde_assets.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="loco duende verde down0000" x="2238" y="1930" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0001" x="2238" y="1930" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0002" x="2997" y="1930" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0003" x="2997" y="1930" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0004" x="0" y="2556" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0005" x="0" y="2556" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0006" x="0" y="2556" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0007" x="0" y="2556" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0008" x="0" y="2556" width="759" height="594"/>
+	<SubTexture name="loco duende verde down0009" x="0" y="2556" width="759" height="594"/>
+	<SubTexture name="loco duende verde idle dance0000" x="759" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0001" x="759" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0002" x="1518" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0003" x="1518" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0004" x="2277" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0005" x="2277" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0006" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0007" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0008" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0009" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0010" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0011" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0012" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0013" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde idle dance0014" x="3036" y="2556" width="759" height="591"/>
+	<SubTexture name="loco duende verde lleft0000" x="0" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0001" x="0" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0002" x="774" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0003" x="774" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0004" x="1548" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0005" x="2322" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0006" x="2322" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0007" x="2322" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0008" x="2322" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde lleft0009" x="2322" y="3150" width="774" height="668"/>
+	<SubTexture name="loco duende verde right0000" x="3096" y="3150" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0001" x="3096" y="3150" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0002" x="0" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0003" x="0" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0004" x="803" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0005" x="1606" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0006" x="1606" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0007" x="1606" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0008" x="1606" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde right0009" x="1606" y="3818" width="803" height="594"/>
+	<SubTexture name="loco duende verde up0000" x="2409" y="3818" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0001" x="3198" y="3818" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0002" x="0" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0003" x="789" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0004" x="1578" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0005" x="1578" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0006" x="1578" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0007" x="1578" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0008" x="1578" y="4412" width="789" height="533"/>
+	<SubTexture name="loco duende verde up0009" x="1578" y="4412" width="789" height="533"/>
+	<SubTexture name="locochon duende verde down 0000" x="0" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0001" x="0" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0002" x="759" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0003" x="759" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0004" x="1518" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0005" x="1518" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0006" x="1518" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0007" x="1518" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0008" x="1518" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde down 0009" x="1518" y="0" width="759" height="594"/>
+	<SubTexture name="locochon duende verde idle dance 0000" x="2277" y="0" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0001" x="2277" y="0" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0002" x="3036" y="0" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0003" x="3036" y="0" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0004" x="0" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0005" x="0" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0006" x="759" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0007" x="759" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0008" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0009" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0010" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0011" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0012" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0013" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde idle dance 0014" x="1518" y="594" width="759" height="588"/>
+	<SubTexture name="locochon duende verde left 0000" x="2277" y="594" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0001" x="2277" y="594" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0002" x="3051" y="594" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0003" x="3051" y="594" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0004" x="0" y="1262" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0005" x="774" y="1262" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0006" x="774" y="1262" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0007" x="774" y="1262" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0008" x="774" y="1262" width="774" height="668"/>
+	<SubTexture name="locochon duende verde left 0009" x="774" y="1262" width="774" height="668"/>
+	<SubTexture name="locochon duende verde right 0000" x="1548" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0001" x="1548" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0002" x="2343" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0003" x="2343" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0004" x="3138" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0005" x="3138" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0006" x="3138" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0007" x="3138" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0008" x="3138" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde right 0009" x="3138" y="1262" width="795" height="627"/>
+	<SubTexture name="locochon duende verde up0000" x="0" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0001" x="0" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0002" x="746" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0003" x="746" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0004" x="1492" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0005" x="1492" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0006" x="1492" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0007" x="1492" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0008" x="1492" y="1930" width="746" height="626"/>
+	<SubTexture name="locochon duende verde up0009" x="1492" y="1930" width="746" height="626"/>
+</TextureAtlas>

@@ -1,0 +1,168 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Aquino Idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Aquino abajo miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Aquino up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Aquino up miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Aquino abajo0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Aquino left0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Aquino left miss0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Aquino right miss0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Aquino right0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTalt",
+			"indices": [],
+			"name": "Aquino left alt0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTalt",
+			"indices": [],
+			"name": "Aquino right alt0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPalt",
+			"indices": [],
+			"name": "Aquino up alt0"
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNalt",
+			"indices": [],
+			"name": "Aquino abajo alt0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/aquino/aquino smw",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "aquino-smw",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		123,
+		6
+	],
+	"camera_position": [
+		20,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 5.75,
+	"_editor_isPlayer": true
+}

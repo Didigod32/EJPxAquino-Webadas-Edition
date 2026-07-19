@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-32,
+				-56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "compota talk"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/compota/Cumpota_talk",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "icon-compota",
+	"flip_x": true,
+	"healthbar_colors": [
+		45,
+		116,
+		222
+	],
+	"camera_position": [
+		70,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

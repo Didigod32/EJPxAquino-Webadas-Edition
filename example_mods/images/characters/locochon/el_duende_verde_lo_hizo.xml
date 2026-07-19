@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="el_duende_verde_lo_hizo.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="El duende verde0000" x="0" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0001" x="756" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0002" x="1512" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0003" x="2268" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0004" x="1512" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0005" x="2268" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0006" x="3024" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0007" x="3780" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0008" x="4536" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0009" x="5292" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0010" x="6048" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0011" x="6804" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0012" x="6048" y="0" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0013" x="6804" y="0" width="756" height="612"/>
+	<SubTexture name="El duende verde0014" x="0" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0015" x="756" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0016" x="0" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0017" x="1512" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0018" x="2268" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0019" x="1512" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0020" x="3024" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0021" x="3780" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0022" x="4536" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0023" x="5292" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0024" x="6048" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0025" x="3780" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0026" x="3024" y="612" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0027" x="6804" y="612" width="756" height="612"/>
+	<SubTexture name="El duende verde0028" x="0" y="1224" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0029" x="756" y="1224" width="756" height="612"/>
+	<SubTexture name="El duende verde0030" x="1512" y="1224" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0031" x="2268" y="1224" width="756" height="612"/>
+	<SubTexture name="El duende verde0032" x="3024" y="1224" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0033" x="3780" y="1224" width="756" height="612"/>
+	<SubTexture name="El duende verde0034" x="4536" y="1224" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0035" x="5292" y="1224" width="756" height="612"/>
+	<SubTexture name="El duende verde0036" x="6048" y="1224" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0037" x="6804" y="1224" width="756" height="612"/>
+	<SubTexture name="El duende verde0038" x="0" y="1836" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0039" x="6804" y="1224" width="756" height="612"/>
+	<SubTexture name="El duende verde0040" x="756" y="1836" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0041" x="1512" y="1836" width="756" height="612"/>
+	<SubTexture name="El duende verde0042" x="2268" y="1836" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0043" x="3024" y="1836" width="756" height="612"/>
+	<SubTexture name="El duende verde0044" x="3780" y="1836" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0045" x="3024" y="1836" width="756" height="612"/>
+	<SubTexture name="El duende verde0046" x="4536" y="1836" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0047" x="5292" y="1836" width="756" height="612"/>
+	<SubTexture name="El duende verde0048" x="6048" y="1836" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0049" x="6804" y="1836" width="756" height="612"/>
+	<SubTexture name="El duende verde0050" x="0" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0051" x="756" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0052" x="1512" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0053" x="2268" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0054" x="1512" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0055" x="2268" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0056" x="1512" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0057" x="2268" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0058" x="1512" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0059" x="2268" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0060" x="1512" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0061" x="2268" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0062" x="3024" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0063" x="3780" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0064" x="4536" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0065" x="5292" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0066" x="4536" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+	<SubTexture name="El duende verde0067" x="5292" y="2448" width="756" height="612"/>
+	<SubTexture name="El duende verde0068" x="4536" y="2448" width="756" height="610" frameX="0" frameY="-2" frameWidth="756" frameHeight="612"/>
+</TextureAtlas>

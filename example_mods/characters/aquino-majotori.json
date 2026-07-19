@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "aquino idle0"
+		},
+		{
+			"offsets": [3, -73],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aquino down note0"
+		},
+		{
+			"offsets": [3, -73],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Aquino down miss note0"
+		},
+		{
+			"offsets": [32, 41],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Aquino up note0"
+		},
+		{
+			"offsets": [32, 41],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Aquino up miss note 0"
+		},
+		{
+			"offsets": [-11, 10],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Aquino right note0"
+		},
+		{
+			"offsets": [-11, 10],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Aquino right miss note0"
+		},
+		{
+			"offsets": [87, -28],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Aquino left note0"
+		},
+		{
+			"offsets": [87, -28],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Aquino left miss note0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino_Majotori",
+	"position": [-600, 180],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [-280, 50],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

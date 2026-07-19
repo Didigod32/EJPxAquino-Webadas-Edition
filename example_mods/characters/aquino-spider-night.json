@@ -1,0 +1,263 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				11,
+				-1
+			],
+			"anim": "singLEFT",
+			"fps": 14,
+			"name": "BF NOTE LEFT",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				-56
+			],
+			"anim": "singDOWN",
+			"fps": 14,
+			"name": "BF NOTE DOWN",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-41,
+				31
+			],
+			"anim": "singUP",
+			"fps": 14,
+			"name": "BF NOTE UP",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-43,
+				-11
+			],
+			"anim": "singRIGHT",
+			"fps": 14,
+			"name": "BF NOTE RIGHT",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-15
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-11,
+				-68
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				15
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "BF NOTE UP MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-39,
+				-15
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				70,
+				12
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodgeLEFT",
+			"loop": false,
+			"name": "dodge left"
+		},
+		{
+			"offsets": [
+				70,
+				-43
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodgeDOWN",
+			"loop": false,
+			"name": "dodge down"
+		},
+		{
+			"offsets": [
+				-50,
+				22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodgeRIGHT",
+			"loop": false,
+			"name": "dodge right"
+		},
+		{
+			"offsets": [
+				2,
+				3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hey",
+			"loop": false,
+			"name": "BF HEY!!"
+		},
+		{
+			"offsets": [
+				17,
+				-15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hit",
+			"loop": false,
+			"name": "BF hit"
+		},
+		{
+			"offsets": [
+				-40,
+				-57
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "pre-attack",
+			"loop": false,
+			"name": "bf pre attack"
+		},
+		{
+			"offsets": [
+				294,
+				226
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "boyfriend attack"
+		},
+		{
+			"offsets": [
+				7,
+				17
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodge",
+			"loop": false,
+			"name": "boyfriend dodge"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/AQUINO-Spider-noche",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon-aquino-spider",
+	"flip_x": true,
+	"healthbar_colors": [
+		241,
+		53,
+		87
+	],
+	"camera_position": [
+		150,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

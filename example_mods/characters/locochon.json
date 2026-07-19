@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "loco idle note0"
+		},
+		{
+			"offsets": [
+				77,
+				19
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "loco left note0"
+		},
+		{
+			"offsets": [
+				-47,
+				-24
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "loco down note0"
+		},
+		{
+			"offsets": [
+				-5,
+				103
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "loco up note0"
+		},
+		{
+			"offsets": [
+				-50,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "loco right note0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/locochon/Locogod_assets",
+	"position": [
+		170,
+		250
+	],
+	"healthicon": "icon-loco",
+	"flip_x": false,
+	"healthbar_colors": [
+		151,
+		29,
+		161
+	],
+	"camera_position": [
+		-20,
+		-90
+	],
+	"sing_duration": 6.1,
+	"scale": 1.4
+}

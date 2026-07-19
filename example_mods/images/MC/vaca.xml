@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="vaca.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="vaca0000" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0001" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0002" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0003" x="48" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0004" x="48" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0005" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="vaca0006" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="vaca0007" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="vaca0008" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="vaca0009" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="vaca0010" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="vaca0011" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0012" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="vaca0013" x="0" y="0" width="48" height="64"/>
+</TextureAtlas>

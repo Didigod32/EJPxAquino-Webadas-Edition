@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BOT MC.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bot pe perra0000" x="0" y="0" width="100" height="100"/>
+	<SubTexture name="bot pe perra0001" x="0" y="0" width="100" height="100"/>
+	<SubTexture name="bot pe perra0002" x="0" y="100" width="100" height="100"/>
+	<SubTexture name="bot pe perra0003" x="0" y="100" width="100" height="100"/>
+	<SubTexture name="bot pe perra0004" x="0" y="200" width="100" height="100"/>
+	<SubTexture name="bot pe perra0005" x="0" y="200" width="100" height="100"/>
+	<SubTexture name="bot pe perra0006" x="0" y="300" width="100" height="100"/>
+	<SubTexture name="bot pe perra0007" x="0" y="300" width="100" height="100"/>
+	<SubTexture name="bot pe perra0008" x="0" y="400" width="100" height="100"/>
+	<SubTexture name="bot pe perra0009" x="0" y="400" width="100" height="100"/>
+	<SubTexture name="bot pe perra0010" x="0" y="400" width="100" height="100"/>
+	<SubTexture name="bot pe perra0011" x="0" y="400" width="100" height="100"/>
+	<SubTexture name="bot pe perra0012" x="0" y="400" width="100" height="100"/>
+	<SubTexture name="bot pe perra0013" x="0" y="400" width="100" height="100"/>
+</TextureAtlas>

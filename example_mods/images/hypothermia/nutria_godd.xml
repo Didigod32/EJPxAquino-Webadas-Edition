@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nutria godd.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="N-00000" x="0" y="0" width="755" height="559"/>
+	<SubTexture name="N-00001" x="0" y="0" width="755" height="559"/>
+	<SubTexture name="N-00002" x="755" y="0" width="755" height="559"/>
+	<SubTexture name="N-00003" x="1510" y="0" width="755" height="559"/>
+	<SubTexture name="N-10000" x="2265" y="0" width="737" height="559"/>
+	<SubTexture name="N-10001" x="2265" y="0" width="737" height="559"/>
+	<SubTexture name="N-10002" x="3002" y="0" width="737" height="559"/>
+	<SubTexture name="N-10003" x="0" y="559" width="737" height="559"/>
+	<SubTexture name="N-20000" x="737" y="559" width="752" height="559"/>
+	<SubTexture name="N-20001" x="737" y="559" width="752" height="559"/>
+	<SubTexture name="N-20002" x="1489" y="559" width="752" height="559"/>
+	<SubTexture name="N-20003" x="2241" y="559" width="752" height="559"/>
+	<SubTexture name="N-30000" x="2993" y="559" width="765" height="559"/>
+	<SubTexture name="N-30001" x="2993" y="559" width="765" height="559"/>
+	<SubTexture name="N-30002" x="0" y="1118" width="765" height="559"/>
+	<SubTexture name="N-30003" x="765" y="1118" width="765" height="559"/>
+	<SubTexture name="N-40000" x="1530" y="1118" width="768" height="559"/>
+	<SubTexture name="N-40001" x="1530" y="1118" width="768" height="559"/>
+	<SubTexture name="N-40002" x="2298" y="1118" width="768" height="559"/>
+	<SubTexture name="N-40003" x="3066" y="1118" width="768" height="559"/>
+	<SubTexture name="N-50000" x="0" y="1677" width="777" height="559"/>
+	<SubTexture name="N-50001" x="0" y="1677" width="777" height="559"/>
+	<SubTexture name="N-50002" x="777" y="1677" width="777" height="559"/>
+	<SubTexture name="N-50003" x="1554" y="1677" width="777" height="559"/>
+	<SubTexture name="N-60000" x="2331" y="1677" width="788" height="559"/>
+	<SubTexture name="N-60001" x="2331" y="1677" width="788" height="559"/>
+	<SubTexture name="N-60002" x="3119" y="1677" width="788" height="559"/>
+	<SubTexture name="N-60003" x="0" y="2236" width="788" height="559"/>
+	<SubTexture name="N-70000" x="788" y="2236" width="817" height="559"/>
+	<SubTexture name="N-70001" x="788" y="2236" width="817" height="559"/>
+	<SubTexture name="N-70002" x="1605" y="2236" width="817" height="559"/>
+	<SubTexture name="N-70003" x="2422" y="2236" width="817" height="559"/>
+	<SubTexture name="N-80000" x="3239" y="2236" width="828" height="559"/>
+	<SubTexture name="N-80001" x="3239" y="2236" width="828" height="559"/>
+	<SubTexture name="N-80002" x="0" y="2795" width="828" height="559"/>
+	<SubTexture name="N-80003" x="828" y="2795" width="828" height="559"/>
+	<SubTexture name="N-90000" x="1656" y="2795" width="843" height="559"/>
+	<SubTexture name="N-90001" x="1656" y="2795" width="843" height="559"/>
+	<SubTexture name="N-90002" x="2499" y="2795" width="843" height="559"/>
+	<SubTexture name="N-90003" x="0" y="3354" width="843" height="559"/>
+	<SubTexture name="n-100000" x="843" y="3354" width="872" height="559"/>
+	<SubTexture name="n-100001" x="843" y="3354" width="872" height="559"/>
+	<SubTexture name="n-100002" x="1715" y="3354" width="872" height="559"/>
+	<SubTexture name="n-100003" x="2587" y="3354" width="872" height="559"/>
+</TextureAtlas>

@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-316,
+				-197
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "twilight_idle"
+		},
+		{
+			"offsets": [
+				-316,
+				-204
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "twilight_left"
+		},
+		{
+			"offsets": [
+				-332,
+				-205
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "twilight_right"
+		},
+		{
+			"offsets": [
+				-323,
+				-208
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "twilight_down"
+		},
+		{
+			"offsets": [
+				-343,
+				-208
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "twilight_up"
+		},
+		{
+			"offsets": [
+				-245,
+				-205
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "go",
+			"indices": [],
+			"name": "twilight_go!"
+		},
+		{
+			"offsets": [
+				-335,
+				-196
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "yeah",
+			"indices": [],
+			"name": "twilight_yeah"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/twilight/Twilight_Assets_3",
+	"position": [
+		-240,
+		-100
+	],
+	"healthicon": "icon-twilight",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		153,
+		255
+	],
+	"camera_position": [
+		300,
+		200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

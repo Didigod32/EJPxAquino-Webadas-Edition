@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Personajes de fondo I.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Personajes de fondo I0000" x="0" y="0" width="1233" height="394" frameX="-1" frameY="-4" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0001" x="0" y="394" width="1233" height="394" frameX="-1" frameY="-4" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0002" x="0" y="788" width="1231" height="400" frameX="0" frameY="-6" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0003" x="0" y="788" width="1231" height="400" frameX="0" frameY="-6" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0004" x="0" y="1188" width="1232" height="394" frameX="-1" frameY="-3" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0005" x="0" y="1188" width="1232" height="394" frameX="-1" frameY="-3" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0006" x="0" y="1582" width="1232" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0007" x="0" y="1978" width="1232" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0008" x="0" y="2374" width="1231" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0009" x="0" y="2374" width="1231" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0010" x="0" y="2374" width="1231" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0011" x="0" y="2374" width="1231" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0012" x="0" y="2374" width="1231" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+	<SubTexture name="Personajes de fondo I0013" x="0" y="2374" width="1231" height="396" frameX="-1" frameY="0" frameWidth="1234" frameHeight="406"/>
+</TextureAtlas>

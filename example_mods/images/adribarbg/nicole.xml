@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="nicole.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="nicole meser0000" x="0" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0001" x="0" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0002" x="331" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0003" x="331" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0004" x="662" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0005" x="662" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0006" x="993" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0007" x="993" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0008" x="1324" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0009" x="1324" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0010" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0011" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0012" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0013" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0014" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0015" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0016" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0017" x="1655" y="0" width="331" height="785"/>
+	<SubTexture name="nicole meser0018" x="1655" y="0" width="331" height="785"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-370,
+				350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "aquis idle"
+		},
+		{
+			"offsets": [
+				-370,
+				350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "aquis left"
+		},
+		{
+			"offsets": [
+				-360,
+				350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "aquis down"
+		},
+		{
+			"offsets": [
+				-370,
+				350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "aquis up"
+		},
+		{
+			"offsets": [
+				-360,
+				350
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "aquis right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/aquis",
+	"position": [
+		-760,
+		-100
+	],
+	"healthicon": "icon-aquino-spider",
+	"flip_x": true,
+	"healthbar_colors": [
+		241,
+		53,
+		87
+	],
+	"camera_position": [
+		1570,
+		-760
+	],
+	"sing_duration": 6.1,
+	"scale": 3
+}

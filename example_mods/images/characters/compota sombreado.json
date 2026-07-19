@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-61,
+				-60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "compota idle"
+		},
+		{
+			"offsets": [
+				-45,
+				-65
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "compota right"
+		},
+		{
+			"offsets": [
+				-69,
+				-75
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "compota down"
+		},
+		{
+			"offsets": [
+				-58,
+				-47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "compota up"
+		},
+		{
+			"offsets": [
+				-73,
+				-61
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "compota left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-60,
+				-60
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "compota alt idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				-62
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "compota alt right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-36,
+				-77
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "compota alt down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-33
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "compota alt up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-90,
+				-55
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "compota alt left",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/compota/Cumpota_assets",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "icon-compota",
+	"flip_x": true,
+	"healthbar_colors": [
+		45,
+		116,
+		222
+	],
+	"camera_position": [
+		70,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="se_te_viene_el_tren_arana.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="aquino la hormiguita0000" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0001" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0002" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0003" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0004" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0005" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0006" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0007" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0008" x="0" y="0" width="840" height="928" frameX="-1" frameY="-26" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0009" x="840" y="0" width="823" height="954" frameX="0" frameY="0" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0010" x="840" y="0" width="823" height="954" frameX="0" frameY="0" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0011" x="840" y="0" width="823" height="954" frameX="0" frameY="0" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0012" x="0" y="954" width="728" height="909" frameX="-2" frameY="-43" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0013" x="0" y="954" width="728" height="909" frameX="-2" frameY="-43" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0014" x="0" y="954" width="728" height="909" frameX="-2" frameY="-43" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0015" x="728" y="954" width="730" height="923" frameX="0" frameY="-31" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0016" x="728" y="954" width="730" height="923" frameX="0" frameY="-31" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0017" x="0" y="1877" width="687" height="906" frameX="0" frameY="-48" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0018" x="687" y="1877" width="142" height="178" frameX="-790" frameY="-172" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0019" x="687" y="1877" width="142" height="178" frameX="-790" frameY="-172" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0020" x="687" y="1877" width="142" height="178" frameX="-790" frameY="-172" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0021" x="829" y="1877" width="0" height="0" frameX="212" frameY="184" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0022" x="829" y="1877" width="0" height="0" frameX="212" frameY="184" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0023" x="829" y="1877" width="0" height="0" frameX="212" frameY="184" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0024" x="829" y="1877" width="0" height="0" frameX="212" frameY="184" frameWidth="932" frameHeight="954"/>
+	<SubTexture name="aquino la hormiguita0025" x="829" y="1877" width="0" height="0" frameX="212" frameY="184" frameWidth="932" frameHeight="954"/>
+</TextureAtlas>

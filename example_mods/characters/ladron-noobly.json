@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 28,
+			"anim": "idle",
+			"loop": false,
+			"name": "ladron idle"
+		},
+		{
+			"offsets": [
+				-52,
+				-25
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "ladron right"
+		},
+		{
+			"offsets": [
+				-42,
+				-38
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "ladron down"
+		},
+		{
+			"offsets": [
+				123,
+				33
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singUP",
+			"loop": false,
+			"name": "ladron up"
+		},
+		{
+			"offsets": [
+				53,
+				-4
+			],
+			"indices": [],
+			"fps": 16,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "ladron left"
+		},
+		{
+			"offsets": [
+				15,
+				-25
+			],
+			"indices": [],
+			"fps": 28,
+			"anim": "shoot",
+			"loop": false,
+			"name": "disparo"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/noobly/noobly_assets_1",
+	"position": [
+		0,
+		250
+	],
+	"healthicon": "icon-nobbly-ladron",
+	"flip_x": false,
+	"healthbar_colors": [
+		180,
+		160,
+		120
+	],
+	"camera_position": [
+		-50,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 0.9
+}

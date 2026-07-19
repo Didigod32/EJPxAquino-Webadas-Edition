@@ -1,0 +1,242 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				210,
+				110
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "c3jo madness idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				135,
+				169
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "c3jo madness left note",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				217,
+				84
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "c3jo madness down note",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				319
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "c3jo madness up note",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				126,
+				192
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "c3jo madness left note asao",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				203,
+				121
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "c3jo madness right note asao",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				176,
+				313
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "c3jo madness up note asao",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				208,
+				90
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "c3jo madness down note asao",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				193,
+				118
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "c3jo madness right note",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"offsets": [
+				222,
+				115
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "scared",
+			"indices": [],
+			"name": "c3jo madness idle asao"
+		},
+		{
+			"offsets": [
+				220,
+				110
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "c3jo madness idle asao"
+		},
+		{
+			"offsets": [
+				200,
+				90
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "c3jo madness down note miss"
+		},
+		{
+			"offsets": [
+				167,
+				170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "c3jo madness left note miss"
+		},
+		{
+			"offsets": [
+				40,
+				110
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "c3jo madness right note miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/c3jo/c3jo_madness_assets",
+	"position": [
+		100,
+		690
+	],
+	"healthicon": "icon-c3jomadness",
+	"flip_x": false,
+	"healthbar_colors": [
+		242,
+		67,
+		14
+	],
+	"camera_position": [
+		110,
+		20
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

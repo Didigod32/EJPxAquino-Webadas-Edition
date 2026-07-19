@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-370,
+				-350
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "bot pe perra"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bot/BOT_MC",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-bot",
+	"flip_x": false,
+	"healthbar_colors": [
+		193,
+		212,
+		244
+	],
+	"camera_position": [
+		70,
+		200
+	],
+	"sing_duration": 4,
+	"scale": 2.3
+}

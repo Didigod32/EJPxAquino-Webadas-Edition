@@ -1,0 +1,63 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [17, -14],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "pose left"
+		},
+		{
+			"offsets": [-38, -31],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "pose down"
+		},
+		{
+			"offsets": [-3, 19],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "pose up"
+		},
+		{
+			"offsets": [-67, 4],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "pose right"
+		},
+		{
+			"loop": false,
+			"offsets": [117, 0],
+			"anim": "shoot",
+			"fps": 24,
+			"name": "disparo",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/soaring/soarinmi",
+	"position": [-220, 200],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [-185, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

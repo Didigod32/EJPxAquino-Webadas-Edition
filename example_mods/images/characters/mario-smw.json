@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Mario idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Mario left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Mario Right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Mario Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-195,
+				-290
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Mario Down0",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-195,
+				-290
+			],
+			"loop": false,
+			"fps": 40,
+			"anim": "shot",
+			"indices": [],
+			"name": "Mario Shot0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/mario/mario smw",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "mario-smw",
+	"flip_x": false,
+	"healthbar_colors": [
+		220,
+		224,
+		174
+	],
+	"camera_position": [
+		120,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 5.75,
+	"_editor_isPlayer": false
+}

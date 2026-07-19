@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bot_madness.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="bot madness0000" x="0" y="0" width="596" height="651"/>
+	<SubTexture name="bot madness0001" x="596" y="0" width="596" height="651"/>
+	<SubTexture name="bot madness0002" x="1192" y="0" width="596" height="651"/>
+	<SubTexture name="bot madness0003" x="1788" y="0" width="596" height="651"/>
+	<SubTexture name="bot madness0004" x="2384" y="0" width="596" height="651"/>
+	<SubTexture name="bot madness0005" x="2980" y="0" width="596" height="651"/>
+	<SubTexture name="bot madness0006" x="0" y="651" width="596" height="651"/>
+	<SubTexture name="bot madness0007" x="596" y="651" width="596" height="651"/>
+	<SubTexture name="bot madness0008" x="1192" y="651" width="596" height="651"/>
+	<SubTexture name="bot madness0009" x="1788" y="651" width="596" height="651"/>
+	<SubTexture name="bot madness0010" x="2384" y="651" width="596" height="651"/>
+	<SubTexture name="bot madness0011" x="2980" y="651" width="596" height="651"/>
+	<SubTexture name="bot madness0012" x="0" y="1302" width="596" height="651"/>
+	<SubTexture name="bot madness0013" x="596" y="1302" width="596" height="651"/>
+	<SubTexture name="bot madness0014" x="1192" y="1302" width="596" height="651"/>
+	<SubTexture name="bot madness0015" x="1788" y="1302" width="596" height="651"/>
+	<SubTexture name="bot madness0016" x="2384" y="1302" width="596" height="651"/>
+	<SubTexture name="bot madness0017" x="2980" y="1302" width="596" height="651"/>
+	<SubTexture name="bot madness0018" x="0" y="1953" width="596" height="651"/>
+	<SubTexture name="bot madness0019" x="596" y="1953" width="596" height="651"/>
+	<SubTexture name="bot madness0020" x="1192" y="1953" width="596" height="651"/>
+	<SubTexture name="bot madness0021" x="1788" y="1953" width="596" height="651"/>
+	<SubTexture name="bot madness0022" x="2384" y="1953" width="596" height="651"/>
+	<SubTexture name="bot madness0023" x="2980" y="1953" width="596" height="651"/>
+	<SubTexture name="bot madness0024" x="0" y="2604" width="596" height="651"/>
+	<SubTexture name="bot madness0025" x="596" y="2604" width="596" height="651"/>
+	<SubTexture name="bot madness0026" x="1192" y="2604" width="596" height="651"/>
+</TextureAtlas>

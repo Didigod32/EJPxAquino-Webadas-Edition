@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="pumply- atardecer.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="pumply atardecer0000" x="0" y="0" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0001" x="0" y="0" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0002" x="529" y="0" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0003" x="529" y="0" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0004" x="1058" y="0" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0005" x="0" y="500" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0006" x="529" y="500" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0007" x="1058" y="500" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0008" x="0" y="1000" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0009" x="0" y="1000" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0010" x="0" y="1000" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0011" x="0" y="1000" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0012" x="0" y="1000" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0013" x="0" y="1000" width="529" height="500"/>
+	<SubTexture name="pumply atardecer0014" x="0" y="1000" width="529" height="500"/>
+</TextureAtlas>

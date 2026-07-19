@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bueno aqui vamos"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Hey Daarick!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Tanto tiempo sin vernos"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey Aquino, tanto tiempo verdad"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Que te trae por aqui?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh pues ya sabes, como ibamos a reunirnos algunos viejos amigos"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Pues quise visitar a algunos personalmente antes "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Vaya pues que bien"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Y que es con el microfono?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh pues nadad simplemente-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Deberian cantar algo carajo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Esa vieja y olvidada cancion tuya Daarick"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hey si eso estaria muy bien "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Y lo mejor es que mejore la cancion "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "Aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bueno ya que (Bot de mrd no se supone que hariamos esto ahora)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "gg_ez Bv"
+		}
+	]
+}

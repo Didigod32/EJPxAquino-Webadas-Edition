@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fuego.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Fuego wasa0000" x="35" y="0" width="10" height="11" frameX="-27" frameY="-27" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0001" x="35" y="0" width="10" height="11" frameX="-27" frameY="-27" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0002" x="0" y="33" width="11" height="10" frameX="-37" frameY="-37" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0003" x="0" y="33" width="11" height="10" frameX="-37" frameY="-37" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0004" x="35" y="11" width="10" height="11" frameX="-53" frameY="-31" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0005" x="35" y="11" width="10" height="11" frameX="-53" frameY="-31" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0006" x="15" y="20" width="11" height="10" frameX="-63" frameY="-23" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0007" x="35" y="0" width="10" height="11" frameX="-27" frameY="-27" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0008" x="35" y="0" width="10" height="11" frameX="-27" frameY="-27" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0009" x="0" y="33" width="11" height="10" frameX="-37" frameY="-37" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0010" x="0" y="33" width="11" height="10" frameX="-37" frameY="-37" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0011" x="35" y="11" width="10" height="11" frameX="-53" frameY="-31" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0012" x="35" y="11" width="10" height="11" frameX="-53" frameY="-31" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0013" x="15" y="20" width="11" height="10" frameX="-63" frameY="-23" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0014" x="0" y="33" width="11" height="10" frameX="-37" frameY="-37" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0015" x="35" y="11" width="10" height="11" frameX="-53" frameY="-31" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="Fuego wasa0016" x="35" y="11" width="10" height="11" frameX="-53" frameY="-31" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="HumoBloqueowa0000" x="20" y="0" width="15" height="16" frameX="-144" frameY="-16" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="HumoBloqueowa0001" x="0" y="0" width="20" height="20" frameX="-142" frameY="-14" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="HumoBloqueowa0002" x="20" y="0" width="15" height="16" frameX="-144" frameY="-16" frameWidth="193" frameHeight="63"/>
+	<SubTexture name="HumoBloqueowa0003" x="0" y="20" width="15" height="13" frameX="-144" frameY="-17" frameWidth="193" frameHeight="63"/>
+</TextureAtlas>

@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "aquino espaldas idle0"
+		},
+		{
+			"offsets": [
+				15,
+				-13
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "aquino espaldas left0"
+		},
+		{
+			"offsets": [
+				12,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "aquino espaldas left miss note0"
+		},
+		{
+			"offsets": [
+				1,
+				-16
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "aquino espaldas down0"
+		},
+		{
+			"offsets": [
+				1,
+				-17
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "aquino espaldas down miss note0"
+		},
+		{
+			"offsets": [
+				-5,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "aquino espaldas up0"
+		},
+		{
+			"offsets": [
+				-4,
+				2
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "aquino espaldas up miss note0"
+		},
+		{
+			"offsets": [
+				-8,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "aquino espaldas right0"
+		},
+		{
+			"offsets": [
+				-6,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "aquino espaldas right miss note0"
+		},
+		{
+			"offsets": [
+				190,
+				179
+			],
+			"loop": false,
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "aquino espaldas death anim0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				190,
+				185
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "aquino espaldas death loop0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				268,
+				236
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "aquino espaldas death confrm0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/aquino_espaldas_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		-170,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.6
+}

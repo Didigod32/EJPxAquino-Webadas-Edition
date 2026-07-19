@@ -1,0 +1,39 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [435, 555],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "Aquino first death0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [435, 556],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "Aquino death loop0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [542, 717],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "Aquino death confirm0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino_majo_Death",
+	"position": [-600, 360],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [166, 166, 166],
+	"camera_position": [-400, -400],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

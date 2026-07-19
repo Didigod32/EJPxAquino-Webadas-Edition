@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				60,
+				140
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "aquino andrew idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				54,
+				161
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "aquino andrew left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				9,
+				204
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "aquino andrew down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-42,
+				307
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "aquino andrew up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-4,
+				200
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "aquino andrew right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino_andrew_assets",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon-aquino-andrew",
+	"flip_x": true,
+	"healthbar_colors": [
+		205,
+		12,
+		52
+	],
+	"camera_position": [
+		100,
+		-130
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

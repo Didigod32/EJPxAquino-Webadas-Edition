@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="mictia.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="IDLE DANCE0000" x="0" y="0" width="598" height="603" frameX="0" frameY="-14" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0001" x="0" y="0" width="598" height="603" frameX="0" frameY="-14" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0002" x="598" y="0" width="604" height="601" frameX="-3" frameY="-12" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0003" x="598" y="0" width="604" height="601" frameX="-3" frameY="-12" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0004" x="1202" y="0" width="606" height="603" frameX="-7" frameY="-7" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0005" x="1202" y="0" width="606" height="603" frameX="-7" frameY="-7" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0006" x="0" y="603" width="599" height="604" frameX="-12" frameY="-1" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0007" x="0" y="603" width="599" height="604" frameX="-12" frameY="-1" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0008" x="599" y="603" width="597" height="605" frameX="-12" frameY="0" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0009" x="599" y="603" width="597" height="605" frameX="-12" frameY="0" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0010" x="599" y="603" width="597" height="605" frameX="-12" frameY="0" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0011" x="599" y="603" width="597" height="605" frameX="-12" frameY="0" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0012" x="599" y="603" width="597" height="605" frameX="-12" frameY="0" frameWidth="613" frameHeight="617"/>
+	<SubTexture name="IDLE DANCE0013" x="599" y="603" width="597" height="605" frameX="-12" frameY="0" frameWidth="613" frameHeight="617"/>
+</TextureAtlas>

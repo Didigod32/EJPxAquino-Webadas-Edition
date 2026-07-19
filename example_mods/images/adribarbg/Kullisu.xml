@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Kullisu.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Kullisu0000" x="0" y="0" width="139" height="264" frameX="0" frameY="-3" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0001" x="139" y="0" width="138" height="264" frameX="0" frameY="-3" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0002" x="277" y="0" width="145" height="264" frameX="0" frameY="-3" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0003" x="277" y="0" width="145" height="264" frameX="0" frameY="-3" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0004" x="0" y="264" width="147" height="266" frameX="-1" frameY="-1" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0005" x="147" y="264" width="146" height="266" frameX="-1" frameY="-1" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0006" x="293" y="264" width="143" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0007" x="0" y="531" width="137" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0008" x="137" y="531" width="135" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0009" x="137" y="531" width="135" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0010" x="137" y="531" width="135" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0011" x="137" y="531" width="135" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0012" x="137" y="531" width="135" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+	<SubTexture name="Kullisu0013" x="137" y="531" width="135" height="267" frameX="-2" frameY="0" frameWidth="148" frameHeight="267"/>
+</TextureAtlas>

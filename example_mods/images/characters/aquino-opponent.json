@@ -1,0 +1,242 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "AQUINO INACTIVO",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				48,
+				-9
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "AQUINO NOTA DER",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-49
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "AQUINO NOTA ABA",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				49
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "AQUINO NOTA ARR",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-26,
+				-1
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "AQUINO NOTA IZQ",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				49,
+				-8
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "AQUINO NOTA DER ALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				-48
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "AQUINO NOTA ABA ALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				13,
+				52
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "AQUINO NOTA ARR ALT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				13
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "AQUINO NOTA IZQ ALT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				48,
+				15
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "AQUINO NOTA DER FALL"
+		},
+		{
+			"offsets": [
+				-12,
+				-22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "AQUINO NOTA ABA FALL"
+		},
+		{
+			"offsets": [
+				16,
+				49
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "AQUINO NOTA ARR FALL"
+		},
+		{
+			"offsets": [
+				-29,
+				11
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "AQUINO NOTA IZQ FALL"
+		},
+		{
+			"offsets": [
+				-4,
+				2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "scared",
+			"loop": true,
+			"name": "AQUINO NERVIOSO"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/Aquino_v2",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "icon-aquino",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		50,
+		-50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

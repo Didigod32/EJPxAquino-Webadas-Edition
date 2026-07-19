@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pato-bot.png"><SubTexture name="pato-bot BEAT0000" x="0" y="0" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0001" x="47" y="0" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0002" x="0" y="43" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0003" x="47" y="43" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0004" x="94" y="0" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0005" x="94" y="43" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0006" x="0" y="86" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0007" x="47" y="86" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0008" x="94" y="86" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0009" x="141" y="0" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0010" x="141" y="43" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0011" x="141" y="86" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0012" x="0" y="129" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+<SubTexture name="pato-bot BEAT0013" x="47" y="129" width="47" height="43" frameX="-129" frameY="-20" frameWidth="296" frameHeight="296" />
+</TextureAtlas>

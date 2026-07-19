@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Dedo_loop.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Dedo loop0000" x="0" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0001" x="0" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0002" x="743" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0003" x="743" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0004" x="1486" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0005" x="1486" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0006" x="2229" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0007" x="2229" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0008" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0009" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0010" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0011" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0012" x="0" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0013" x="0" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0014" x="743" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0015" x="743" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0016" x="1486" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0017" x="1486" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0018" x="2229" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0019" x="2229" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0020" x="2972" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0021" x="2972" y="767" width="743" height="767"/>
+	<SubTexture name="Dedo loop0022" x="0" y="1534" width="743" height="767"/>
+	<SubTexture name="Dedo loop0023" x="0" y="1534" width="743" height="767"/>
+	<SubTexture name="Dedo loop0024" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0025" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0026" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0027" x="2972" y="0" width="743" height="767"/>
+	<SubTexture name="Dedo loop0028" x="743" y="1534" width="743" height="767"/>
+	<SubTexture name="Dedo loop0029" x="743" y="1534" width="743" height="767"/>
+</TextureAtlas>

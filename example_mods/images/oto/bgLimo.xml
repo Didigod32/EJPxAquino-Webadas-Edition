@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MOM_BG_asset_packk.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="background limo pink0000" x="0" y="0" width="2055" height="865" frameX="-42" frameY="75" frameWidth="2097" frameHeight="865"/>
+	<SubTexture name="background limo pink0001" x="0" y="865" width="2055" height="796" frameX="-42" frameY="75" frameWidth="2097" frameHeight="865"/>
+	<SubTexture name="background limo pink0002" x="0" y="1661" width="2097" height="837" frameX="0" frameY="75" frameWidth="2097" frameHeight="865"/>
+	<SubTexture name="background limo pink0003" x="0" y="2498" width="2055" height="833" frameX="-42" frameY="75" frameWidth="2097" frameHeight="865"/>
+</TextureAtlas>

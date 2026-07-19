@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="condon.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="condonxd0000" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0001" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0002" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0003" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0004" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0005" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0006" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0007" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0008" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0009" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0010" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0011" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0012" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0013" x="0" y="0" width="454" height="446"/>
+	<SubTexture name="condonxd0014" x="0" y="0" width="454" height="446"/>
+</TextureAtlas>

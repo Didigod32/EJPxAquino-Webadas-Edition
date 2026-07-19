@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aquino_nocturno habla.png">
+	<!-- Created with Adobe Animate version 22.0.7.214 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="perdon0000" x="0" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0001" x="559" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0002" x="1118" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0003" x="1118" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0004" x="1677" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0005" x="1677" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0006" x="2236" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0007" x="2236" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0008" x="2795" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0009" x="3354" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0010" x="3354" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0011" x="3354" y="0" width="559" height="748"/>
+	<SubTexture name="perdon0012" x="0" y="748" width="559" height="748"/>
+	<SubTexture name="perdon0013" x="559" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0014" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0015" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0016" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0017" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0018" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0019" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0020" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0021" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0022" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0023" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0024" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0025" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0026" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0027" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0028" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0029" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0030" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0031" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0032" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0033" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0034" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0035" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0036" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0037" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0038" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="perdon0039" x="1118" y="748" width="559" height="744" frameX="0" frameY="-4" frameWidth="559" frameHeight="748"/>
+	<SubTexture name="waos0000" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0001" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0002" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0003" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0004" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0005" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0006" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0007" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0008" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0009" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0010" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0011" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0012" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0013" x="1677" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0014" x="2234" y="748" width="576" height="778" frameX="-8" frameY="0" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0015" x="2810" y="748" width="566" height="774" frameX="0" frameY="-4" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0016" x="3376" y="748" width="557" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0017" x="0" y="1526" width="560" height="747" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0018" x="560" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0019" x="560" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0020" x="560" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0021" x="560" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0022" x="560" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0023" x="560" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0024" x="1119" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0025" x="1678" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0026" x="2237" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0027" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0028" x="3355" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0029" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0030" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0031" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0032" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0033" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0034" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0035" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0036" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0037" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0038" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0039" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0040" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0041" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0042" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0043" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0044" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0045" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0046" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0047" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0048" x="2796" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0049" x="0" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0050" x="559" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0051" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0052" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0053" x="2236" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0054" x="2795" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0055" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0056" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0057" x="0" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0058" x="559" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0059" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0060" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0061" x="2236" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0062" x="2795" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0063" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0064" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0065" x="0" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0066" x="559" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0067" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0068" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0069" x="2236" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0070" x="2795" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0071" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0072" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0073" x="0" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0074" x="559" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0075" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0076" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0077" x="2236" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0078" x="2795" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0079" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0080" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0081" x="0" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0082" x="559" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0083" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0084" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0085" x="2236" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0086" x="2795" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0087" x="1118" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0088" x="1677" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0089" x="1119" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0090" x="1119" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0091" x="1678" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0092" x="1678" y="1526" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0093" x="3354" y="2274" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0094" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0095" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0096" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0097" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0098" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0099" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0100" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0101" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0102" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0103" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0104" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0105" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0106" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0107" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0108" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0109" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0110" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0111" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0112" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0113" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0114" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0115" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0116" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0117" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0118" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0119" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0120" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0121" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0122" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0123" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0124" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+	<SubTexture name="waos0125" x="0" y="3022" width="559" height="748" frameX="-16" frameY="-34" frameWidth="584" frameHeight="782"/>
+</TextureAtlas>

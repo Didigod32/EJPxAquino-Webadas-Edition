@@ -1,0 +1,50 @@
+{
+	"storyName": "peruanos mortales",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week5",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Estupidez",
+			"daarick",
+			[
+				75,
+				172,
+				214
+			]
+		],
+		[
+			"Chillin",
+			"craft",
+			[
+				95,
+				250,
+				255
+			]
+		],
+		[
+			"Chicos",
+			"daarick",
+			[
+				75,
+				172,
+				214
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Llamas"
+}

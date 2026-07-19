@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="botpixel.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="confirm0000" x="48" y="48" width="48" height="48"/>
+	<SubTexture name="confirm0001" x="0" y="0" width="48" height="48"/>
+	<SubTexture name="confirm0002" x="48" y="0" width="48" height="48"/>
+	<SubTexture name="confirm0003" x="0" y="48" width="48" height="48"/>
+	<SubTexture name="confirm-hold0000" x="0" y="48" width="48" height="48"/>
+	<SubTexture name="idle0000" x="48" y="48" width="48" height="48"/>
+</TextureAtlas>

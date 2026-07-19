@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="AquinoSMWmuerte.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aquino Muerte0000" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Muerte0001" x="48" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Muerte0002" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino Muerte0003" x="48" y="64" width="48" height="64"/>
+</TextureAtlas>

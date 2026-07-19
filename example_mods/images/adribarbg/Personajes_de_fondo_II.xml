@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Personajes de fondo II.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Personajes de fondo II0000" x="0" y="0" width="801" height="453" frameX="-3" frameY="0" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0001" x="0" y="0" width="801" height="453" frameX="-3" frameY="0" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0002" x="801" y="0" width="805" height="453"/>
+	<SubTexture name="Personajes de fondo II0003" x="801" y="0" width="805" height="453"/>
+	<SubTexture name="Personajes de fondo II0004" x="0" y="453" width="799" height="452" frameX="-3" frameY="-1" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0005" x="0" y="453" width="799" height="452" frameX="-3" frameY="-1" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0006" x="799" y="453" width="794" height="450" frameX="-6" frameY="-3" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0007" x="799" y="453" width="794" height="450" frameX="-6" frameY="-3" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0008" x="0" y="905" width="791" height="448" frameX="-7" frameY="-5" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0009" x="0" y="905" width="791" height="448" frameX="-7" frameY="-5" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0010" x="0" y="905" width="791" height="448" frameX="-7" frameY="-5" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0011" x="0" y="905" width="791" height="448" frameX="-7" frameY="-5" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0012" x="0" y="905" width="791" height="448" frameX="-7" frameY="-5" frameWidth="805" frameHeight="453"/>
+	<SubTexture name="Personajes de fondo II0013" x="0" y="905" width="791" height="448" frameX="-7" frameY="-5" frameWidth="805" frameHeight="453"/>
+</TextureAtlas>

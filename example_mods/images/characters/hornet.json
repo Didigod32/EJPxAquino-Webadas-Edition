@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "hornet idle0"
+		},
+		{
+			"offsets": [
+				66,
+				-6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "hornet left note0"
+		},
+		{
+			"offsets": [
+				-110,
+				-89
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "hornet down note0"
+		},
+		{
+			"offsets": [
+				33,
+				40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "hornet up note0"
+		},
+		{
+			"offsets": [
+				-87,
+				-38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "hornet right note0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/hornet/hornet_assets",
+	"position": [
+		0,
+		50
+	],
+	"healthicon": "icon-hornet",
+	"flip_x": false,
+	"healthbar_colors": [
+		184,
+		93,
+		100
+	],
+	"camera_position": [
+		250,
+		120
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}

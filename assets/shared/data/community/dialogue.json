@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Vaya, se nota que aun tienes el toque"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Que te trae por aqui, Aquino?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "da",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "No te hagas la loca que ya te explique"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "En primer lugar..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Callate Aquino, tengo que explicarte esto rapido"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Luego habra tiempo para formalidades "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Carajo ni te iba a saludar"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "da",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bueno mientras estan en lo suyo yo ya vuelvo "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bueno Aquino no te dire nada si no es en una batalla de rap "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Carajo y eso porque "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bot",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Conveniencia del guion "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Bueno, que mas"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Dale, PvP Insanaso"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "lc",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "La familia Simpson.... vs..... La familia de peppa pig"
+		}
+	]
+}

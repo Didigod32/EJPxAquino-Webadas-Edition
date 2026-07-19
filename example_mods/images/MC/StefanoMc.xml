@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="StefanoMc.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Stefano idle0000" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0001" x="48" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0002" x="48" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0003" x="96" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0004" x="96" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0005" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0006" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0007" x="192" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0008" x="192" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0009" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0010" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0011" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0012" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Stefano idle0013" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="stefano left0000" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0001" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0002" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0003" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0004" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0005" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0006" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0007" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0008" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0009" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0010" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0011" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0012" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano left0013" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0000" x="96" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0001" x="96" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0002" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0003" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0004" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0005" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0006" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0007" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0008" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0009" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0010" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0011" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0012" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano right0013" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="stefano waos0000" x="192" y="64" width="48" height="64"/>
+	<SubTexture name="stefano waos0001" x="192" y="64" width="48" height="64"/>
+	<SubTexture name="stefano waos0002" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0003" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0004" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0005" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0006" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0007" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0008" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0009" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0010" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0011" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0012" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="stefano waos0013" x="48" y="128" width="48" height="64"/>
+</TextureAtlas>

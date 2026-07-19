@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Daarick_atardecer_assets.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Daarick down note atardecer0000" x="0" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0001" x="0" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0002" x="393" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0003" x="393" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0004" x="786" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0005" x="786" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0006" x="786" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0007" x="786" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0008" x="786" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick down note atardecer0009" x="786" y="0" width="393" height="732"/>
+	<SubTexture name="Daarick left note atardecer0000" x="1179" y="0" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0001" x="1179" y="0" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0002" x="0" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0003" x="0" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0004" x="486" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0005" x="486" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0006" x="486" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0007" x="486" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0008" x="486" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick left note atardecer0009" x="486" y="824" width="486" height="824"/>
+	<SubTexture name="Daarick right note atardecer0000" x="972" y="824" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0001" x="972" y="824" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0002" x="1309" y="824" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0003" x="1309" y="824" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0004" x="1646" y="824" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0005" x="0" y="1656" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0006" x="0" y="1656" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0007" x="0" y="1656" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0008" x="0" y="1656" width="337" height="832"/>
+	<SubTexture name="Daarick right note atardecer0009" x="0" y="1656" width="337" height="832"/>
+	<SubTexture name="Daarick up note atardecer0000" x="337" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0001" x="337" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0002" x="749" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0003" x="749" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0004" x="1161" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0005" x="1161" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0006" x="1161" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0007" x="1161" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0008" x="1161" y="1656" width="412" height="843"/>
+	<SubTexture name="Daarick up note atardecer0009" x="1161" y="1656" width="412" height="843"/>
+	<SubTexture name="daarick atardecer idle0000" x="1573" y="1656" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0001" x="1573" y="1656" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0002" x="0" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0003" x="0" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0004" x="338" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0005" x="338" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0006" x="676" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0007" x="1014" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0008" x="1352" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0009" x="1352" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0010" x="1352" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0011" x="1352" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0012" x="1352" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0013" x="1352" y="2504" width="338" height="848"/>
+	<SubTexture name="daarick atardecer idle0014" x="1352" y="2504" width="338" height="848"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "aquino hollow idle0"
+		},
+		{
+			"offsets": [
+				33,
+				-3
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "aquino hollow left0"
+		},
+		{
+			"offsets": [
+				8,
+				-14
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aquino hollow down0"
+		},
+		{
+			"offsets": [
+				-13,
+				1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "aquino holllow up0"
+		},
+		{
+			"offsets": [
+				-19,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "aquino hollow right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aquino/aquino_hollow",
+	"position": [
+		0,
+		380
+	],
+	"healthicon": "icon-aquinoknight",
+	"flip_x": true,
+	"healthbar_colors": [
+		254,
+		149,
+		145
+	],
+	"camera_position": [
+		150,
+		80
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

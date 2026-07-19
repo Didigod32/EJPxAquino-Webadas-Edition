@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-669,
+				350
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mcmis idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-780,
+				560
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mcmis left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-770,
+				370
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mcmis down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-630,
+				270
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mcmis up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-590,
+				390
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mcmis right",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/daarick/mcmis",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-mysterio",
+	"flip_x": false,
+	"healthbar_colors": [
+		83,
+		0,
+		80
+	],
+	"camera_position": [
+		-900,
+		-1150
+	],
+	"sing_duration": 6.1,
+	"scale": 3
+}

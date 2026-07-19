@@ -1,0 +1,10 @@
+{
+    "directory": "week_assets/images/main_weeks/images/twilight/tarde",
+    "defaultZoom": 0.7,
+    "isPixelStage": false,
+    "hide_girlfriend": false,
+
+    "boyfriend": [1400,560],
+    "opponent": [700,500],
+    "girlfriend": [850,570]
+}

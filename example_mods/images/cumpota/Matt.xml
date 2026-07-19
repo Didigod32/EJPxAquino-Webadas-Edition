@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Matt.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle_matt instancia 10000" x="14" y="14" width="522" height="412" frameX="0" frameY="-6" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10001" x="14" y="14" width="522" height="412" frameX="0" frameY="-6" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10002" x="563" y="14" width="535" height="436" frameX="-3" frameY="0" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10003" x="563" y="14" width="535" height="436" frameX="-3" frameY="0" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10004" x="1125" y="14" width="528" height="426" frameX="-5" frameY="-4" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10005" x="1125" y="14" width="528" height="426" frameX="-5" frameY="-4" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10006" x="14" y="477" width="519" height="418" frameX="-7" frameY="-4" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10007" x="14" y="477" width="519" height="418" frameX="-7" frameY="-4" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10008" x="560" y="477" width="512" height="412" frameX="-4" frameY="0" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10009" x="560" y="477" width="512" height="412" frameX="-4" frameY="0" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10010" x="1099" y="477" width="512" height="410" frameX="-1" frameY="-1" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10011" x="1099" y="477" width="512" height="410" frameX="-1" frameY="-1" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10012" x="14" y="922" width="513" height="405" frameX="0" frameY="-2" frameWidth="538" frameHeight="436"/>
+	<SubTexture name="Idle_matt instancia 10013" x="14" y="922" width="513" height="405" frameX="0" frameY="-2" frameWidth="538" frameHeight="436"/>
+</TextureAtlas>

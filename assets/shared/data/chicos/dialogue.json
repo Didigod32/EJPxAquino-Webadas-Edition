@@ -1,0 +1,28 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "aquino",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ustedes 2 contra mi solo"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "dar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Dale nubi te damos 7-0"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ac",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "que rico"
+		}
+	]
+}

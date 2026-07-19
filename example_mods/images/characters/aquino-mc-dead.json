@@ -1,0 +1,72 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "MuerteMc"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-10
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "MuerteMc",
+			"indices": [
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-10
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "MuerteMc",
+			"indices": [
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24
+			]
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/aquino/Muerte Mc",
+	"position": [
+		250,
+		500
+	],
+	"healthicon": "icon-aquino-pixel",
+	"flip_x": true,
+	"healthbar_colors": [
+		250,
+		151,
+		61
+	],
+	"camera_position": [
+		100,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 2.5
+}

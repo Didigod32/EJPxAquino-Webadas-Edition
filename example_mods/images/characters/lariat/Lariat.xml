@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Lariat.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="lariat down note0000" x="4561" y="2577" width="694" height="1184" frameX="2" frameY="-29" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0001" x="4561" y="2577" width="694" height="1184" frameX="2" frameY="-29" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0002" x="1949" y="3773" width="656" height="1209" frameX="-30" frameY="-4" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0003" x="1949" y="3773" width="656" height="1209" frameX="-30" frameY="-4" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0004" x="5305" y="1215" width="651" height="1211" frameX="-55" frameY="-2" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0005" x="5305" y="1215" width="651" height="1211" frameX="-55" frameY="-2" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0006" x="5305" y="0" width="651" height="1215" frameX="-60" frameY="2" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0007" x="5305" y="0" width="651" height="1215" frameX="-60" frameY="2" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0008" x="5305" y="0" width="651" height="1215" frameX="-60" frameY="2" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat down note0009" x="5305" y="0" width="651" height="1215" frameX="-60" frameY="2" frameWidth="709" frameHeight="1212"/>
+	<SubTexture name="lariat idle0000" x="3147" y="2517" width="685" height="1238" frameX="2" frameY="-20" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0001" x="3147" y="2517" width="685" height="1238" frameX="2" frameY="-20" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0002" x="3832" y="2517" width="670" height="1232" frameX="-9" frameY="-26" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0003" x="3832" y="2517" width="670" height="1232" frameX="-9" frameY="-26" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0004" x="1301" y="3773" width="648" height="1243" frameX="-27" frameY="-16" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0005" x="1301" y="3773" width="648" height="1243" frameX="-27" frameY="-16" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0006" x="650" y="3773" width="651" height="1255" frameX="-60" frameY="-3" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0007" x="650" y="3773" width="651" height="1255" frameX="-60" frameY="-3" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0008" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0009" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0010" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0011" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0012" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0013" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat idle0014" x="0" y="3773" width="650" height="1260" frameX="-66" frameY="2" frameWidth="714" frameHeight="1257"/>
+	<SubTexture name="lariat left note0000" x="0" y="1252" width="845" height="1265" frameX="2" frameY="1" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0001" x="0" y="1252" width="845" height="1265" frameX="2" frameY="1" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0002" x="845" y="1252" width="848" height="1259" frameX="-35" frameY="-5" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0003" x="2021" y="0" width="846" height="1259" frameX="-37" frameY="-5" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0004" x="2021" y="1259" width="829" height="1256" frameX="-60" frameY="-8" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0005" x="2021" y="1259" width="829" height="1256" frameX="-60" frameY="-8" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0006" x="3717" y="1228" width="810" height="1256" frameX="-79" frameY="-8" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0007" x="3717" y="1228" width="810" height="1256" frameX="-79" frameY="-8" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0008" x="0" y="2517" width="803" height="1256" frameX="-86" frameY="-8" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat left note0009" x="0" y="2517" width="803" height="1256" frameX="-86" frameY="-8" frameWidth="887" frameHeight="1262"/>
+	<SubTexture name="lariat right note0000" x="0" y="0" width="1053" height="1252" frameX="-46" frameY="2" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0001" x="0" y="0" width="1053" height="1252" frameX="-46" frameY="2" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0002" x="1053" y="0" width="968" height="1238" frameX="-12" frameY="-12" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0003" x="1053" y="0" width="968" height="1238" frameX="-12" frameY="-12" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0004" x="2867" y="0" width="850" height="1232" frameX="2" frameY="-18" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0005" x="2867" y="1232" width="850" height="1232" frameX="2" frameY="-18" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0006" x="3717" y="0" width="844" height="1228" frameX="2" frameY="-22" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0007" x="3717" y="0" width="844" height="1228" frameX="2" frameY="-22" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0008" x="3717" y="0" width="844" height="1228" frameX="2" frameY="-22" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat right note0009" x="3717" y="0" width="844" height="1228" frameX="2" frameY="-22" frameWidth="1098" frameHeight="1248"/>
+	<SubTexture name="lariat up note0000" x="4561" y="1285" width="708" height="1292" frameX="-44" frameY="2" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0001" x="4561" y="1285" width="708" height="1292" frameX="-44" frameY="2" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0002" x="4561" y="0" width="744" height="1285" frameX="-8" frameY="-6" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0003" x="4561" y="0" width="744" height="1285" frameX="-8" frameY="-6" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0004" x="803" y="2517" width="794" height="1256" frameX="2" frameY="-34" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0005" x="803" y="2517" width="794" height="1256" frameX="2" frameY="-34" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0006" x="1597" y="2517" width="784" height="1256" frameX="-6" frameY="-34" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0007" x="1597" y="2517" width="784" height="1256" frameX="-6" frameY="-34" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0008" x="2381" y="2517" width="766" height="1256" frameX="-6" frameY="-34" frameWidth="790" frameHeight="1289"/>
+	<SubTexture name="lariat up note0009" x="2381" y="2517" width="766" height="1256" frameX="-6" frameY="-34" frameWidth="790" frameHeight="1289"/>
+</TextureAtlas>

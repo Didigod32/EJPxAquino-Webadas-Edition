@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				168,
+				202
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "C3joMCidle"
+		},
+		{
+			"offsets": [
+				172,
+				208
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "C3joMCDown"
+		},
+		{
+			"offsets": [
+				169,
+				199
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "C3joMCLeft"
+		},
+		{
+			"offsets": [
+				169,
+				210
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "C3joMCup"
+		},
+		{
+			"offsets": [
+				176,
+				205
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "C3joMCRight"
+		},
+		{
+			"offsets": [
+				167,
+				201
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "ataque",
+			"loop": false,
+			"name": "C3joMCataque"
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/c3jo/C3joMCv2",
+	"position": [
+		250,
+		500
+	],
+	"healthicon": "icon-c3jo-pixel",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		102,
+		51
+	],
+	"camera_position": [
+		-360,
+		-250
+	],
+	"sing_duration": 4,
+	"scale": 2.6
+}

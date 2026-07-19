@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="aquinohaycara.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aquino idle0000" x="0" y="0" width="476" height="733"/>
+	<SubTexture name="Aquino idle0001" x="476" y="0" width="476" height="733"/>
+	<SubTexture name="Aquino idle0002" x="952" y="0" width="476" height="733"/>
+	<SubTexture name="Aquino idle0003" x="952" y="0" width="476" height="733"/>
+	<SubTexture name="Aquino idle0004" x="1428" y="0" width="476" height="733"/>
+	<SubTexture name="Aquino idle0005" x="1428" y="0" width="476" height="733"/>
+	<SubTexture name="Aquino idle0006" x="0" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0007" x="0" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0008" x="476" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0009" x="952" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0010" x="952" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0011" x="952" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0012" x="952" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino idle0013" x="952" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino note down0000" x="1428" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino note down0001" x="1428" y="733" width="476" height="733"/>
+	<SubTexture name="Aquino note down0002" x="0" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0003" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0004" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0005" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0006" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0007" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0008" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note down0009" x="476" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note left0000" x="952" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note left0001" x="952" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note left0002" x="1428" y="1466" width="476" height="733"/>
+	<SubTexture name="Aquino note left0003" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note left0004" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note left0005" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note left0006" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note left0007" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note left0008" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note left0009" x="0" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0000" x="476" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0001" x="476" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0002" x="952" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0003" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0004" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0005" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0006" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0007" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0008" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note right0009" x="1428" y="2199" width="476" height="733"/>
+	<SubTexture name="Aquino note up0000" x="0" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0001" x="0" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0002" x="476" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0003" x="952" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0004" x="952" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0005" x="952" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0006" x="952" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0007" x="952" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0008" x="952" y="2932" width="476" height="733"/>
+	<SubTexture name="Aquino note up0009" x="952" y="2932" width="476" height="733"/>
+</TextureAtlas>

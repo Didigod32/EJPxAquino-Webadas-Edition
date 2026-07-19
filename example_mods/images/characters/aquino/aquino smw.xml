@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="naah smw 2002.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Aquino Idle0000" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0001" x="0" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0002" x="48" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0003" x="96" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0004" x="96" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0005" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0006" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0007" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0008" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0009" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0010" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0011" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0012" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino Idle0013" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0000" x="192" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0001" x="192" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0002" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0003" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0004" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0005" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0006" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0007" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0008" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0009" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0010" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0011" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0012" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo0013" x="0" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0000" x="48" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0001" x="96" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0002" x="96" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0003" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0004" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0005" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0006" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0007" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0008" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0009" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0010" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0011" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0012" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo alt0013" x="144" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0000" x="192" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0001" x="192" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0002" x="192" y="64" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0003" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0004" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0005" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0006" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0007" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0008" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0009" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0010" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0011" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0012" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino abajo miss0013" x="0" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0000" x="48" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0001" x="96" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0002" x="96" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0003" x="96" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0004" x="96" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0005" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0006" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0007" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0008" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0009" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0010" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0011" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0012" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando end0013" x="144" y="0" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0000" x="144" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0001" x="144" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0002" x="192" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0003" x="192" y="128" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0004" x="0" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0005" x="0" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0006" x="48" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino girando loop0007" x="48" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0000" x="96" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0001" x="96" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0002" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0003" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0004" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0005" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0006" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0007" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0008" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0009" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0010" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0011" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0012" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left0013" x="144" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0000" x="192" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0001" x="0" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0002" x="0" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0003" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0004" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0005" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0006" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0007" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0008" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0009" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0010" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0011" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0012" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left alt0013" x="48" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0000" x="96" y="192" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0001" x="96" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0002" x="96" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0003" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0004" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0005" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0006" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0007" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0008" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0009" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0010" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0011" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0012" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino left miss0013" x="144" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino right0000" x="192" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino right0001" x="192" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino right0002" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0003" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0004" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0005" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0006" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0007" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0008" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0009" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0010" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0011" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0012" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right0013" x="0" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0000" x="48" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0001" x="96" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0002" x="96" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0003" x="144" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0004" x="144" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0005" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0006" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0007" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0008" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0009" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0010" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0011" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0012" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right alt0013" x="192" y="320" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0000" x="192" y="256" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0001" x="0" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0002" x="0" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0003" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0004" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0005" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0006" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0007" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0008" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0009" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0010" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0011" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0012" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino right miss0013" x="48" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0000" x="96" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0001" x="96" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0002" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0003" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0004" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0005" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0006" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0007" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0008" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0009" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0010" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0011" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0012" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up0013" x="144" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0000" x="192" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0001" x="0" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0002" x="0" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0003" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0004" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0005" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0006" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0007" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0008" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0009" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0010" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0011" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0012" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0013" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up alt0014" x="48" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0000" x="96" y="384" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0001" x="96" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0002" x="96" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0003" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0004" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0005" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0006" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0007" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0008" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0009" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0010" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0011" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0012" x="144" y="448" width="48" height="64"/>
+	<SubTexture name="Aquino up miss0013" x="144" y="448" width="48" height="64"/>
+</TextureAtlas>

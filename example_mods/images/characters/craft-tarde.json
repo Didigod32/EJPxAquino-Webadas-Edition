@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-10,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "anthonycraft idle atardecer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				13
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "anthonycraft left atardecer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-32,
+				5
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "anthonycraft up atardecer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				-77
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "anthonycraft down atardecer",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-9
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "anthonycraft right atardecer",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/anthonycra/Anthonycra_atardecer_assets",
+	"position": [
+		-110,
+		270
+	],
+	"healthicon": "icon-craft",
+	"flip_x": false,
+	"healthbar_colors": [
+		95,
+		250,
+		255
+	],
+	"camera_position": [
+		80,
+		-230
+	],
+	"sing_duration": 4,
+	"scale": 1.8
+}

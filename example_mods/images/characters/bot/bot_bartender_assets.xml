@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bot_bartender_assets.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="bot bartender idle0000" x="0" y="0" width="366" height="352" frameX="-3" frameY="-10" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0001" x="366" y="0" width="366" height="352" frameX="-3" frameY="-10" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0002" x="732" y="0" width="359" height="344" frameX="-9" frameY="-18" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0003" x="1091" y="0" width="359" height="344" frameX="-9" frameY="-18" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0004" x="1450" y="0" width="358" height="339" frameX="-7" frameY="-23" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0005" x="0" y="352" width="358" height="339" frameX="-7" frameY="-23" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0006" x="358" y="352" width="355" height="337" frameX="-6" frameY="-25" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0007" x="713" y="352" width="355" height="345" frameX="-6" frameY="-17" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0008" x="1068" y="352" width="353" height="350" frameX="-6" frameY="-12" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0009" x="1421" y="352" width="353" height="351" frameX="-6" frameY="-11" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0010" x="0" y="703" width="353" height="353" frameX="-5" frameY="-9" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0011" x="353" y="703" width="353" height="354" frameX="-5" frameY="-8" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0012" x="353" y="703" width="353" height="354" frameX="-5" frameY="-8" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0013" x="706" y="703" width="349" height="355" frameX="-5" frameY="-7" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0014" x="706" y="703" width="349" height="355" frameX="-5" frameY="-7" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0015" x="1055" y="703" width="347" height="355" frameX="0" frameY="-7" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0016" x="1402" y="703" width="347" height="355" frameX="0" frameY="-7" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0017" x="0" y="1058" width="346" height="356" frameX="0" frameY="-6" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0018" x="346" y="1058" width="346" height="356" frameX="0" frameY="-6" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0019" x="692" y="1058" width="349" height="362" frameX="-3" frameY="0" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0020" x="1041" y="1058" width="349" height="362" frameX="-3" frameY="0" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0021" x="1390" y="1058" width="353" height="361" frameX="-4" frameY="-1" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0022" x="0" y="1420" width="353" height="360" frameX="-4" frameY="-2" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0023" x="353" y="1420" width="354" height="360" frameX="-5" frameY="-2" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0024" x="707" y="1420" width="354" height="360" frameX="-5" frameY="-2" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0025" x="1061" y="1420" width="353" height="360" frameX="-6" frameY="-2" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0026" x="1061" y="1420" width="353" height="360" frameX="-6" frameY="-2" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0027" x="1414" y="1420" width="353" height="359" frameX="-6" frameY="-3" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0028" x="0" y="1780" width="353" height="358" frameX="-6" frameY="-4" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0029" x="353" y="1780" width="353" height="356" frameX="-6" frameY="-6" frameWidth="369" frameHeight="362"/>
+	<SubTexture name="bot bartender idle0030" x="353" y="1780" width="353" height="356" frameX="-6" frameY="-6" frameWidth="369" frameHeight="362"/>
+</TextureAtlas>

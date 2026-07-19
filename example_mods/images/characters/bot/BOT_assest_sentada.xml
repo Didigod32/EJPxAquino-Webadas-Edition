@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="BOT_assest_Sentada.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="bot Dancing Beat0000" x="0" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0001" x="704" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0002" x="1408" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0003" x="2112" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0004" x="2816" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0005" x="3520" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0006" x="4224" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0007" x="4928" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0008" x="5632" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0009" x="6336" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0010" x="7040" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0011" x="7040" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0012" x="7040" y="0" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0013" x="0" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0014" x="0" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0015" x="704" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0016" x="1408" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0017" x="2112" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0018" x="2816" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0019" x="3520" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0020" x="4224" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0021" x="4928" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0022" x="5632" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0023" x="6336" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0024" x="7040" y="681" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0025" x="0" y="1362" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0026" x="0" y="1362" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0027" x="0" y="1362" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0028" x="704" y="1362" width="704" height="681"/>
+	<SubTexture name="bot Dancing Beat0029" x="704" y="1362" width="704" height="681"/>
+	<SubTexture name="bot lluvia de bits0000" x="1408" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0001" x="1408" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0002" x="2391" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0003" x="3374" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0004" x="4357" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0005" x="5340" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0006" x="6323" y="1362" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0007" x="0" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0008" x="983" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0009" x="1966" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0010" x="2949" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0011" x="3932" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0012" x="4915" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0013" x="5898" y="2342" width="983" height="980"/>
+	<SubTexture name="bot lluvia de bits0014" x="6881" y="2342" width="983" height="980"/>
+	<SubTexture name="bot palta0000" x="0" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0001" x="704" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0002" x="1408" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0003" x="2112" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0004" x="2816" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0005" x="3520" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0006" x="4224" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0007" x="4928" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0008" x="5632" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0009" x="6336" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0010" x="6336" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0011" x="7040" y="3322" width="704" height="682"/>
+	<SubTexture name="bot palta0012" x="0" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0013" x="704" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0014" x="1408" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0015" x="2112" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0016" x="2816" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0017" x="3520" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0018" x="3520" y="4004" width="704" height="682"/>
+	<SubTexture name="bot palta0019" x="4224" y="4004" width="704" height="682"/>
+</TextureAtlas>

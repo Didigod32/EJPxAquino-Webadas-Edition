@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Bloques.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="bloques0000" x="0" y="0" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0001" x="0" y="0" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0002" x="0" y="40" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0003" x="0" y="40" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0004" x="0" y="20" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0005" x="0" y="20" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0006" x="0" y="60" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+	<SubTexture name="bloques0007" x="0" y="60" width="372" height="20" frameX="-14" frameY="-126" frameWidth="400" frameHeight="256"/>
+</TextureAtlas>

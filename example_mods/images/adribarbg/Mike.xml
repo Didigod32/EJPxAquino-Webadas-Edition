@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Mike.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mike0000" x="0" y="0" width="131" height="305" frameX="-2" frameY="-1" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0001" x="0" y="0" width="131" height="305" frameX="-2" frameY="-1" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0002" x="131" y="0" width="135" height="303" frameX="0" frameY="-2" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0003" x="131" y="0" width="135" height="303" frameX="0" frameY="-2" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0004" x="266" y="0" width="131" height="306" frameX="-2" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0005" x="266" y="0" width="131" height="306" frameX="-2" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0006" x="0" y="306" width="128" height="306" frameX="-5" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0007" x="0" y="306" width="128" height="306" frameX="-5" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0008" x="128" y="306" width="126" height="306" frameX="-7" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0009" x="128" y="306" width="126" height="306" frameX="-7" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0010" x="128" y="306" width="126" height="306" frameX="-7" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0011" x="128" y="306" width="126" height="306" frameX="-7" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0012" x="128" y="306" width="126" height="306" frameX="-7" frameY="0" frameWidth="135" frameHeight="306"/>
+	<SubTexture name="Mike0013" x="128" y="306" width="126" height="306" frameX="-7" frameY="0" frameWidth="135" frameHeight="306"/>
+</TextureAtlas>

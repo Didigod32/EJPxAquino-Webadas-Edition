@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "TOMY IDLE"
+		},
+		{
+			"offsets": [
+				0,
+				-102
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "TOMY DOWN POSE"
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "TOMY UP POSE"
+		},
+		{
+			"offsets": [
+				0,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "TOMY RIGHT POSE"
+		},
+		{
+			"offsets": [
+				0,
+				6
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "TOMY LEFT POSE"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/tommy/Tommy_duendeverde_2",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "icon-tommy-duendeverde",
+	"flip_x": true,
+	"healthbar_colors": [
+		34,
+		112,
+		54
+	],
+	"camera_position": [
+		340,
+		190
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

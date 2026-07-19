@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [100, -150],
+			"anim": "idle",
+			"fps": 24,
+			"name": "soarinmi idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [96, -160],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "soarinmi down note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [99, -126],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "soarinmi up note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-112, -150],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "soarinmi right note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [147, -150],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "soarinmi left note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [146, -151],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "soarinmi left note miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [97, -160],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "soarinmi down note miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [101, -126],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "soarinmi up note miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-113, -151],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "soarinmi right note miss0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/soaring/Soarinmi notes",
+	"position": [0, 0],
+	"healthicon": "face",
+	"flip_x": true,
+	"healthbar_colors": [161, 161, 161],
+	"camera_position": [100, 130],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -1,0 +1,2 @@
+Value1: Shake Number (Ex.80 or 120)
+Value2: Mini, or Windowed.

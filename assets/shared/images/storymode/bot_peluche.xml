@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="bot_peluche.png">
+	<!-- Created with Adobe Flash CS6 version 12.0.0.481 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="Botsita0000" x="0" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0001" x="0" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0002" x="442" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0003" x="442" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0004" x="0" y="500" width="442" height="500"/>
+	<SubTexture name="Botsita0005" x="0" y="500" width="442" height="500"/>
+	<SubTexture name="Botsita0006" x="442" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0007" x="442" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0008" x="0" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0009" x="0" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0010" x="0" y="500" width="442" height="500"/>
+	<SubTexture name="Botsita0011" x="0" y="500" width="442" height="500"/>
+	<SubTexture name="Botsita0012" x="442" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0013" x="442" y="0" width="442" height="500"/>
+	<SubTexture name="Botsita0014" x="442" y="0" width="442" height="500"/>
+</TextureAtlas>

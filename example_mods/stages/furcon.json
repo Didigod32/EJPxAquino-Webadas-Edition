@@ -1,0 +1,10 @@
+{
+	"directory": "main_weeks",
+	"defaultZoom": 0.65,
+	"isPixelStage": false,
+
+	"boyfriend": [90, -420],
+	"girlfriend": [-390, -390],
+	"opponent": [-780, -450],
+	"hide_girlfriend": false
+}

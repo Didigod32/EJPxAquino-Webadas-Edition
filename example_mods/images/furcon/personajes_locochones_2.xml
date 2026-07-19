@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="personajes locochones 2.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Personajes loco arriba 20000" x="0" y="0" width="705" height="362" frameX="0" frameY="-1" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20001" x="0" y="0" width="705" height="362" frameX="0" frameY="-1" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20002" x="0" y="362" width="708" height="359" frameX="0" frameY="-3" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20003" x="0" y="362" width="708" height="359" frameX="0" frameY="-3" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20004" x="0" y="721" width="705" height="362" frameX="0" frameY="-1" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20005" x="0" y="721" width="705" height="362" frameX="0" frameY="-1" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20006" x="0" y="1083" width="698" height="361" frameX="-4" frameY="0" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20007" x="0" y="1083" width="698" height="361" frameX="-4" frameY="0" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20008" x="0" y="1444" width="700" height="359" frameX="-3" frameY="-2" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20009" x="0" y="1444" width="700" height="359" frameX="-3" frameY="-2" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20010" x="0" y="1444" width="700" height="359" frameX="-3" frameY="-2" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20011" x="0" y="1444" width="700" height="359" frameX="-3" frameY="-2" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20012" x="0" y="1444" width="700" height="359" frameX="-3" frameY="-2" frameWidth="708" frameHeight="363"/>
+	<SubTexture name="Personajes loco arriba 20013" x="0" y="1444" width="700" height="359" frameX="-3" frameY="-2" frameWidth="708" frameHeight="363"/>
+</TextureAtlas>

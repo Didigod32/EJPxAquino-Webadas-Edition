@@ -1,0 +1,50 @@
+{
+	"storyName": "Loco la cámara",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week6",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Sin titulo",
+			"loco",
+			[
+				151,
+				29,
+				161
+			]
+		],
+		[
+			"Orphan",
+			"loco",
+			[
+				151,
+				29,
+				161
+			]
+		],
+		[
+			"Loco+",
+			"loco",
+			[
+				151,
+				29,
+				161
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Loco"
+}

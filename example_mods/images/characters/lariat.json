@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "idle",
+			"fps": 24,
+			"name": "lariat idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [5, -27],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "lariat down note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-42, 19],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "lariat up note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, -5],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "lariat right note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [96, 4],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "lariat left note0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/lariat/Lariat",
+	"position": [480, -205],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [161, 161, 181],
+	"camera_position": [-200, 350],
+	"sing_duration": 4,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}
