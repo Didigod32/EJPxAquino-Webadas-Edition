@@ -1,265 +1,498 @@
 package states;
 
-import pslice.compatibility.ModsHelper;
-import pslice.vslice.freeplay.FreeplayState;
-import flixel.FlxObject;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.FlxCamera;
+import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
+import flixel.math.FlxMath;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.input.keyboard.FlxKey;
 import flixel.addons.transition.FlxTransitionableState;
-import flixel.effects.FlxFlicker;
-import lime.app.Application;
-import states.editors.MasterEditorMenu;
+import backend.ClientPrefs;
+
+import states.StoryMenuState;
+import states.PlayState;
+import states.FlappySelectState;
 import options.OptionsState;
+import pslice.vslice.freeplay.FreeplayState;
+
+// IMPORTS DE EDITORES Y MODS
+import states.editors.MasterEditorMenu;
+import states.ModsMenuState;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '1.0'; // This is also used for Discord RPC
-	public static var pSliceVersion:String = '2.1'; 
-	public static var funkinVersion:String = '0.5.1'; // Version of funkin' we are emulationg
-	public static var curSelected:Int = 0;
-	var allowMouse:Bool = true; //Turn this off to block mouse movement in menus
+    public static var psychEngineVersion:String = '1.0.0';
+    public static var pSliceVersion:String = '1.4.1';
 
-	var menuItems:FlxTypedGroup<FlxSprite>;
+    var busy:Bool = false;
 
-	//Centered/Text options
-	var optionShit:Array<String> = [
-		'story_mode',
-		'freeplay',
-		'credits',
-		'gallery',
-		'options'
-	];
+    var desktopWallpaper:FlxSprite;
 
-	public function new(isDisplayingRank:Bool = false) {
+    var taskbarContainer:FlxTypedGroup<FlxSprite>;
+    var taskbarTextGroup:FlxTypedGroup<FlxText>;
+    var taskbarBg:FlxSprite;
+    var targetTaskbarY:Float = 0;
+    var currentTaskbarY:Float = 0;
 
-		super();
-	}
+    var startWinBtn:FlxSprite;
+    var clockText:FlxText;
 
-	override function create()
-	{
-		Paths.clearUnusedMemory();
-		ModsHelper.clearStoredWithoutStickers();
+    var searchBarBg:FlxSprite;
+    var searchTxt:FlxText;
+    var isSearching:Bool = false;
+    var searchQuery:String = "";
 
-		#if MODS_ALLOWED
-		Mods.pushGlobalMods();
-		#end
-		Mods.loadTopMod();
+    var desktopIconsGroup:FlxTypedGroup<FlxSprite>;
+    var desktopTextsGroup:FlxTypedGroup<FlxText>;
+    var taskbarIconsGroup:FlxTypedGroup<FlxSprite>;
 
-		#if DISCORD_ALLOWED
-		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
-		#end
+    // LISTA DE APLICACIONES EN ESCRITORIO
+    var appsData:Array<Dynamic> = [
+        {id: "story", title: "Story Mode", icon: "Opera_GX", action: "story"},
+        {id: "freeplay", title: "Spotify", icon: "spotify", action: "freeplay"},
+        {id: "flappy", title: "Flappy webones", icon: "flappy", action: "flappy"},
+        {id: "options", title: "Ajustes", icon: "ajustes", action: "options"},
+        {id: "credits", title: "Créditos", icon: "powerpoint", action: "credits"},
+        {id: "gallery", title: "Galería", icon: "fotos", action: "gallery"}
+    ];
 
-		persistentUpdate = persistentDraw = true;
+    var desktopIconSprites:Array<FlxSprite> = [];
+    var taskbarIconSprites:Array<FlxSprite> = [];
 
-		var bgBot:FlxSprite = new FlxSprite(-2900, -20);
-		bgBot.frames = Paths.getSparrowAtlas('mainmenu/menu_bot');
-		bgBot.antialiasing = ClientPrefs.data.antialiasing;
-		bgBot.scale.set(1.1, 1.1);
-		bgBot.updateHitbox();
-		bgBot.animation.addByPrefix('idle', 'idle', 24, true);
-		bgBot.animation.play('idle');
-		bgBot.scrollFactor.set(0, 0);
-		add(bgBot);
+    final DESKTOP_ICON_SIZE:Int = 52;
+    final TASKBAR_ICON_SIZE:Int = 28;
 
-		var murito:FlxSprite = new FlxSprite(-475, 0).loadGraphic(Paths.image('mainmenu/murito'));
-		murito.scrollFactor.set(0, 0);
-		murito.antialiasing = ClientPrefs.data.antialiasing;
-		add(murito);
+    public function new(?playRankAnim:Bool = false)
+    {
+        super();
+    }
 
-		var murito2:FlxSprite = new FlxSprite(1020, -145).loadGraphic(Paths.image('mainmenu/murito2'));
-		murito2.scrollFactor.set(0, 0);
-		murito2.antialiasing = ClientPrefs.data.antialiasing;
-		add(murito2);
+    override function create()
+    {
+        super.create();
 
-		menuItems = new FlxTypedGroup<FlxSprite>();
-		add(menuItems);
+        FlxG.mouse.visible = true;
 
-		for (num => option in optionShit)
-		{
-			var item:FlxSprite = createMenuItem(option, 0, 0);
-			item.y += (4 - optionShit.length) * 70; // Offsets for when you have anything other than 4 items
-			item.screenCenter(X);
+        desktopWallpaper = new FlxSprite(0, 0);
+        if (Paths.fileExists('images/menuBG.png', IMAGE))
+            desktopWallpaper.loadGraphic(Paths.image('menuBG'));
+        else
+            desktopWallpaper.makeGraphic(FlxG.width, FlxG.height, FlxColor.fromRGB(25, 35, 45));
+        desktopWallpaper.setGraphicSize(FlxG.width, FlxG.height);
+        desktopWallpaper.updateHitbox();
+        add(desktopWallpaper);
 
-			switch(num) {
-				case 0:
-					item.setPosition(30, 75);
-				case 1:
-					item.setPosition(175, 200);
-				case 2:
-					item.setPosition(45, 325);
-				case 3:
-					item.setPosition(215, 450);
-				case 4:
-					item.setPosition(75, 575);
-			}
-		}
+        desktopIconsGroup = new FlxTypedGroup<FlxSprite>();
+        desktopTextsGroup = new FlxTypedGroup<FlxText>();
+        add(desktopIconsGroup);
+        add(desktopTextsGroup);
 
-		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
-		var fnfVer:FlxText = new FlxText(12, FlxG.height - 18, FlxG.width, "Friday Night Funkin' v" + funkinVersion + ' | (P-slice ${pSliceVersion})', 12);
+        buildDesktopShortcuts();
+        createWindowsTaskbar();
 
-		psychVer.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		fnfVer.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-		
-		psychVer.scrollFactor.set();
-		fnfVer.scrollFactor.set();
-		add(psychVer);
-		add(fnfVer);
-		changeItem();
+        busy = false;
+    }
 
-		super.create();
-	}
+    function getValidIconPath(rawName:String):String
+    {
+        var candidates:Array<String> = [
+            'mainmenu/' + rawName,
+            'mainmenu/' + rawName.toLowerCase(),
+            'mainmenu/Opera_GX',
+            'mainmenu/opera_gx'
+        ];
 
-	function createMenuItem(name:String, x:Float, y:Float):FlxSprite
-	{
-		var menuItem:FlxSprite = new FlxSprite(x, y);
-		menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_$name');
-		menuItem.animation.addByPrefix('idle', '$name idle', 24, true);
-		menuItem.animation.addByPrefix('selected', '$name selected', 24, true);
-		menuItem.animation.play('idle');
-		menuItem.updateHitbox();
-		menuItem.scale.set(0.7, 0.7);
-		menuItem.antialiasing = ClientPrefs.data.antialiasing;
-		menuItem.scrollFactor.set();
-		menuItems.add(menuItem);
-		return menuItem;
-	}
+        for (path in candidates)
+        {
+            if (Paths.fileExists('images/' + path + '.png', IMAGE))
+                return path;
+        }
 
-	var selectedSomethin:Bool = false;
+        return 'mainmenu/' + rawName;
+    }
 
-	var timeNotMoving:Float = 0;
-	override function update(elapsed:Float)
-	{
-		if (FlxG.sound.music.volume < 0.8)
-			FlxG.sound.music.volume = Math.min(FlxG.sound.music.volume + 0.5 * elapsed, 0.8);
+    function buildDesktopShortcuts()
+    {
+        desktopIconsGroup.clear();
+        desktopTextsGroup.clear();
+        desktopIconSprites = [];
 
-		if (!selectedSomethin) {
-			if (controls.UI_UP_P)
-				changeItem(-1);
+        var startX:Float = 40;
+        var startY:Float = 40;
+        var spacingY:Float = 90;
 
-			if (controls.UI_DOWN_P)
-				changeItem(1);
+        for (i in 0...appsData.length)
+        {
+            var app = appsData[i];
+            var posY:Float = startY + (i * spacingY);
 
-			var allowMouse:Bool = allowMouse;
-			if (allowMouse && ((FlxG.mouse.deltaScreenX != 0 && FlxG.mouse.deltaScreenY != 0) || FlxG.mouse.justPressed)) { //FlxG.mouse.deltaScreenX/Y checks is more accurate than FlxG.mouse.justMoved
-				allowMouse = false;
-				FlxG.mouse.visible = true;
-				timeNotMoving = 0;
+            var iconSpr:FlxSprite = new FlxSprite(startX, posY);
+            var iconPath:String = getValidIconPath(app.icon);
+            
+            if (Paths.fileExists('images/' + iconPath + '.png', IMAGE))
+            {
+                iconSpr.loadGraphic(Paths.image(iconPath));
+            }
+            else
+            {
+                iconSpr.makeGraphic(DESKTOP_ICON_SIZE, DESKTOP_ICON_SIZE, FlxColor.fromRGB(200, 160, 40));
+            }
 
-				var selectedItem:FlxSprite;
-				selectedItem = menuItems.members[curSelected];
+            iconSpr.setGraphicSize(DESKTOP_ICON_SIZE, DESKTOP_ICON_SIZE);
+            iconSpr.updateHitbox();
+            iconSpr.antialiasing = ClientPrefs.data.antialiasing;
+            iconSpr.ID = i;
+            desktopIconsGroup.add(iconSpr);
+            desktopIconSprites.push(iconSpr);
 
-				var dist:Float = -1;
-				var distItem:Int = -1;
-				for (i in 0...optionShit.length) {
-					var memb:FlxSprite = menuItems.members[i];
-					if (FlxG.mouse.overlaps(memb)) {
-						var distance:Float = Math.sqrt(Math.pow(memb.getGraphicMidpoint().x - FlxG.mouse.screenX, 2) + Math.pow(memb.getGraphicMidpoint().y - FlxG.mouse.screenY, 2));
-						if (dist < 0 || distance < dist) {
-							dist = distance;
-							distItem = i;
-							allowMouse = true;
-						}
-					}
-				}
+            var labelTxt:FlxText = new FlxText(startX - 20, posY + DESKTOP_ICON_SIZE + 4, DESKTOP_ICON_SIZE + 40, app.title, 11);
+            labelTxt.setFormat(Paths.font("vcr.ttf"), 11, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+            desktopTextsGroup.add(labelTxt);
+        }
+    }
 
-				if (distItem != -1 && selectedItem != menuItems.members[distItem]) {
-					curSelected = distItem;
-					changeItem();
-				}
-			} else {
-				timeNotMoving += elapsed;
-				if(timeNotMoving > 2) FlxG.mouse.visible = false;
-			}
+    function createWindowsTaskbar()
+    {
+        taskbarContainer = new FlxTypedGroup<FlxSprite>();
+        taskbarTextGroup = new FlxTypedGroup<FlxText>();
+        taskbarIconsGroup = new FlxTypedGroup<FlxSprite>();
 
-			if (controls.BACK) {
-				selectedSomethin = true;
-				FlxG.mouse.visible = false;
-				FlxG.sound.play(Paths.sound('cancelMenu'));
-				MusicBeatState.switchState(new TitleState());
-			}
+        currentTaskbarY = FlxG.height - 2;
+        targetTaskbarY = FlxG.height - 2;
 
-			if (controls.ACCEPT || (FlxG.mouse.justPressed && allowMouse)) {
-				FlxG.sound.play(Paths.sound('confirmMenu'));
+        taskbarBg = new FlxSprite(0, FlxG.height - 2).makeGraphic(FlxG.width, 48, FlxColor.fromRGB(24, 28, 34));
+        taskbarBg.alpha = 0.94;
+        taskbarContainer.add(taskbarBg);
 
-				selectedSomethin = true;
-				FlxG.mouse.visible = false;
+        startWinBtn = new FlxSprite(12, FlxG.height + 8);
+        if (Paths.fileExists('images/mainmenu/winlogo.png', IMAGE))
+        {
+            startWinBtn.loadGraphic(Paths.image('mainmenu/winlogo'));
+        }
+        else
+        {
+            startWinBtn.makeGraphic(28, 28, FlxColor.fromRGB(0, 162, 232));
+        }
+        startWinBtn.setGraphicSize(28, 28);
+        startWinBtn.updateHitbox();
+        startWinBtn.antialiasing = ClientPrefs.data.antialiasing;
+        taskbarContainer.add(startWinBtn);
 
-				var item:FlxSprite;
-				var option:String;
+        searchBarBg = new FlxSprite(50, FlxG.height + 8).makeGraphic(210, 28, FlxColor.fromRGB(38, 44, 54));
+        taskbarContainer.add(searchBarBg);
 
-				option = optionShit[curSelected];
-				item = menuItems.members[curSelected];
-				var choice = option != 'freeplay' ? true : false;
+        searchTxt = new FlxText(58, FlxG.height + 14, 200, "🔍 Buscar programa...", 11);
+        searchTxt.setFormat(Paths.font("vcr.ttf"), 11, FlxColor.GRAY);
+        taskbarTextGroup.add(searchTxt);
 
-				FlxFlicker.flicker(item, 0.6, 0.06, false, choice, function(flick:FlxFlicker) {
-					switch (option) {
-						case 'story_mode':
-							MusicBeatState.switchState(new StoryMenuState());
-						case 'freeplay':{
-							persistentDraw = true;
-							persistentUpdate = false;
-							// Freeplay has its own custom transition
-							FlxTransitionableState.skipNextTransIn = true;	
-							FlxTransitionableState.skipNextTransOut = true;
+        var centerStartX:Float = (FlxG.width / 2) - ((appsData.length * 40) / 2);
+        taskbarIconSprites = [];
 
-							openSubState(new FreeplayState());
-							subStateOpened.addOnce(state -> {
-								for (i in 0...menuItems.members.length) {
-									menuItems.members[i].revive();
-									menuItems.members[i].alpha = 1;
-									menuItems.members[i].visible = true;
-									selectedSomethin = false;
-								}
-								changeItem(0);
-							});
-							
-						}
-						case 'credits':
-							MusicBeatState.switchState(new CreditsState());
-						case 'gallery':
-							MusicBeatState.switchState(new GalleryState());
-						case 'options':
-							MusicBeatState.switchState(new OptionsState());
-							OptionsState.onPlayState = false;
-							if (PlayState.SONG != null) {
-								PlayState.SONG.arrowSkin = null;
-								PlayState.SONG.splashSkin = null;
-								PlayState.stageUI = 'normal';
-							}
-					}
-				});
+        for (i in 0...appsData.length)
+        {
+            var app = appsData[i];
+            var iconSpr:FlxSprite = new FlxSprite(centerStartX + (i * 40), FlxG.height + 9);
+            var iconPath:String = getValidIconPath(app.icon);
 
-				if (option != 'freeplay') {
-					FlxTween.tween(FlxG.camera, {zoom: 2}, 3.5, {ease:FlxEase.cubeInOut});
-					FlxTween.tween(FlxG.camera, {angle: 15}, 3.5, {ease:FlxEase.cubeInOut});
-				}
-			}
-			
-			if (#if TOUCH_CONTROLS_ALLOWED touchPad.buttonE.justPressed || #end controls.justPressed('debug_1')) {
-				selectedSomethin = true;
-				FlxTransitionableState.skipNextTransIn = false;
-				FlxTransitionableState.skipNextTransOut = false;
-				MusicBeatState.switchState(new MasterEditorMenu());
-			} else if (controls.justPressed('debug_2')) {
-				MusicBeatState.switchState(new ModsMenuState());
-			}
-		}
+            if (Paths.fileExists('images/' + iconPath + '.png', IMAGE))
+                iconSpr.loadGraphic(Paths.image(iconPath));
+            else
+                iconSpr.makeGraphic(TASKBAR_ICON_SIZE, TASKBAR_ICON_SIZE, FlxColor.fromRGB(200, 160, 40));
 
-		super.update(elapsed);
-	}
+            iconSpr.setGraphicSize(TASKBAR_ICON_SIZE, TASKBAR_ICON_SIZE);
+            iconSpr.updateHitbox();
+            iconSpr.antialiasing = ClientPrefs.data.antialiasing;
+            iconSpr.ID = i;
+            taskbarIconsGroup.add(iconSpr);
+            taskbarIconSprites.push(iconSpr);
+        }
 
-	function changeItem(change:Int = 0)
-	{
-		curSelected = FlxMath.wrap(curSelected + change, 0, optionShit.length - 1);
-		FlxG.sound.play(Paths.sound('scrollMenu'));
+        clockText = new FlxText(FlxG.width - 95, FlxG.height + 10, 80, "00:00\n0/0/0000", 10);
+        clockText.setFormat("_sans", 10, FlxColor.WHITE, RIGHT);
+        clockText.textField.defaultTextFormat.leading = 4;      
+        clockText.antialiasing = ClientPrefs.data.antialiasing;
+        taskbarTextGroup.add(clockText);
 
-		for (item in menuItems) {
-			item.animation.play('idle');
-			item.centerOffsets();
-		}
+        add(taskbarContainer);
+        add(taskbarIconsGroup);
+        add(taskbarTextGroup);
 
-		var selectedItem:FlxSprite;
-		selectedItem = menuItems.members[curSelected];
-		selectedItem.animation.play('selected');
-		selectedItem.centerOffsets();
-	}
+        updateTaskbarPosition();
+    }
+
+    override function update(elapsed:Float)
+    {
+        super.update(elapsed);
+
+        var isMouseNearBottom:Bool = (FlxG.mouse.y >= FlxG.height - 65);
+        targetTaskbarY = isMouseNearBottom ? (FlxG.height - 48) : (FlxG.height - 2);
+
+        currentTaskbarY = FlxMath.lerp(currentTaskbarY, targetTaskbarY, elapsed * 12);
+        updateTaskbarPosition();
+
+        var date = Date.now();
+        var hours = StringTools.lpad(Std.string(date.getHours()), "0", 2);
+        var mins = StringTools.lpad(Std.string(date.getMinutes()), "0", 2);
+        var day = Std.string(date.getDate());
+        var month = Std.string(date.getMonth() + 1);
+        var year = date.getFullYear();
+
+        clockText.text = '$hours:$mins\n$day/$month/$year';
+
+        if (busy) return;
+
+        if (isSearching)
+        {
+            handleSearchInput();
+            return;
+        }
+
+        // --- TECLAS RÁPIDAS PARA EDITORES Y MODS ---
+        if (FlxG.keys.justPressed.SEVEN)
+        {
+            launchApp("editors");
+            return;
+        }
+        else if (FlxG.keys.justPressed.EIGHT)
+        {
+            launchApp("mods");
+            return;
+        }
+
+        if (isMouseNearBottom && FlxG.mouse.overlaps(searchBarBg))
+        {
+            if (FlxG.mouse.justPressed)
+            {
+                isSearching = true;
+                searchQuery = "";
+                searchTxt.text = "🔍 |";
+                searchTxt.color = FlxColor.WHITE;
+                return;
+            }
+        }
+
+        for (i in 0...desktopIconSprites.length)
+        {
+            var icon = desktopIconSprites[i];
+            if (FlxG.mouse.overlaps(icon))
+            {
+                icon.setGraphicSize(Std.int(DESKTOP_ICON_SIZE * 1.15), Std.int(DESKTOP_ICON_SIZE * 1.15));
+                icon.updateHitbox();
+
+                if (FlxG.mouse.justPressed)
+                {
+                    launchApp(appsData[i].action);
+                    return;
+                }
+            }
+            else
+            {
+                icon.setGraphicSize(DESKTOP_ICON_SIZE, DESKTOP_ICON_SIZE);
+                icon.updateHitbox();
+            }
+        }
+
+        if (isMouseNearBottom)
+        {
+            for (i in 0...taskbarIconSprites.length)
+            {
+                var icon = taskbarIconSprites[i];
+                if (FlxG.mouse.overlaps(icon))
+                {
+                    icon.setGraphicSize(Std.int(TASKBAR_ICON_SIZE * 1.25), Std.int(TASKBAR_ICON_SIZE * 1.25));
+                    icon.updateHitbox();
+
+                    if (FlxG.mouse.justPressed)
+                    {
+                        launchApp(appsData[i].action);
+                        return;
+                    }
+                }
+                else
+                {
+                    icon.setGraphicSize(TASKBAR_ICON_SIZE, TASKBAR_ICON_SIZE);
+                    icon.updateHitbox();
+                }
+            }
+        }
+    }
+
+    function handleSearchInput():Void
+    {
+        if (FlxG.keys.justPressed.ESCAPE)
+        {
+            cancelSearch();
+            return;
+        }
+
+        if (FlxG.keys.justPressed.ENTER)
+        {
+            executeSearch(searchQuery);
+            return;
+        }
+
+        if (FlxG.keys.justPressed.BACKSPACE)
+        {
+            if (searchQuery.length > 0)
+                searchQuery = searchQuery.substr(0, searchQuery.length - 1);
+            
+            searchTxt.text = searchQuery.length == 0 ? "🔍 |" : '🔍 $searchQuery|';
+            return;
+        }
+
+        var keysToCheck:Array<FlxKey> = [
+            A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z,
+            SPACE, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, ZERO
+        ];
+
+        for (key in keysToCheck)
+        {
+            if (FlxG.keys.anyJustPressed([key]))
+            {
+                var char:String = (key == SPACE) ? " " : key.toString().toLowerCase();
+                if (searchQuery.length < 20)
+                {
+                    searchQuery += char;
+                    searchTxt.text = '🔍 $searchQuery|';
+                }
+                break;
+            }
+        }
+
+        if (FlxG.mouse.justPressed && !FlxG.mouse.overlaps(searchBarBg))
+        {
+            cancelSearch();
+        }
+    }
+
+    function cancelSearch():Void
+    {
+        isSearching = false;
+        searchQuery = "";
+        searchTxt.text = "🔍 Buscar programa...";
+        searchTxt.color = FlxColor.GRAY;
+    }
+
+    function executeSearch(query:String):Void
+    {
+        var cleanQuery:String = StringTools.trim(query.toLowerCase());
+
+        switch (cleanQuery)
+        {
+            case "story", "storymode", "story mode", "youtube", "opera", "opera gx", "operagx", "browser", "historia":
+                cancelSearch();
+                launchApp("story");
+
+            case "freeplay", "spotify", "musica", "música", "canciones":
+                cancelSearch();
+                launchApp("freeplay");
+
+            case "flappy", "flappy webones", "flappybird", "juego", "pajarito":
+                cancelSearch();
+                launchApp("flappy");
+
+            case "options", "ajustes", "opciones", "configuracion", "configuración":
+                cancelSearch();
+                launchApp("options");
+
+            case "credits", "creditos", "créditos":
+                cancelSearch();
+                launchApp("credits");
+
+            case "gallery", "galeria", "galería", "fotos":
+                cancelSearch();
+                launchApp("gallery");
+
+            case "editors", "editor", "master", "chart", "character", "stage":
+                cancelSearch();
+                launchApp("editors");
+
+            case "mods", "mod", "modmenu":
+                cancelSearch();
+                launchApp("mods");
+
+            default:
+                searchTxt.text = "❌ No encontrado";
+                searchTxt.color = FlxColor.RED;
+                new flixel.util.FlxTimer().start(1.2, function(_) {
+                    cancelSearch();
+                });
+        }
+    }
+
+    function updateTaskbarPosition():Void
+    {
+        taskbarBg.y = currentTaskbarY;
+        startWinBtn.y = currentTaskbarY + 10;
+        searchBarBg.y = currentTaskbarY + 10;
+
+        for (spr in taskbarIconsGroup.members)
+        {
+            spr.y = currentTaskbarY + 10;
+        }
+
+        for (txt in taskbarTextGroup.members)
+        {
+            if (txt == clockText)
+                txt.y = currentTaskbarY + 10;
+            else
+                txt.y = currentTaskbarY + 15;
+        }
+    }
+
+    override function closeSubState()
+    {
+        busy = false;
+        super.closeSubState();
+    }
+
+    function launchApp(action:String):Void
+    {
+        if (busy) return;
+
+        try {
+            var snd = Paths.sound('confirmMenu');
+            if (snd != null) FlxG.sound.play(snd);
+        } catch (e:Dynamic) {}
+
+        switch (action)
+        {
+            case "story":
+                busy = true;
+                MusicBeatState.switchState(new StoryMenuState());
+
+            case "freeplay":
+                busy = true;
+                openSubState(new FreeplayState());
+
+            case "flappy":
+                busy = true;
+                MusicBeatState.switchState(new FlappySelectState());
+
+            case "options":
+                busy = true;
+                MusicBeatState.switchState(new options.OptionsState());
+
+            case "credits":
+                trace("Abriendo créditos...");
+
+            case "gallery":
+                busy = true;
+                MusicBeatState.switchState(new GalleryState());
+
+            case "editors":
+                busy = true;
+                FlxTransitionableState.skipNextTransIn = false;
+                FlxTransitionableState.skipNextTransOut = false;
+                MusicBeatState.switchState(new MasterEditorMenu());
+
+            case "mods":
+                busy = true;
+                MusicBeatState.switchState(new ModsMenuState());
+        }
+    }
 }

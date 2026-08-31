@@ -1,25 +1,23 @@
 {
+	"storyName": "Aquino y Duxo envían un saludo",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
-			"Drunkin",
-			"adrian",
-			[
-				30,
-				117,
-				184
-			]
-		],
-		[
-			"Brindis",
-			"adrian",
-			[
-				30,
-				117,
-				184
-			]
-		],
-		[
-			"Tregua",
+			"Last-dove",
 			"adrian",
 			[
 				30,
@@ -28,23 +26,7 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"hideFreeplay": false,
-	"weekBackground": "",
-	"difficulties": "Hard",
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
-	"storyName": "jugador agresivo de cuphead a 3 dedos",
-	"weekName": "cuphead pro player",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekName": "Mukasarethery",
+	"hiddenUntilUnlocked": false
 }

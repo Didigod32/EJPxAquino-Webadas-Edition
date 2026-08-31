@@ -1,12 +1,30 @@
 {
 	"songs": [
 		[
-			"Hype",
-			"compota",
+			"Drunkin",
+			"adrian",
 			[
-				45,
-				116,
-				224
+				30,
+				117,
+				184
+			]
+		],
+		[
+			"Brindis",
+			"adrian",
+			[
+				30,
+				117,
+				184
+			]
+		],
+		[
+			"Tregua",
+			"adrian",
+			[
+				30,
+				117,
+				184
 			]
 		]
 	],
@@ -19,14 +37,14 @@
 		"",
 		""
 	],
-	"storyName": "ENFRENTO A COMPOTA EN EL JUEGO POPULAR",
-	"weekName": "ENFRENTO A COMPOTA EN EL JUEGO POPULAR",
+	"storyName": "jugador agresivo de cuphead a 3 dedos",
+	"weekName": "cuphead pro player",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
 	"hideStoryMode": false,
-	"weekBefore": "week1",
+	"weekBefore": "tutorial",
 	"startUnlocked": true
 }
