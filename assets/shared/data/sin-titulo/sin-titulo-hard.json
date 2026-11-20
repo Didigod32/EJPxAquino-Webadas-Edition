@@ -1,248 +1,379 @@
 {
-	"player1": "aquino",
-	"player2": "locochon",
+	"player1": "aquinoloco",
+	"events": [
+		[
+			0,
+			[
+				["Set Cam Zoom", "1.05", "15"]
+			]
+		],
+		[
+			6.72043010752688,
+			[
+				["Cinematics", "85,2", "3"]
+			]
+		],
+		[
+			13.4408602150538,
+			[
+				["Hud Fade", "1", "135"]
+			]
+		],
+		[
+			20.1612903225806,
+			[
+				["Camera Zoom Speed", "16", "0"]
+			]
+		],
+		[
+			20645.1612903226,
+			[
+				["Cinematics", "45, 2", "3"]
+			]
+		],
+		[
+			30967.7419354839,
+			[
+				["Set Cam Zoom", "0.6", "1"]
+			]
+		],
+		[
+			41290.3225806452,
+			[
+				["Set Cam Zoom", "0.8", "1.15"]
+			]
+		],
+		[
+			41297.0430107527,
+			[
+				["Cinematics", "90, 4", "2"]
+			]
+		],
+		[
+			51612.9032258065,
+			[
+				["Set Cam Zoom", "1.05", "6"]
+			]
+		],
+		[
+			61935.4838709678,
+			[
+				["Set Cam Zoom", "0.51", "0.5"]
+			]
+		],
+		[
+			61948.9247311828,
+			[
+				["Cinematics", "35, 1", "3"]
+			]
+		],
+		[
+			72258.0645161291,
+			[
+				["Set Cam Zoom", "0.6", "1"]
+			]
+		],
+		[
+			82580.6451612903,
+			[
+				["Set Cam Zoom", "0.7", "1 "]
+			]
+		],
+		[
+			85161.2903225807,
+			[
+				["Set Cam Zoom", "0.75", "1 "]
+			]
+		],
+		[
+			87741.935483871,
+			[
+				["Set Cam Zoom", "0.8", "1 "]
+			]
+		],
+		[
+			90322.5806451613,
+			[
+				["Set Cam Zoom", "0.9", "1 "]
+			]
+		],
+		[
+			92903.2258064516,
+			[
+				["Set Cam Zoom", "0.85", "1 "]
+			]
+		],
+		[
+			95483.8709677419,
+			[
+				["Set Cam Zoom", "0.8", "1 "]
+			]
+		],
+		[
+			98064.5161290322,
+			[
+				["Set Cam Zoom", "0.75", "1 "]
+			]
+		],
+		[
+			100645.161290323,
+			[
+				["Set Cam Zoom", "0.65", "1 "]
+			]
+		]
+	],
+	"gfVersion": "bot",
 	"notes": [
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": false,
+			"sectionNotes": [],
 			"events": [
-				{"time": 0, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 0
 				},
 				{
-					"time": 315.789473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 315.789473684211
 				},
 				{
-					"time": 631.578947368421,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 631.578947368421
 				},
 				{
-					"time": 947.368421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 947.368421052632
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": false,
+			"sectionNotes": [],
 			"events": [
-				{"time": 1263.15789473684, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 1263.15789473684
 				},
 				{
-					"time": 1578.94736842105,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 1578.94736842105
 				},
 				{
-					"time": 1894.73684210526,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 1894.73684210526
 				},
 				{
-					"time": 2210.52631578947,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 2210.52631578947
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": false,
+			"sectionNotes": [],
 			"events": [
-				{"time": 2526.31578947368, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 2526.31578947368
 				},
 				{
-					"time": 2842.10526315789,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 2842.10526315789
 				},
 				{
-					"time": 3157.89473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 3157.89473684211
 				},
 				{
-					"time": 3473.68421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 3473.68421052632
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": true,
+			"sectionNotes": [],
 			"events": [
-				{"time": 3789.47368421053, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 3789.47368421053
 				},
 				{
-					"time": 4105.26315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 4105.26315789474
 				},
 				{
-					"time": 4421.05263157895,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 4421.05263157895
 				},
 				{
-					"time": 4736.84210526316,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 4736.84210526316
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": true,
+			"sectionNotes": [],
 			"events": [
-				{"time": 5052.63157894737, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 5052.63157894737
 				},
 				{
-					"time": 5368.42105263158,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 5368.42105263158
 				},
 				{
-					"time": 5684.21052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 5684.21052631579
 				},
 				{
-					"time": 6000,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 6000
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": true,
+			"sectionNotes": [],
 			"events": [
-				{"time": 6315.78947368421, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 6315.78947368421
 				},
 				{
-					"time": 6631.57894736842,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 6631.57894736842
 				},
 				{
-					"time": 6947.36842105263,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 6947.36842105263
 				},
 				{
-					"time": 7263.15789473684,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 7263.15789473684
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": true,
+			"sectionNotes": [],
 			"events": [
-				{"time": 7578.94736842105, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 7578.94736842105
 				},
 				{
-					"time": 7894.73684210526,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 7894.73684210526
 				},
 				{
-					"time": 8210.52631578948,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 8210.52631578948
 				},
 				{
-					"time": 8526.31578947369,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 8526.31578947369
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": true,
+			"sectionNotes": [],
 			"events": [
-				{"time": 8842.1052631579, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 8842.1052631579
 				},
 				{
-					"time": 9157.89473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 9157.89473684211
 				},
 				{
-					"time": 9473.68421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 9473.68421052632
 				},
 				{
-					"time": 9789.47368421053,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 9789.47368421053
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[20645.1612903226, 4, 403.225806451613],
 				[20645.1612903226, 1, 403.225806451613],
@@ -253,35 +384,36 @@
 				[22258.064516129, 6, 0],
 				[22741.935483871, 5, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 10105.2631578947, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 10105.2631578947
 				},
 				{
-					"time": 10421.0526315789,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 10421.0526315789
 				},
 				{
-					"time": 10736.8421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 10736.8421052632
 				},
 				{
-					"time": 11052.6315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 11052.6315789474
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[23225.8064516129, 3, 403.225806451613],
 				[23225.8064516129, 7, 403.225806451613],
@@ -292,35 +424,36 @@
 				[24838.7096774194, 6, 0],
 				[25322.5806451613, 4, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 11368.4210526316, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 11368.4210526316
 				},
 				{
-					"time": 11684.2105263158,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 11684.2105263158
 				},
 				{
-					"time": 12000,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 12000
 				},
 				{
-					"time": 12315.7894736842,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 12315.7894736842
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[25806.4516129032, 6, 403.225806451613],
 				[25806.4516129032, 3, 403.225806451613],
@@ -333,35 +466,36 @@
 				[27903.2258064516, 5, 0],
 				[28064.5161290323, 6, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 12631.5789473684, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 12631.5789473684
 				},
 				{
-					"time": 12947.3684210526,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 12947.3684210526
 				},
 				{
-					"time": 13263.1578947368,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 13263.1578947368
 				},
 				{
-					"time": 13578.9473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 13578.9473684211
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[28387.0967741935, 2, 403.225806451613],
 				[28387.0967741935, 6, 403.225806451613],
@@ -375,35 +509,36 @@
 				[30483.8709677419, 5, 0],
 				[30645.1612903226, 7, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 13894.7368421053, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 13894.7368421053
 				},
 				{
-					"time": 14210.5263157895,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 14210.5263157895
 				},
 				{
-					"time": 14526.3157894737,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 14526.3157894737
 				},
 				{
-					"time": 14842.1052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 14842.1052631579
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[30967.7419354839, 0, 403.225806451613],
 				[30967.7419354839, 7, 403.225806451613],
@@ -414,59 +549,60 @@
 				[32580.6451612903, 2, 0],
 				[33064.5161290323, 1, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 15157.8947368421, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 15157.8947368421
 				},
 				{
-					"time": 15315.7894736842,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 15315.7894736842
 				},
 				{
-					"time": 15473.6842105263,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 15473.6842105263
 				},
 				{
-					"time": 15631.5789473684,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 15631.5789473684
 				},
 				{
-					"time": 15789.4736842105,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 15789.4736842105
 				},
 				{
-					"time": 15947.3684210526,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 15947.3684210526
 				},
 				{
-					"time": 16105.2631578947,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 16105.2631578947
 				},
 				{
-					"time": 16263.1578947368,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 16263.1578947368
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[33548.3870967742, 7, 403.225806451613],
 				[33548.3870967742, 3, 403.225806451613],
@@ -477,59 +613,60 @@
 				[35161.2903225806, 2, 0],
 				[35645.1612903226, 0, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 16421.052631579, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 16421.052631579
 				},
 				{
-					"time": 16578.9473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 16578.9473684211
 				},
 				{
-					"time": 16736.8421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 16736.8421052632
 				},
 				{
-					"time": 16894.7368421053,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 16894.7368421053
 				},
 				{
-					"time": 17052.6315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17052.6315789474
 				},
 				{
-					"time": 17210.5263157895,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17210.5263157895
 				},
 				{
-					"time": 17368.4210526316,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17368.4210526316
 				},
 				{
-					"time": 17526.3157894737,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17526.3157894737
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[36129.0322580645, 2, 403.225806451613],
 				[36129.0322580645, 7, 403.225806451613],
@@ -542,107 +679,108 @@
 				[38225.8064516129, 1, 0],
 				[38387.0967741935, 2, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 17684.2105263158, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17684.2105263158
 				},
 				{
-					"time": 17763.1578947368,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17763.1578947368
 				},
 				{
-					"time": 17842.1052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17842.1052631579
 				},
 				{
-					"time": 17921.052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 17921.052631579
 				},
 				{
-					"time": 18000,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18000
 				},
 				{
-					"time": 18078.9473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18078.9473684211
 				},
 				{
-					"time": 18157.8947368421,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18157.8947368421
 				},
 				{
-					"time": 18236.8421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18236.8421052632
 				},
 				{
-					"time": 18315.7894736842,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18315.7894736842
 				},
 				{
-					"time": 18394.7368421053,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18394.7368421053
 				},
 				{
-					"time": 18473.6842105263,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18473.6842105263
 				},
 				{
-					"time": 18552.6315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18552.6315789474
 				},
 				{
-					"time": 18631.5789473684,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18631.5789473684
 				},
 				{
-					"time": 18710.5263157895,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18710.5263157895
 				},
 				{
-					"time": 18789.4736842105,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18789.4736842105
 				},
 				{
-					"time": 18868.4210526316,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.05, 0.02]}
-					]
+						{"args": [0.05, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18868.4210526316
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[38709.6774193548, 2, 403.225806451613],
 				[38709.6774193548, 6, 403.225806451613],
@@ -656,29 +794,30 @@
 				[40806.4516129032, 1, 0],
 				[40967.7419354839, 2, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 18947.3684210526, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 18947.3684210526
 				},
 				{
-					"time": 19578.9473684211,
 					"events": [
-						{"name": "Camera Zoom", "args": [1.5]}
-					]
+						{"args": [1.5], "name": "Camera Zoom"}
+					],
+					"time": 19578.9473684211
 				},
 				{
-					"time": 20131.5789473684,
 					"events": [
-						{"name": "Camera Zoom", "args": [0.8]}
-					]
+						{"args": [0.8], "name": "Camera Zoom"}
+					],
+					"time": 20131.5789473684
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[41290.3225806452, 4, 0],
 				[41612.9032258065, 6, 0],
@@ -690,17 +829,18 @@
 				[43225.8064516129, 6, 0],
 				[43548.3870967742, 7, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 20210.5263157895, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 20210.5263157895
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[43870.9677419355, 4, 0],
 				[44193.5483870968, 6, 0],
@@ -712,17 +852,18 @@
 				[45806.4516129032, 7, 0],
 				[46129.0322580645, 5, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 21473.6842105263, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 21473.6842105263
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[46451.6129032258, 7, 0],
 				[46774.1935483871, 5, 0],
@@ -733,17 +874,18 @@
 				[48387.0967741936, 6, 483.870967741935],
 				[48709.6774193548, 5, 322.58064516129]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 22736.8421052632, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 22736.8421052632
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[49032.2580645161, 7, 0],
 				[49354.8387096774, 5, 0],
@@ -754,17 +896,18 @@
 				[50967.7419354839, 6, 161.290322580645],
 				[51290.3225806452, 5, 161.290322580645]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 24000, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 24000
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[51612.9032258065, 3, 0],
 				[51935.4838709678, 2, 0],
@@ -776,17 +919,18 @@
 				[53548.3870967742, 2, 0],
 				[53870.9677419355, 3, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 25263.1578947368, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 25263.1578947368
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[54193.5483870968, 0, 0],
 				[54516.1290322581, 2, 0],
@@ -798,17 +942,18 @@
 				[56129.0322580645, 3, 0],
 				[56451.6129032258, 1, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 26526.3157894737, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 26526.3157894737
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[56774.1935483871, 2, 0],
 				[57096.7741935484, 1, 0],
@@ -819,17 +964,18 @@
 				[58709.6774193549, 2, 483.870967741935],
 				[59032.2580645162, 1, 322.58064516129]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 27789.4736842105, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 27789.4736842105
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[59354.8387096774, 3, 0],
 				[59677.4193548387, 1, 0],
@@ -840,17 +986,18 @@
 				[61290.3225806452, 2, 161.290322580645],
 				[61612.9032258065, 1, 161.290322580645]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 29052.6315789474, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 29052.6315789474
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[61935.4838709678, 6, 483.870967741935],
 				[62580.6451612904, 4, 483.870967741935],
@@ -859,17 +1006,18 @@
 				[63870.9677419355, 5, 806.451612903226],
 				[64193.5483870968, 6, 564.516129032258]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 30315.7894736842, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 30315.7894736842
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[64838.7096774194, 5, 483.870967741935],
 				[65483.870967742, 6, 161.290322580645],
@@ -877,17 +1025,18 @@
 				[66451.6129032258, 5, 161.290322580645],
 				[66774.1935483871, 4, 161.290322580645]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 31578.9473684211, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 31578.9473684211
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[67096.7741935484, 7, 483.870967741935],
 				[67741.935483871, 6, 483.870967741935],
@@ -896,17 +1045,18 @@
 				[69032.2580645162, 6, 161.290322580645],
 				[69354.8387096775, 7, 161.290322580645]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 32842.1052631579, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 32842.1052631579
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[69677.4193548387, 6, 322.58064516129],
 				[70161.2903225807, 4, 322.58064516129],
@@ -918,17 +1068,18 @@
 				[71774.1935483871, 5, 0],
 				[71935.4838709678, 7, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 34105.2631578947, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 34105.2631578947
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[72258.0645161291, 2, 483.870967741935],
 				[72903.2258064516, 0, 483.870967741935],
@@ -937,17 +1088,18 @@
 				[74193.5483870968, 1, 806.451612903226],
 				[74516.1290322581, 2, 483.870967741935]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 35368.4210526316, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 35368.4210526316
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[75161.2903225807, 1, 483.870967741935],
 				[75806.4516129032, 2, 161.290322580645],
@@ -955,17 +1107,18 @@
 				[76774.1935483871, 1, 161.290322580645],
 				[77096.7741935484, 0, 161.290322580645]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 36631.5789473684, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 36631.5789473684
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[77419.3548387097, 3, 483.870967741935],
 				[78064.5161290323, 2, 483.870967741935],
@@ -974,17 +1127,18 @@
 				[79354.8387096774, 3, 161.290322580645],
 				[79677.4193548387, 2, 161.290322580645]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 37894.7368421053, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 37894.7368421053
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[80000, 0, 161.290322580645],
 				[80483.870967742, 3, 322.58064516129],
@@ -996,17 +1150,18 @@
 				[82096.7741935484, 1, 0],
 				[82258.064516129, 2, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 39157.8947368421, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 39157.8947368421
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[82580.6451612903, 1, 403.225806451613],
 				[82580.6451612903, 4, 403.225806451613],
@@ -1017,35 +1172,36 @@
 				[84193.5483870968, 6, 0],
 				[84677.4193548387, 5, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 40421.052631579, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 40421.052631579
 				},
 				{
-					"time": 40736.8421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 40736.8421052632
 				},
 				{
-					"time": 41052.6315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 41052.6315789474
 				},
 				{
-					"time": 41368.4210526316,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 41368.4210526316
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[85161.2903225807, 0, 403.225806451613],
 				[85161.2903225807, 7, 403.225806451613],
@@ -1056,37 +1212,35 @@
 				[86774.1935483871, 6, 0],
 				[87258.064516129, 7, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": false,
 			"events": [
-				{"time": 41684.2105263158, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 41684.2105263158
 				},
 				{
-					"time": 42000,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 42000
 				},
 				{
-					"time": 42315.7894736842,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 42315.7894736842
 				},
 				{
-					"time": 42631.5789473684,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 42631.5789473684
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
-			"sectionBeats": 4,
-			"lengthInSteps": 16,
 			"sectionNotes": [
 				[87741.935483871, 6, 483.870967741935],
 				[87741.935483871, 3, 403.225806451613],
@@ -1099,36 +1253,37 @@
 				[89838.7096774194, 5, 0],
 				[90000, 6, 0]
 			],
+			"lengthInSteps": 16,
+			"sectionBeats": 4,
 			"events": [
-				{"time": 42947.3684210526, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 42947.3684210526
 				},
 				{
-					"time": 43263.1578947368,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 43263.1578947368
 				},
 				{
-					"time": 43578.9473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 43578.9473684211
 				},
 				{
-					"time": 43894.7368421053,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 43894.7368421053
 				}
 			
 			],
 			"mustHitSection": false
 		},
 		{
-			"sectionBeats": 4,
-			"lengthInSteps": 16,
 			"sectionNotes": [
 				[90322.5806451613, 6, 403.225806451613],
 				[90322.5806451613, 2, 403.225806451613],
@@ -1142,34 +1297,38 @@
 				[92419.3548387097, 7, 0],
 				[92580.6451612903, 6, 0]
 			],
+			"lengthInSteps": 16,
+			"sectionBeats": 4,
 			"events": [
-				{"time": 44210.5263157895, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 44210.5263157895
 				},
 				{
-					"time": 44526.3157894737,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 44526.3157894737
 				},
 				{
-					"time": 44842.1052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 44842.1052631579
 				},
 				{
-					"time": 45157.8947368421,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 45157.8947368421
 				}
 			
 			],
 			"mustHitSection": false
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[92903.2258064516, 5, 403.225806451613],
 				[92903.2258064516, 0, 403.225806451613],
@@ -1180,35 +1339,36 @@
 				[94516.1290322581, 3, 0],
 				[95000, 1, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 45473.6842105263, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 45473.6842105263
 				},
 				{
-					"time": 45789.4736842105,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 45789.4736842105
 				},
 				{
-					"time": 46105.2631578947,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 46105.2631578947
 				},
 				{
-					"time": 46421.052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 46421.052631579
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[95483.8709677419, 0, 403.225806451613],
 				[95483.8709677419, 7, 403.225806451613],
@@ -1219,35 +1379,36 @@
 				[97096.7741935484, 0, 0],
 				[97580.6451612903, 3, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 46736.8421052632, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 46736.8421052632
 				},
 				{
-					"time": 47052.6315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 47052.6315789474
 				},
 				{
-					"time": 47368.4210526316,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 47368.4210526316
 				},
 				{
-					"time": 47684.2105263158,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 47684.2105263158
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[98064.5161290322, 2, 403.225806451613],
 				[98064.5161290322, 4, 403.225806451613],
@@ -1260,35 +1421,36 @@
 				[100161.290322581, 1, 0],
 				[100322.580645161, 2, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 48000, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 48000
 				},
 				{
-					"time": 48315.7894736842,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 48315.7894736842
 				},
 				{
-					"time": 48631.5789473684,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 48631.5789473684
 				},
 				{
-					"time": 48947.3684210526,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 48947.3684210526
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
+			"sectionBeats": 4,
 			"sectionNotes": [
 				[100645.161290323, 2, 403.225806451613],
 				[100645.161290323, 6, 403.225806451613],
@@ -1302,111 +1464,112 @@
 				[102741.935483871, 3, 0],
 				[102903.225806452, 2, 0]
 			],
-			"sectionBeats": 4,
-			"mustHitSection": true,
 			"events": [
-				{"time": 49263.1578947368, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 49263.1578947368
 				},
 				{
-					"time": 49578.9473684211,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 49578.9473684211
 				},
 				{
-					"time": 49894.7368421053,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 49894.7368421053
 				},
 				{
-					"time": 50052.6315789474,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 50052.6315789474
 				},
 				{
-					"time": 50210.5263157895,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 50210.5263157895
 				}
 			
-			]
+			],
+			"mustHitSection": true
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": false,
+			"sectionNotes": [],
 			"events": [
-				{"time": 50526.3157894737, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 50526.3157894737
 				},
 				{
-					"time": 50842.1052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 50842.1052631579
 				},
 				{
-					"time": 51157.8947368421,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 51157.8947368421
 				},
 				{
-					"time": 51473.6842105263,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 51473.6842105263
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		},
 		{
-			"sectionNotes": [],
 			"sectionBeats": 4,
-			"mustHitSection": false,
+			"sectionNotes": [],
 			"events": [
-				{"time": 51789.4736842105, "events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+				{"events": [
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 51789.4736842105
 				},
 				{
-					"time": 52105.2631578947,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 52105.2631578947
 				},
 				{
-					"time": 52421.052631579,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 52421.052631579
 				},
 				{
-					"time": 52736.8421052632,
 					"events": [
-						{"name": "Camera Zoom Bump", "args": [0.1, 0.02]}
-					]
+						{"args": [0.1, 0.02], "name": "Camera Zoom Bump"}
+					],
+					"time": 52736.8421052632
 				}
 			
-			]
+			],
+			"mustHitSection": false
 		}
 	],
-	"gfVersion": "bot",
-	"events": [],
+	"player2": "locochon",
 	"player3": null,
 	"initialSpeed": 1.44,
 	"sliderVelocities": null,
 	"song": "Sin titulo",
-	"validScore": true,
-	"stage": "furcon",
 	"needsVoices": true,
-	"speed": 3.2,
+	"stage": "furcon",
+	"validScore": true,
+	"format": "psych_v1_convert",
 	"bpm": 93,
-	"format": "psych_v1_convert"
+	"speed": 3.2
 }

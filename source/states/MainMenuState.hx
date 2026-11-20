@@ -53,10 +53,10 @@ class MainMenuState extends MusicBeatState
     // LISTA DE APLICACIONES EN ESCRITORIO
     var appsData:Array<Dynamic> = [
         {id: "story", title: "Story Mode", icon: "Opera_GX", action: "story"},
-        {id: "freeplay", title: "Spotify", icon: "spotify", action: "freeplay"},
+        {id: "freeplay", title: "Freeplay", icon: "spotify", action: "freeplay"},
         {id: "flappy", title: "Flappy webones", icon: "flappy", action: "flappy"},
         {id: "options", title: "Ajustes", icon: "ajustes", action: "options"},
-        {id: "credits", title: "Créditos", icon: "powerpoint", action: "credits"},
+        {id: "credits", title: "Créditos", icon: "ppoint", action: "credits"},
         {id: "gallery", title: "Galería", icon: "fotos", action: "gallery"}
     ];
 
@@ -78,8 +78,8 @@ class MainMenuState extends MusicBeatState
         FlxG.mouse.visible = true;
 
         desktopWallpaper = new FlxSprite(0, 0);
-        if (Paths.fileExists('images/menuBG.png', IMAGE))
-            desktopWallpaper.loadGraphic(Paths.image('menuBG'));
+        if (Paths.fileExists('images/menuDesat.png', IMAGE))
+            desktopWallpaper.loadGraphic(Paths.image('menuDesat'));
         else
             desktopWallpaper.makeGraphic(FlxG.width, FlxG.height, FlxColor.fromRGB(25, 35, 45));
         desktopWallpaper.setGraphicSize(FlxG.width, FlxG.height);
@@ -478,8 +478,8 @@ class MainMenuState extends MusicBeatState
                 MusicBeatState.switchState(new options.OptionsState());
 
             case "credits":
-                trace("Abriendo créditos...");
-
+                busy = true;
+                MusicBeatState.switchState(new states.CreditsState());
             case "gallery":
                 busy = true;
                 MusicBeatState.switchState(new GalleryState());

@@ -1,78 +1,55 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [0, 0],
 			"anim": "idle",
-			"indices": [],
-			"name": "loco idle note0"
+			"fps": 24,
+			"name": "loco idle note0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				77,
-				19
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [77, 19],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "loco left note0"
+			"fps": 24,
+			"name": "loco left note0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-47,
-				-24
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-47, -24],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "loco down note0"
+			"fps": 24,
+			"name": "loco down note0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-5,
-				103
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-5, 103],
 			"anim": "singUP",
-			"indices": [],
-			"name": "loco up note0"
+			"fps": 24,
+			"name": "loco up note0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-50,
-				11
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-50, 11],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "loco right note0"
+			"fps": 24,
+			"name": "loco right note0",
+			"indices": []
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/locochon/Locogod_assets",
-	"position": [
-		170,
-		250
-	],
+	"position": [170, 200],
 	"healthicon": "icon-loco",
 	"flip_x": false,
-	"healthbar_colors": [
-		151,
-		29,
-		161
-	],
-	"camera_position": [
-		-20,
-		-90
-	],
+	"healthbar_colors": [151, 29, 161],
+	"camera_position": [-20, -150],
 	"sing_duration": 6.1,
-	"scale": 1.4
+	"scale": 1.1,
+	"_editor_isPlayer": false
 }

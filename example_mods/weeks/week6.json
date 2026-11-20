@@ -1,42 +1,25 @@
+
 {
-	"storyName": "Loco la cámara",
+	"storyName": "ENFRENTO A COMPOTA EN EL JUEGO POPULAR",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "week6",
+	"weekBefore": "week1",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": true,
+	"startUnlocked": false,
 	"hideStoryMode": false,
 	"songs": [
 		[
-			"Sin titulo",
-			"loco",
+			"Hype",
+			"compota",
 			[
-				151,
-				29,
-				161
-			]
-		],
-		[
-			"Orphan",
-			"loco",
-			[
-				151,
-				29,
-				161
-			]
-		],
-		[
-			"Loco+",
-			"loco",
-			[
-				151,
-				29,
-				161
+				45,
+				116,
+				224
 			]
 		]
 	],
@@ -46,5 +29,5 @@
 		""
 	],
 	"hiddenUntilUnlocked": false,
-	"weekName": "Loco"
+	"weekName": "ENFRENTO A COMPOTA EN EL JUEGO POPULAR"
 }

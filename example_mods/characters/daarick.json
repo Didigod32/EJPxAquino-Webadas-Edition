@@ -1,78 +1,55 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [0, 0],
 			"anim": "idle",
-			"indices": [],
-			"name": "Daarick idle"
+			"fps": 24,
+			"name": "Daarick idle",
+			"indices": []
 		},
 		{
-			"offsets": [
-				28,
-				-6
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [28, -6],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Daarick right note"
+			"fps": 24,
+			"name": "Daarick right note",
+			"indices": []
 		},
 		{
-			"offsets": [
-				48,
-				-89
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [48, -89],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Daarick down note"
+			"fps": 24,
+			"name": "Daarick down note",
+			"indices": []
 		},
 		{
-			"offsets": [
-				28,
-				5
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [28, 5],
 			"anim": "singUP",
-			"indices": [],
-			"name": "Daarick up note"
+			"fps": 24,
+			"name": "Daarick up note",
+			"indices": []
 		},
 		{
-			"offsets": [
-				94,
-				-9
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [94, -9],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Daarick left note"
+			"fps": 24,
+			"name": "Daarick left note",
+			"indices": []
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/daarick/Daarick_assets",
-	"position": [
-		-30,
-		40
-	],
+	"position": [-30, 40],
 	"healthicon": "icon-daarick",
 	"flip_x": false,
-	"healthbar_colors": [
-		75,
-		172,
-		214
-	],
-	"camera_position": [
-		50,
-		-30
-	],
+	"healthbar_colors": [75, 172, 214],
+	"camera_position": [30, 30],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1,
+	"_editor_isPlayer": false
 }

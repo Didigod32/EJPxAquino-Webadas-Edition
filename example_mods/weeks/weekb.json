@@ -1,0 +1,68 @@
+{
+	"storyName": "",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "weeka",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Estabilidad",
+			"aquino-oto",
+			[
+				129,
+				50,
+				30
+			]
+		],
+		[
+			"Mysterioso28",
+			"daarick",
+			[
+				75,
+				172,
+				214
+			]
+		],
+		[
+			"Demencia en verde",
+			"locochon-duendeverde",
+			[
+				31,
+				116,
+				54
+			]
+		],
+		[
+			"trio",
+			"tommy-duendeverde",
+			[
+				31,
+				116,
+				54
+			]
+		],
+		[
+			"Voltaje",
+			"soaring-electro",
+			[
+				239,
+				198,
+				33
+			]
+		]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Dirego"
+}

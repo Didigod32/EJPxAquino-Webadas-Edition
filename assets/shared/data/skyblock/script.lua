@@ -1,17 +1,18 @@
 function onCreate()
-    addHaxeLibrary('MusicBeatState')
-    addHaxeLibrary('CreditsState')
+
+addHaxeLibrary('MusicBeatState')
+addHaxeLibrary('CreditsState')
 
     for i = 1, 7 do
-        precacheSound('hit'..i)
-        precacheSound('sweep'..i)
+        precacheSound('mc/hit'..i)
+        precacheSound('mc/sweep'..i)
     end
 end
 
 function noteMiss(membersIndex, noteDirect, noteType, isSustainNote)
     cancelTween('girar')
     setProperty('camGame.angle', getRandomInt(-2, 2));
-    playSound('hit'..getRandomInt(1, 3), 1, 'hiti');
+    playSound('mc/hit'..getRandomInt(1, 3), 1, 'hiti');
     doTweenAngle('girar', 'camGame', 0, 0.2, 'linear');
 end
 
@@ -21,9 +22,9 @@ function onEvent(n, v1, v2)
             if getProperty('dad.animation.curAnim.name'):find('ataque') then
                 cancelTween('girar')
                 setProperty('camGame.angle', getRandomInt(-2, 2))
-                addHealth(-0.01);
-                playSound('hit'..getRandomInt(1, 3), 1)
-                playSound('sweep'..getRandomInt(1, 7), 1)
+                addHealth(-0.075);
+                playSound('mc/hit'..getRandomInt(1, 3), 1)
+                playSound('mc/sweep'..getRandomInt(1, 7), 1)
             end
             doTweenAngle('girar', 'camGame', 0, 0.4, 'linear');
         end

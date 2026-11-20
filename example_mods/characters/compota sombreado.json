@@ -1,133 +1,95 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-61,
-				-60
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-61, -60],
 			"anim": "idle",
-			"indices": [],
-			"name": "compota idle"
+			"fps": 24,
+			"name": "compota idle",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-45,
-				-65
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-45, -65],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "compota right"
+			"fps": 24,
+			"name": "compota right",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-69,
-				-75
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-69, -75],
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "compota down"
+			"fps": 24,
+			"name": "compota down",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-58,
-				-47
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-58, -47],
 			"anim": "singUP",
-			"indices": [],
-			"name": "compota up"
+			"fps": 24,
+			"name": "compota up",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-73,
-				-61
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [-73, -61],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "compota left"
+			"fps": 24,
+			"name": "compota left",
+			"indices": []
 		},
 		{
+			"offsets": [-60, -60],
 			"loop": false,
-			"offsets": [
-				-60,
-				-60
-			],
+			"fps": 24,
 			"anim": "idle-alt",
-			"fps": 24,
-			"name": "compota alt idle",
-			"indices": []
+			"indices": [],
+			"name": "compota alt idle"
 		},
 		{
+			"offsets": [-1, -62],
 			"loop": false,
-			"offsets": [
-				-1,
-				-62
-			],
+			"fps": 24,
 			"anim": "singLEFT-alt",
-			"fps": 24,
-			"name": "compota alt right",
-			"indices": []
+			"indices": [],
+			"name": "compota alt right"
 		},
 		{
+			"offsets": [-36, -77],
 			"loop": false,
-			"offsets": [
-				-36,
-				-77
-			],
+			"fps": 24,
 			"anim": "singDOWN-alt",
-			"fps": 24,
-			"name": "compota alt down",
-			"indices": []
+			"indices": [],
+			"name": "compota alt down"
 		},
 		{
+			"offsets": [-6, -33],
 			"loop": false,
-			"offsets": [
-				-6,
-				-33
-			],
+			"fps": 24,
 			"anim": "singUP-alt",
-			"fps": 24,
-			"name": "compota alt up",
-			"indices": []
+			"indices": [],
+			"name": "compota alt up"
 		},
 		{
+			"offsets": [-90, -55],
 			"loop": false,
-			"offsets": [
-				-90,
-				-55
-			],
-			"anim": "singRIGHT-alt",
 			"fps": 24,
-			"name": "compota alt left",
-			"indices": []
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "compota alt left"
 		}
 	],
-	"no_antialiasing": true,
+	"vocals_file": "",
+	"no_antialiasing": false,
 	"image": "characters/compota/Cumpota_assets",
-	"position": [
-		0,
-		100
-	],
+	"position": [0, 100],
 	"healthicon": "icon-compota",
 	"flip_x": true,
-	"healthbar_colors": [
-		45,
-		116,
-		222
-	],
-	"camera_position": [
-		70,
-		160
-	],
+	"healthbar_colors": [45, 116, 222],
+	"camera_position": [70, 100],
 	"sing_duration": 4,
-	"scale": 0.8
+	"scale": 0.6,
+	"_editor_isPlayer": false
 }

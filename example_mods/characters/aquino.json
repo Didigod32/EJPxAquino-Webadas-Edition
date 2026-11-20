@@ -1,127 +1,160 @@
 {
+
 	"animations": [
 		{
+			"offsets": [17, -11],
 			"loop": false,
-			"offsets": [-80, 430],
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "aquino alto idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [-99, 475],
-			"anim": "singUP",
-			"fps": 24,
-			"name": "aquino alto up0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [89, 344],
-			"anim": "singLEFT-alt",
-			"fps": 24,
-			"name": "Aquino right alt note",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [-83, 387],
-			"anim": "singDOWN",
-			"fps": 24,
-			"name": "aquino alto down note0",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [-82, 385],
-			"anim": "singDOWN-alt",
-			"fps": 24,
-			"name": "Aquino down alt note",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [-102, 491],
-			"anim": "singUP-alt",
-			"fps": 24,
-			"name": "Aquino up alt note",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [-83, 364],
-			"anim": "singRIGHT-alt",
-			"fps": 24,
-			"name": "Aquino left alt note",
-			"indices": []
-		},
-		{
-			"offsets": [-74, 438],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "aquino alto right note miss"
+			"name": "Aquino idle0"
 		},
 		{
-			"offsets": [-87, 405],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "aquino alto down note miss"
-		},
-		{
-			"offsets": [-97, 473],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [],
-			"name": "aquino alto upMISS"
-		},
-		{
-			"offsets": [-87, 414],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "aquino alto left note miss"
-		},
-		{
-			"offsets": [-88, 414],
+			"offsets": [13, -11],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "aquino alto left note0"
+			"name": "Aquino note right0"
 		},
 		{
-			"offsets": [-78, 424],
+			"offsets": [24, -35],
 			"loop": false,
 			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aquino note down0"
+		},
+		{
+			"offsets": [-3, 32],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Aquino note up0"
+		},
+		{
+			"loop": false,
+			"offsets": [18, -11],
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "aquino alto right note0"
+			"fps": 24,
+			"name": "Aquino note left0",
+			"indices": []
 		},
 		{
-			"offsets": [-48, 415],
+			"offsets": [13, -11],
 			"loop": false,
 			"fps": 24,
-			"anim": "ptm",
+			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "ptm-eso-no0"
+			"name": "Aquino note right miss0"
+		},
+		{
+			"offsets": [24, -19],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Aquino note down miss0"
+		},
+		{
+			"offsets": [1, 33],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Aquino note up miss0"
+		},
+		{
+			"loop": false,
+			"offsets": [18, 0],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Aquino note left miss0",
+			"indices": []
+		},
+		{
+			"offsets": [13, -52],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Aquino note right alt0"
+		},
+		{
+			"offsets": [27, -41],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "Aquino note down alt0"
+		},
+		{
+			"offsets": [3, 34],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP-alt",
+			"indices": [],
+			"name": "Aquino note up alt0"
+		},
+		{
+			"loop": false,
+			"offsets": [141, -62],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "Aquino note left alt0",
+			"indices": []
+		},
+		{
+			"offsets": [15, -36],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss-alt",
+			"indices": [],
+			"name": "Aquino note right alt miss0"
+		},
+		{
+			"offsets": [26, -12],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss-alt",
+			"indices": [],
+			"name": "Aquino note down alt miss0"
+		},
+		{
+			"offsets": [9, 34],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss-alt",
+			"indices": [],
+			"name": "Aquino note up alt miss0"
+		},
+		{
+			"loop": false,
+			"offsets": [141, -43],
+			"anim": "singLEFTmiss-alt",
+			"fps": 24,
+			"name": "Aquino note left alt miss0",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/aquino/Aquino-Alto, characters/aquino/Aquinov4_ptmr_eso_no_vale",
-	"position": [-100, 450],
+	"image": "characters/aquino/Aquinov4",
+	"position": [0, 20],
 	"healthicon": "icon-aquino",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [250, 151, 61],
-	"camera_position": [50, -350],
+	"camera_position": [90, 0],
 	"sing_duration": 4,
 	"scale": 0.9,
-	"_editor_isPlayer": true
+	"_editor_isPlayer": true,
+	"gameOverProperties": 
+	{
+		"character": "aquino-dead",
+		"sound": "fnf_loss_sfx",
+		"loop": "gameOver",
+		"end": "gameOverEnd"
+	}
+	
 }

@@ -2,10 +2,7 @@
 	"animations": [
 		{
 			"loop": false,
-			"offsets": [
-				27,
-				180
-			],
+			"offsets": [27, 180],
 			"anim": "idle",
 			"fps": 24,
 			"name": "duxo idle",
@@ -13,119 +10,39 @@
 		},
 		{
 			"loop": false,
-			"offsets": [
-				36,
-				76
-			],
+			"offsets": [36, 76],
 			"anim": "singDOWN",
 			"fps": 24,
 			"name": "duxo down",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14
-			]
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 		},
 		{
 			"loop": false,
-			"offsets": [
-				31,
-				180
-			],
+			"offsets": [31, 180],
 			"anim": "singLEFT",
 			"fps": 24,
 			"name": "duxo left",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15
-			]
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 		},
 		{
 			"loop": false,
-			"offsets": [
-				24,
-				190
-			],
+			"offsets": [24, 190],
 			"anim": "singUP",
 			"fps": 24,
 			"name": "duxo up",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14
-			]
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 		},
 		{
 			"loop": false,
-			"offsets": [
-				15,
-				181
-			],
+			"offsets": [15, 181],
 			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "duxo right",
-			"indices": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14
-			]
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 		},
 		{
 			"loop": false,
-			"offsets": [
-				14,
-				181
-			],
+			"offsets": [14, 181],
 			"anim": "duxo habla",
 			"fps": 24,
 			"name": "duxo habla",
@@ -133,33 +50,30 @@
 		},
 		{
 			"loop": false,
-			"offsets": [
-				15,
-				180
-			],
+			"offsets": [15, 180],
 			"anim": "duxo insulta",
 			"fps": 24,
 			"name": "vete a la concha duxo",
 			"indices": []
+		},
+		{
+			"offsets": [15, 180],
+			"indices": [],
+			"fps": 24,
+			"anim": "duxoinsulta",
+			"loop": false,
+			"name": "vete a la concha duxo"
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/duxo/duxo_enojado",
-	"position": [
-		0,
-		340
-	],
-	"healthicon": "duxo icons fase 1",
+	"position": [0, 340],
+	"healthicon": "icon-duxo-enojado",
 	"flip_x": false,
-	"healthbar_colors": [
-		183,
-		154,
-		244
-	],
-	"camera_position": [
-		20,
-		-210
-	],
+	"healthbar_colors": [183, 154, 244],
+	"camera_position": [20, -210],
 	"sing_duration": 4,
-	"scale": 1.2
+	"scale": 1.2,
+	"_editor_isPlayer": false
 }

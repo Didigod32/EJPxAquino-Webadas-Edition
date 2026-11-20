@@ -1,57 +1,38 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				36,
-				-21
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [36, -21],
 			"anim": "firstDeath",
-			"indices": [],
-			"name": "aquino death anim0"
+			"fps": 24,
+			"name": "aquino death anim0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				15,
-				-21
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [15, -21],
 			"anim": "deathLoop",
-			"indices": [],
-			"name": "aquino death loop0"
+			"fps": 24,
+			"name": "aquino death loop0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				15,
-				-1
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [15, -1],
 			"anim": "deathConfirm",
-			"indices": [],
-			"name": "aquino death confirm0"
+			"fps": 24,
+			"name": "aquino death confirm0",
+			"indices": []
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/aquino/aquinatordead",
-	"position": [
-		0,
-		0
-	],
-	"healthicon": "face",
+	"position": [0, 0],
+	"healthicon": "aquino",
 	"flip_x": true,
-	"healthbar_colors": [
-		161,
-		161,
-		161
-	],
-	"camera_position": [
-		-60,
-		50
-	],
+	"healthbar_colors": [255, 175, 41],
+	"camera_position": [-60, 50],
 	"sing_duration": 4,
 	"scale": 0.9,
 	"_editor_isPlayer": true

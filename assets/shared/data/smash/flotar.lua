@@ -16,15 +16,15 @@ function onCreatePost()
     bfBaseY = getProperty('boyfriend.y')
     gfBaseY = getProperty('gf.y')
 
-makeAnimatedLuaSprite('c3jocup1', 'c3jocup/c3jo_cuphead_plataforma', 1000, 620) 
+makeAnimatedLuaSprite('c3jocup1', 'main_weeks/c3jocup/c3jo_cuphead_plataforma', 1000, 620) 
 setScrollFactor('c3jocup1', 1, 1) scaleObject('c3jocup1', 1.2, 1.2) 
 addAnimationByPrefix('c3jocup1', 'idle', 'c3jo cuphead plataforma', 24, true)
 
- makeAnimatedLuaSprite('c3jocup2', 'c3jocup/c3jo_cuphead_plataforma', 1500, 750) 
+ makeAnimatedLuaSprite('c3jocup2', 'main_weeks/c3jocup/c3jo_cuphead_plataforma', 1500, 750) 
  setScrollFactor('c3jocup2', 1, 1) scaleObject('c3jocup2', 1.2, 1.2) 
  addAnimationByPrefix('c3jocup2', 'idle', 'c3jo cuphead plataforma', 24, true) 
 
- makeAnimatedLuaSprite('c3jocup3', 'c3jocup/c3jo_cuphead_plataforma', 450, 750) 
+ makeAnimatedLuaSprite('c3jocup3', 'main_weeks/c3jocup/c3jo_cuphead_plataforma', 450, 750) 
  setScrollFactor('c3jocup3', 1, 1) scaleObject('c3jocup3', 1.2, 1.2) 
  addAnimationByPrefix('c3jocup3', 'idle', 'c3jo cuphead plataforma', 24, true)
  

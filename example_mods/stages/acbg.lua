@@ -1,26 +1,26 @@
 function onCreatePost()
-    makeLuaSprite('city', 'acbg/1', -300, -220)
+    makeLuaSprite('city', 'main_weeks/acbg/1', -300, -220)
     setScrollFactor('city', 0.75, 0.75)
     scaleObject('city', 1.4, 1.4)
     setProperty('city.antialiasing', false)
     addLuaSprite('city')
 
-    makeLuaSprite('floor', 'acbg/2', 0, -220)
+    makeLuaSprite('floor', 'main_weeks/acbg/2', 0, -220)
     setScrollFactor('floor', 1, 1)
     scaleObject('floor', 1.4, 1.4)
     addLuaSprite('floor')
 
-    makeLuaSprite('wall', 'acbg/3', 0, -220)
+    makeLuaSprite('wall', 'main_weeks/acbg/3', 0, -220)
     setScrollFactor('wall', 1, 1)
     scaleObject('wall', 1.4, 1.4)
     addLuaSprite('wall')
 
-    makeLuaSprite('pc', 'acbg/4', 0, -220)
+    makeLuaSprite('pc', 'main_weeks/acbg/4', 0, -220)
     setScrollFactor('pc', 1, 1)
     scaleObject('pc', 1.4, 1.4)
     addLuaSprite('pc')
 
-    makeAnimatedLuaSprite('persona1', 'acbg/assets_staffAC', 100, 295)
+    makeAnimatedLuaSprite('persona1', 'main_weeks/acbg/assets_staffAC', 100, 295)
     scaleObject('persona1', 1.2, 1.2)
     addAnimationByPrefix('persona1', 'idle', 'staffAC_x2', 24, false)
     addLuaSprite('persona1', false)
@@ -59,15 +59,19 @@ function onCreatePost()
         end
     end
 
-    makeAnimatedLuaSprite('persona2', 'acbg/assets_staffAC2', 360, 300)
+    makeAnimatedLuaSprite('persona2', 'main_weeks/acbg/assets_staffAC2', 360, 300)
     scaleObject('persona2', 1.4, 1.4)
     addAnimationByPrefix('persona2', 'idle', 'staffAC_x2', 24, false)
     addLuaSprite('persona2', true)
 
-    makeAnimatedLuaSprite('persona3', 'acbg/assets_staffAC1', 2000, 580)
+    makeAnimatedLuaSprite('persona3', 'main_weeks/acbg/assets_staffAC1', 2000, 580)
     scaleObject('persona3', 1.4, 1.4)
     addAnimationByPrefix('persona3', 'idle', 'staffAC_1', 24, false)
     addLuaSprite('persona3', true)
+
+        if string.lower(songName) == 'banned' then
+            setProperty('lioncat.visible', false)
+        end
 end
 
 function onCountdownTick(counter)

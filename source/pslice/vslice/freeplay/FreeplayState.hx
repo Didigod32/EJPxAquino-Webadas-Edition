@@ -357,7 +357,7 @@ class FreeplayState extends MusicBeatSubstate
         FlxTween.tween(funnyCam, {alpha: 1}, 0.3, {ease: FlxEase.quadOut});
     }
 
-    function buildHomeView():Void
+   function buildHomeView():Void
     {
         homeGroup.clear();
         playlistCards = [];
@@ -365,7 +365,10 @@ class FreeplayState extends MusicBeatSubstate
         var cols:Int = 2;
         var spacingX:Float = 25;
         var spacingY:Float = 15;
-        var startX:Float = 95;
+
+        // Centrado de las 2 columnas en pantalla
+        var totalGridWidth:Float = (cols * CARD_WIDTH) + ((cols - 1) * spacingX);
+        var startX:Float = 70 + ((FlxG.width - 70 - totalGridWidth) / 2);
         var startY:Float = 65;
 
         for (i in 0...playlists.length)

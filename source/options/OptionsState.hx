@@ -7,6 +7,7 @@ import backend.StageData;
 import backend.ClientPrefs;
 import backend.Language;
 import backend.Paths;
+import objects.Alphabet;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.group.FlxGroup.FlxTypedGroup;
@@ -46,18 +47,19 @@ class OptionsState extends MusicBeatState
     var closeBtnTxt:FlxText;
 
     // Encabezado
-    var headerTitle:FlxText;
+    var headerTitle:Alphabet;
     var searchBarFake:FlxSprite;
     var searchTxtFake:FlxText;
 
     // Mosaicos (Tiles)
     var tilesGroup:FlxTypedGroup<FlxSprite>;
-    var textsGroup:FlxTypedGroup<FlxText>;
+    var titlesGroup:FlxTypedGroup<FlxText>;
+    var descriptionsGroup:FlxTypedGroup<FlxText>;
     var tileCards:Array<FlxSprite> = [];
 
     final COLS:Int = 3;
-    final TILE_WIDTH:Int = 250;
-    final TILE_HEIGHT:Int = 95;
+    final TILE_WIDTH:Int = 275;
+    final TILE_HEIGHT:Int = 110;
     final SPACING_X:Float = 24;
     final SPACING_Y:Float = 20;
 
@@ -69,47 +71,50 @@ class OptionsState extends MusicBeatState
 
         FlxG.mouse.visible = true;
 
-        // 1. Fondo Moderno Gris Oscuro / Neutro
-        bg = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.fromRGB(32, 32, 32));
+        // 1. Fondo
+        bg = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.fromRGB(28, 28, 30));
         add(bg);
 
-        // 2. Barra Superior Plana
-        topBarBg = new FlxSprite(0, 0).makeGraphic(FlxG.width, 36, FlxColor.fromRGB(24, 24, 24));
+        // 2. Barra Superior
+        topBarBg = new FlxSprite(0, 0).makeGraphic(FlxG.width, 36, FlxColor.fromRGB(20, 20, 22));
         add(topBarBg);
 
-        backBtn = new FlxText(15, 8, 0, "❮", 16);
-        backBtn.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE);
+        backBtn = new FlxText(15, 6, 0, "<", 18);
+        backBtn.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.fromRGB(220, 220, 220));
         add(backBtn);
 
-        topTitle = new FlxText(45, 10, 0, "Configuración", 13);
-        topTitle.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.fromRGB(200, 200, 200), LEFT);
+        topTitle = new FlxText(45, 9, 0, "Configuración", 14);
+        topTitle.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.fromRGB(180, 180, 180), LEFT);
         add(topTitle);
 
-        closeBtnBg = new FlxSprite(FlxG.width - 45, 0).makeGraphic(45, 36, FlxColor.fromRGB(190, 40, 40));
+        closeBtnBg = new FlxSprite(FlxG.width - 48, 0).makeGraphic(48, 36, FlxColor.fromRGB(196, 43, 28));
         add(closeBtnBg);
 
-        closeBtnTxt = new FlxText(FlxG.width - 45, 8, 45, "✕", 14);
-        closeBtnTxt.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, CENTER);
+        closeBtnTxt = new FlxText(FlxG.width - 48, 6, 48, "X", 18);
+        closeBtnTxt.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.WHITE, CENTER, OUTLINE, FlxColor.BLACK);
         add(closeBtnTxt);
 
-        // 3. Encabezado Central
-        headerTitle = new FlxText(0, 60, FlxG.width, "Configuración de Windows", 26);
-        headerTitle.setFormat(Paths.font("vcr.ttf"), 26, FlxColor.WHITE, CENTER);
+        // 3. Encabezado
+        headerTitle = new Alphabet(0, 48, "Configuracion de Windows", true);
+        headerTitle.setScale(0.48);
+        headerTitle.screenCenter(X);
         add(headerTitle);
 
-        // Buscador simulado clásico de Win10
-        searchBarFake = new FlxSprite(FlxG.width / 2 - 180, 105).makeGraphic(360, 32, FlxColor.fromRGB(45, 45, 48));
+        searchBarFake = new FlxSprite(FlxG.width / 2 - 200, 100).makeGraphic(400, 32, FlxColor.fromRGB(40, 40, 44));
         add(searchBarFake);
 
-        searchTxtFake = new FlxText(FlxG.width / 2 - 170, 112, 340, "🔍 Buscar una opción de configuración", 12);
-        searchTxtFake.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.fromRGB(150, 150, 150), LEFT);
+        searchTxtFake = new FlxText(FlxG.width / 2 - 190, 107, 380, "Buscar una opción de configuración", 13);
+        searchTxtFake.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.fromRGB(140, 140, 140), LEFT);
         add(searchTxtFake);
 
-        // 4. Cuadrícula de Tarjetas
+        // 4. Grupos de Contenido
         tilesGroup = new FlxTypedGroup<FlxSprite>();
-        textsGroup = new FlxTypedGroup<FlxText>();
+        titlesGroup = new FlxTypedGroup<FlxText>();
+        descriptionsGroup = new FlxTypedGroup<FlxText>();
+
         add(tilesGroup);
-        add(textsGroup);
+        add(titlesGroup);
+        add(descriptionsGroup);
 
         buildTilesGrid();
 
@@ -134,11 +139,12 @@ class OptionsState extends MusicBeatState
     {
         tileCards = [];
         tilesGroup.clear();
-        textsGroup.clear();
+        titlesGroup.clear();
+        descriptionsGroup.clear();
 
         var totalGridWidth:Float = (COLS * TILE_WIDTH) + ((COLS - 1) * SPACING_X);
         var startX:Float = (FlxG.width - totalGridWidth) / 2;
-        var startY:Float = 170;
+        var startY:Float = 155;
 
         for (i in 0...options.length)
         {
@@ -148,38 +154,31 @@ class OptionsState extends MusicBeatState
             var posX:Float = startX + (col * (TILE_WIDTH + SPACING_X));
             var posY:Float = startY + (row * (TILE_HEIGHT + SPACING_Y));
 
-            // Tarjeta Base
-            var card:FlxSprite = new FlxSprite(posX, posY).makeGraphic(TILE_WIDTH, TILE_HEIGHT, FlxColor.fromRGB(45, 45, 48));
+            var card:FlxSprite = new FlxSprite(posX, posY).makeGraphic(TILE_WIDTH, TILE_HEIGHT, FlxColor.fromRGB(42, 42, 46));
             card.ID = i;
             tilesGroup.add(card);
             tileCards.push(card);
 
-            // Datos de la Opción
             var optName:String = options[i];
-            var iconStr:String = getIconForOption(optName);
             var descStr:String = getDescForOption(optName);
             var titleStr:String = Language.getPhrase('options_$optName', optName);
 
-            // Icono
-            var iconTxt:FlxText = new FlxText(posX + 15, posY + 15, 40, iconStr, 24);
-            iconTxt.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.fromRGB(0, 120, 215), CENTER);
-            textsGroup.add(iconTxt);
+            // Título de la tarjeta (más grande y nítido)
+            var optTitleTxt:FlxText = new FlxText(posX + 18, posY + 16, TILE_WIDTH - 36, titleStr, 18);
+            optTitleTxt.setFormat(Paths.font("vcr.ttf"), 18, FlxColor.WHITE, LEFT, OUTLINE, FlxColor.BLACK);
+            titlesGroup.add(optTitleTxt);
 
-            // Título
-            var optTitleTxt:FlxText = new FlxText(posX + 60, posY + 16, TILE_WIDTH - 70, titleStr, 13);
-            optTitleTxt.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.WHITE, LEFT);
-            textsGroup.add(optTitleTxt);
-
-            // Subtítulo
-            var optDescTxt:FlxText = new FlxText(posX + 60, posY + 38, TILE_WIDTH - 70, descStr, 10);
-            optDescTxt.setFormat(Paths.font("vcr.ttf"), 10, FlxColor.fromRGB(160, 160, 160), LEFT);
-            textsGroup.add(optDescTxt);
+            // Subtítulo descriptivo (más legible)
+            var optDescTxt:FlxText = new FlxText(posX + 18, posY + 52, TILE_WIDTH - 36, descStr, 13);
+            optDescTxt.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.fromRGB(175, 175, 180), LEFT);
+            descriptionsGroup.add(optDescTxt);
         }
     }
 
     override function closeSubState()
     {
         super.closeSubState();
+        FlxG.mouse.visible = true;
         ClientPrefs.saveSettings();
         #if DISCORD_ALLOWED
         DiscordClient.changePresence("Options Menu", null);
@@ -189,8 +188,8 @@ class OptionsState extends MusicBeatState
     override function update(elapsed:Float)
     {
         super.update(elapsed);
+        FlxG.mouse.visible = true;
 
-        // Controles de Teclado
         if (controls.UI_LEFT_P) changeSelection(-1);
         if (controls.UI_RIGHT_P) changeSelection(1);
         if (controls.UI_UP_P) changeSelection(-COLS);
@@ -202,7 +201,6 @@ class OptionsState extends MusicBeatState
         if (controls.BACK || FlxG.keys.justPressed.ESCAPE)
             exitOptionsMenu();
 
-        // Controles de Ratón
         if (FlxG.mouse.justPressed)
         {
             if (FlxG.mouse.overlaps(closeBtnBg) || FlxG.mouse.overlaps(closeBtnTxt) || FlxG.mouse.overlaps(backBtn))
@@ -247,45 +245,24 @@ class OptionsState extends MusicBeatState
         {
             var card = tileCards[i];
             if (i == curSelected)
-            {
-                // Borde/Fondo azul característico de Windows 10
-                card.color = FlxColor.fromRGB(55, 65, 80);
-            }
+                card.color = FlxColor.fromRGB(0, 120, 215); // Azul Windows 10
             else
-            {
-                card.color = FlxColor.fromRGB(45, 45, 48);
-            }
+                card.color = FlxColor.fromRGB(42, 42, 46);
         }
-    }
-
-    function getIconForOption(label:String):String
-    {
-        return switch (label)
-        {
-            case 'Graphics': "🖥";
-            case 'Visuals': "✨";
-            case 'Gameplay': "🎮";
-            case 'Controls': "⌨";
-            case 'Note Colors': "🎨";
-            case 'Adjust Delay and Combo': "⏱";
-            case 'V-Slice Options': "📦";
-            case 'Language': "🌐";
-            default: "⚙";
-        };
     }
 
     function getDescForOption(label:String):String
     {
         return switch (label)
         {
-            case 'Graphics': "Resolución, FPS y suavizado.";
-            case 'Visuals': "Luces parpadeantes e interfaz.";
-            case 'Gameplay': "Downscroll, Ghost Tapping.";
-            case 'Controls': "Atajos y teclas de juego.";
-            case 'Note Colors': "Personalizar tonos de notas.";
-            case 'Adjust Delay and Combo': "Latencia de audio y HUD.";
-            case 'V-Slice Options': "Compatibilidad del motor.";
-            case 'Language': "Idioma de menús y textos.";
+            case 'Graphics': "Resolución, FPS y antialiasing.";
+            case 'Visuals': "Luces, HUD y efectos visuales.";
+            case 'Gameplay': "Downscroll, Ghost Tapping y binds.";
+            case 'Controls': "Configuración de teclas y mandos.";
+            case 'Note Colors': "Personalizar tonos de cada nota.";
+            case 'Adjust Delay and Combo': "Latencia de audio y offset.";
+            case 'V-Slice Options': "Ajustes de motor V-Slice.";
+            case 'Language': "Idioma de textos y menús.";
             default: "Configuraciones del sistema.";
         };
     }
@@ -340,5 +317,4 @@ class OptionsState extends MusicBeatState
         ClientPrefs.loadPrefs();
         super.destroy();
     }
-	//piero lacra basura asquerosa horrorosa pepepe
 }

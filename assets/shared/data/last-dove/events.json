@@ -1,190 +1,190 @@
 {
-    "events": [
-        [
-            0,
-            [
-                ["Set Cam Zoom", "0.7", ""]
-            ]
-        ],
-        [
-            8.86524822695035,
-            [
-                ["Change Character", "dad", "duxo_enojado"],
-                ["Play Animation", "duxo habla", "dad"]
-            ]
-        ],
-        [
-            26.5957446808511,
-            [
-                ["Camera Zoom Speed", "16", "1.1"]
-            ]
-        ],
-        [
-            851.063829787234,
-            [
-                ["Set Cam Zoom", "0.55", ""]
-            ]
-        ],
-        [
-            1702.12765957447,
-            [
-                ["Change Character", "dad", "duxo_normal"]
-            ]
-        ],
-        [
-            1755.31914893617,
-            [
-                ["Set Cam Zoom", "0.55", ""]
-            ]
-        ],
-        [
-            1759.75177304965,
-            [
-                ["Flash", "6", "1"]
-            ]
-        ],
-        [
-            14902.4822695035,
-            [
-                ["Change Character", "dad", "duxo_enojado"]
-            ]
-        ],
-        [
-            15354.609929078,
-            [
-                ["Set Cam Zoom", "0.52", ""],
-                ["Change Character", "dad", "duxo_normal"]
-            ]
-        ],
-        [
-            15359.0425531915,
-            [
-                ["Add Camera Zoom", "", ""]
-            ]
-        ],
-        [
-            15673.7588652482,
-            [
-                ["Add Camera Zoom", "", ""]
-            ]
-        ],
-        [
-            28271.2765957447,
-            [
-                ["Change Character", "dad", "duxo_enojado"]
-            ]
-        ],
-        [
-            28953.9007092199,
-            [
-                ["Set Cam Zoom", "0.48", ""],
-                ["Change Character", "dad", "duxo_normal"]
-            ]
-        ],
-        [
-            28958.3333333333,
-            [
-                ["Camera Zoom Speed", "8", "1.25"]
-            ]
-        ],
-        [
-            56245.5673758866,
-            [
-                ["Camera Zoom Speed", "16", "1.35"]
-            ]
-        ],
-        [
-            56250,
-            [
-                ["Set Cam Zoom", "0.65", "1.5"]
-            ]
-        ],
-        [
-            69822.695035461,
-            [
-                ["Hey!", "GF", ""]
-            ]
-        ],
-        [
-            81746.4539007093,
-            [
-                ["", "", ""]
-            ]
-        ],
-        [
-            83297.8723404256,
-            [
-                ["Set Cam Zoom", "0.48", ""]
-            ]
-        ],
-        [
-            83404.255319149,
-            [
-                ["Camera Zoom Speed", "8", "1"]
-            ]
-        ],
-        [
-            90212.7659574469,
-            [
-                ["Set Cam Zoom", "0.6", ""]
-            ]
-        ],
-        [
-            90217.1985815604,
-            [
-                ["Camera Zoom Speed", "4", "1.15"]
-            ]
-        ],
-        [
-            97021.2765957448,
-            [
-                ["Set Cam Zoom", "0.5", ""]
-            ]
-        ],
-        [
-            103869.680851064,
-            [
-                ["Set Cam Zoom", "0.65", ""]
-            ]
-        ],
-        [
-            110718.085106383,
-            [
-                ["Set Cam Zoom", "0.6", ""]
-            ]
-        ],
-        [
-            117446.808510638,
-            [
-                ["Set Cam Zoom", "0.55", ""],
-                ["Camera Follow Pos", "634", "460"]
-            ]
-        ],
-        [
-            131063.829787234,
-            [
-                ["Camera Follow Pos", "", ""],
-                ["Set Cam Zoom", "0.48", ""]
-            ]
-        ],
-        [
-            131090.425531915,
-            [
-                ["Camera Zoom Speed", "16", "1"]
-            ]
-        ],
-        [
-            142805.85106383,
-            [
-                ["Change Character", "dad", "duxo_enojado"]
-            ]
-        ],
-        [
-            148776.595744681,
-            [
-                ["Play Animation", "duxo insulta", "dad"]
-            ]
-        ]
-    ],
-    "format": "psych_v1"
+	"events": [
+		[
+			0,
+			[
+				["Set Cam Zoom", "0.7", ""]
+			]
+		],
+		[
+			8.86524822695035,
+			[
+				["Change Character", "dad", "duxo_enojado"],
+				["Play Animation", "duxo habla", "dad"]
+			]
+		],
+		[
+			26.5957446808511,
+			[
+				["Camera Zoom Speed", "16", "1.1"]
+			]
+		],
+		[
+			851.063829787234,
+			[
+				["Set Cam Zoom", "0.55", ""]
+			]
+		],
+		[
+			1702.12765957447,
+			[
+				["Change Character", "dad", "duxo_normal"]
+			]
+		],
+		[
+			1755.31914893617,
+			[
+				["Set Cam Zoom", "0.55", ""]
+			]
+		],
+		[
+			1759.75177304965,
+			[
+				["Flash", "6", "1"]
+			]
+		],
+		[
+			14902.4822695035,
+			[
+				["Change Character", "dad", "duxo_enojado"]
+			]
+		],
+		[
+			15354.609929078,
+			[
+				["Set Cam Zoom", "0.52", ""],
+				["Change Character", "dad", "duxo_normal"]
+			]
+		],
+		[
+			15359.0425531915,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			15673.7588652482,
+			[
+				["Add Camera Zoom", "", ""]
+			]
+		],
+		[
+			28271.2765957447,
+			[
+				["Change Character", "dad", "duxo_enojado"]
+			]
+		],
+		[
+			28953.9007092199,
+			[
+				["Set Cam Zoom", "0.48", ""],
+				["Change Character", "dad", "duxo_normal"]
+			]
+		],
+		[
+			28958.3333333333,
+			[
+				["Camera Zoom Speed", "8", "1.25"]
+			]
+		],
+		[
+			56245.5673758866,
+			[
+				["Camera Zoom Speed", "16", "1.35"]
+			]
+		],
+		[
+			56250,
+			[
+				["Set Cam Zoom", "0.65", "1.5"]
+			]
+		],
+		[
+			69822.695035461,
+			[
+				["Hey!", "GF", ""]
+			]
+		],
+		[
+			81746.4539007093,
+			[
+				["", "", ""]
+			]
+		],
+		[
+			83297.8723404256,
+			[
+				["Set Cam Zoom", "0.48", ""]
+			]
+		],
+		[
+			83404.255319149,
+			[
+				["Camera Zoom Speed", "8", "1"]
+			]
+		],
+		[
+			90212.7659574469,
+			[
+				["Set Cam Zoom", "0.6", ""]
+			]
+		],
+		[
+			90217.1985815604,
+			[
+				["Camera Zoom Speed", "4", "1.15"]
+			]
+		],
+		[
+			97021.2765957448,
+			[
+				["Set Cam Zoom", "0.5", ""]
+			]
+		],
+		[
+			103869.680851064,
+			[
+				["Set Cam Zoom", "0.65", ""]
+			]
+		],
+		[
+			110718.085106383,
+			[
+				["Set Cam Zoom", "0.6", ""]
+			]
+		],
+		[
+			117446.808510638,
+			[
+				["Set Cam Zoom", "0.55", ""],
+				["Camera Follow Pos", "634", "460"]
+			]
+		],
+		[
+			131063.829787234,
+			[
+				["Camera Follow Pos", "", ""],
+				["Set Cam Zoom", "0.48", ""]
+			]
+		],
+		[
+			131090.425531915,
+			[
+				["Camera Zoom Speed", "16", "1"]
+			]
+		],
+		[
+			142805.85106383,
+			[
+				["Change Character", "dad", "duxo_enojado"]
+			]
+		],
+		[
+			148776.595744681,
+			[
+				["Play Animation", "duxoinsulta", "dad"]
+			]
+		]
+	],
+	"format": "psych_v1"
 }

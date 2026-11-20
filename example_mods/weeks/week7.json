@@ -1,9 +1,9 @@
 {
-	"storyName": "penedemono",
+	"storyName": "peruanos mortales",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "week7",
+	"weekBefore": "week5",
 	"freeplayColor": [
 		146,
 		113,
@@ -13,38 +13,38 @@
 	"hideStoryMode": false,
 	"songs": [
 		[
-			"Smash",
-			"c3cup",
+			"Estupidez",
+			"daarick",
 			[
-				255,
-				102,
-				51
+				75,
+				172,
+				214
 			]
 		],
 		[
-			"Apoteosis",
-			"c3jomadness",
+			"Chillin",
+			"craft",
 			[
-				242,
-				67,
-				14
+				95,
+				250,
+				255
 			]
 		],
 		[
-			"Skyblock",
-			"c3jo-pixel",
+			"Chicos",
+			"daarick",
 			[
-				255,
-				105,
-				54
+				75,
+				172,
+				214
 			]
 		]
 	],
 	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
+		"",
+		"",
+		""
 	],
 	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"weekName": "Llamas"
 }

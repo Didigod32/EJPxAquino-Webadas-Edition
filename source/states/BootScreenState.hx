@@ -33,7 +33,6 @@ class BootScreenState extends MusicBeatState
         add(bg);
 
         // 3. Avatar de usuario (Círculo o foto de perfil)
-        // Puedes agregar una imagen 'assets/images/mainmenu/user_avatar.png'
         userAvatar = new FlxSprite().loadGraphic(Paths.image('mainmenu/user_avatar'));
         userAvatar.setGraphicSize(150, 150);
         userAvatar.updateHitbox();

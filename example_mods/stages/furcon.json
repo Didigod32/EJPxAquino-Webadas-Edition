@@ -1,10 +1,10 @@
 {
-	"directory": "main_weeks",
-	"defaultZoom": 0.65,
+	"directory": "main_weeks/furcon",
+	"defaultZoom": 0.6,
 	"isPixelStage": false,
 
-	"boyfriend": [90, -420],
+	"boyfriend": [175, -320],
 	"girlfriend": [-390, -390],
-	"opponent": [-780, -450],
-	"hide_girlfriend": false
+	"opponent": [-765, -125],
+	"hide_girlfriend": true
 }

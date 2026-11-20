@@ -1,9 +1,9 @@
 {
-	"storyName": "peruanos mortales",
+	"storyName": "Loco la cámara",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "week5",
+	"weekBefore": "week6",
 	"freeplayColor": [
 		146,
 		113,
@@ -13,30 +13,30 @@
 	"hideStoryMode": false,
 	"songs": [
 		[
-			"Estupidez",
-			"daarick",
+			"Sin titulo",
+			"loco",
 			[
-				75,
-				172,
-				214
+				151,
+				29,
+				161
 			]
 		],
 		[
-			"Chillin",
-			"craft",
+			"Orphan",
+			"loco",
 			[
-				95,
-				250,
-				255
+				151,
+				29,
+				161
 			]
 		],
 		[
-			"Chicos",
-			"daarick",
+			"Loco+",
+			"loco",
 			[
-				75,
-				172,
-				214
+				151,
+				29,
+				161
 			]
 		]
 	],
@@ -46,5 +46,5 @@
 		""
 	],
 	"hiddenUntilUnlocked": false,
-	"weekName": "Llamas"
+	"weekName": "Loco"
 }

@@ -1,335 +1,624 @@
 package states;
 
-import objects.AttachedSprite;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.group.FlxGroup.FlxTypedGroup;
+import flixel.text.FlxText;
+import flixel.util.FlxColor;
+import flixel.math.FlxMath;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import backend.Paths;
+import backend.ClientPrefs;
+import backend.CoolUtil;
+
+typedef CreditPerson =
+{
+    var name:String;
+    var icon:String;
+    var role:String;
+    var desc:String;
+    var socialUrl:String;
+}
+
+typedef SlideData =
+{
+    var isSectionTitle:Bool;
+    var sectionTitle:String;
+    var sectionSubtitle:String;
+    var persons:Array<CreditPerson>;
+    var speakerNote:String;
+}
+
+typedef PersonSlotUI =
+{
+    var avatar:FlxSprite;
+    var name:FlxText;
+    var role:FlxText;
+    var desc:FlxText;
+    var linkBtn:FlxSprite;
+    var linkTxt:FlxText;
+}
 
 class CreditsState extends MusicBeatState
 {
-	var curSelected:Int = -1;
+    var curSelected:Int = 0;
+    var slides:Array<SlideData> = [];
 
-	private var grpOptions:FlxTypedGroup<Alphabet>;
-	private var iconArray:Array<AttachedSprite> = [];
-	private var creditsStuff:Array<Array<String>> = [];
+    // Fondo Escritorio
+    var desktopBg:FlxSprite;
 
-	var bg:FlxSprite;
-	var descText:FlxText;
-	var intendedColor:FlxColor;
-	var descBox:AttachedSprite;
+    // Splash Microsoft 365
+    var splashGroup:FlxTypedGroup<FlxSprite>;
+    var splashShadow:FlxSprite;
+    var splashCard:FlxSprite;
+    var splashItemsGroup:FlxTypedGroup<FlxSprite>;
+    var splashTextsGroup:FlxTypedGroup<FlxText>;
+    var isStartingUp:Bool = true;
+    var startupTimer:Float = 0;
+    final STARTUP_DURATION:Float = 2.0;
 
-	var offsetThing:Float = -75;
+    // Interfaz PowerPoint Dark Mode
+    var pptGroup:FlxTypedGroup<FlxSprite>;
+    var pptTextsGroup:FlxTypedGroup<FlxText>;
 
-	override function create()
-	{
-		#if DISCORD_ALLOWED
-		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
-		#end
+    // Botones de Ventana
+    var titleBar:FlxSprite;
+    var closeBtnBg:FlxSprite;
+    var closeBtnTxt:FlxText;
 
-		persistentUpdate = true;
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
-		bg.antialiasing = ClientPrefs.data.antialiasing;
-		add(bg);
-		bg.screenCenter();
-		
-		grpOptions = new FlxTypedGroup<Alphabet>();
-		add(grpOptions);
+    // Miniaturas Laterales
+    var thumbCards:Array<FlxSprite> = [];
+    var thumbNumbers:Array<FlxText> = [];
 
-		#if MODS_ALLOWED
-		for (mod in Mods.parseList().enabled) pushModCreditsToList(mod);
-		#end
+    // Diapositiva Principal (Estilo Faceta)
+    var slideBg:FlxSprite;
+    var slideRedTag:FlxSprite;
+    var slideGuideBox:FlxSprite;
 
-		var defaultList:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['El Juego Popular X Aquino'],
-			[''],
-			['Owners del mod'],
-			[''],
-			['Steveguay99', 		'face', 			'Director del mod\n"putamare un hueco"', 																'https://www.youtube.com/@steveguay99', 							'a1a1a1'],
-			['Murther', 			'murther', 			'Owner del mod\n"Aguante un accidente automovilistico y un acribillamiento por saber boxear"', 			'https://twitter.com/MurtherSoy', 									'fffaff'],
-			['Arielo_018', 			'arielo', 			'Creador del mod\n"Los odio a todos, mueranse"', 														'https://gamebanana.com/mods/471693', 								'fffaff'],
-			['Zaeozz', 				'zaeozz', 			'Co-creador\nMenos mal sabía dibujar cuando entre al mod', 												'https://twitter.com/zaeozzz5', 									'120741'],
-			['Programadores'],
-			['DidiRuano', 			'didi', 			'Programador líder y fiel al server\n"Hola soy el mismísimo DildoEnelAno. Besitos Creisi."',			'https://gamebanana.com/mods/471693', 								'd73332'],
-			['DuduGD2023', 			'dudu', 			'Programador\n"Increíble mod está genial, ojalá lo cancelen"', 											'https://twitter.com/DuduGD2023', 									'909090'],
-			['ElSebas1231',      	'ElSebas', 			'Programador\n"Trabajé en este mod, yei"', 																'https://www.youtube.com/watch?v=dQw4w9WgXcQ',						'ff0000'],
-			['SanfordXD',      		'sanford', 			'Programador', 																							'https://www.youtube.com/@sanfordxdd',								'ca637f'],
-			['Músicos'],
-			['Stefano', 			'stefano', 			'Músico líder', 																						'https://www.youtube.com/channel/UCR0sga97VFeeJ1mINxw09RA', 		'f8c807'],
-			['Amaro', 				'amaro', 			'Músico', 																								'https://www.youtube.com/channel/UC1CWyKgvJSRSVYAUuYttTyA', 		'08aad9'],
-			['NexoV', 				'nexo', 			'Músico', 																								'https://twitter.com/NexoSimphonyOwO', 								'fdd1f0'],
-			['TheGunatrix', 		'guna', 			'Músico', 																								'https://twitter.com/TGunatrix',									'785ed2'],
-			['MasterMusic28', 		'face', 			'Músico', 																								'hhttps://twitter.com/MasterMusic28',								'a1a1a1'],
-			['Creadores de Cromaticas'],
-			['Ste-Mv', 				'face', 			'Creador de cromaticas', 																				'https://gamebanana.com/members/2395996', 							'a1a1a1'],
-			['Animadores y artistas'],
-			['Jerpez', 				'jerpez', 			'Artista líder', 																						'https://www.youtube.com/channel/UC-3kSazPL7MNdlS1-ixwLNg', 		'd73332'],
-			['RED', 				'red', 				'Animador líder\n"Ya podemos enfriar choros"', 															'https://gamebanana.com/mods/471693', 								'd93236'],
-			['Arielo_018', 			'arielo', 			'Artista', 																								'https://gamebanana.com/mods/471693', 								'fffaff'],
-			['StarM1608', 			'face', 			'Artista', 																								'https://gamebanana.com/mods/471693',								'a1a1a1'],
-			['TEKO', 				'face', 			'Artista/Animador', 																					'https://twitter.com/Orange_sty',									'a1a1a1'],
-			['Dujam', 				'face', 			'Artista/Animador', 																					'https://gamebanana.com/mods/471693', 								'a1a1a1'],
-			['Zaeozz', 				'zaeozz', 			'Artista', 																								'https://twitter.com/zaeozzz5', 									'120741'],
-			['SleepyGGHOST', 		'sleepy', 			'Artista\n"Quemen Chiclayo"', 				'https://gamebanana.com/mods/471693', 								'e8e8e8'],
-			['Mateo_sketch', 		'mateosketch', 		'Artista', 									'https://x.com/Mateo41Draws?t=maPmgUGSi4ujgLplEkeB1w&s=09 ', 		'25bc00'],
-			['HKaizer', 			'face', 			'Artista/Animador', 						'https://twitter.com/Hkaizer09', 									'a1a1a1'],
-			['Jonathan-Bass', 		'face', 			'Artista/Animador', 						'https://twitter.com/Jonatha_FNF', 									'a1a1a1'],
-			['JuanfeSS', 			'juanfess', 		'Artista/Animador', 						'https://twitter.com/ss_juanfe', 									'e8e8e8'],
-			['Charters'],
-			['Murther', 			'murther', 			'Charter líder', 							'https://twitter.com/MurtherSoy', 									'fffaff'],
-			['Roval',      			'roval', 			'Charter', 									'https://www.youtube.com/@RovalOriginal',							'edbb0f'],
-			['DuduGD2023', 			'dudu', 			'Charter', 									'https://twitter.com/DuduGD2023', 									'909090'],
-			['ElSebas1231',      	'ElSebas', 			'Charter', 									'https://www.youtube.com/watch?v=dQw4w9WgXcQ',						'620d10'],
-			['Ballade X',      		'ballade', 			'Charter', 									'https://youtube.com/@balladex951?si=GTWU3KxZiuQlj2Xx',				'5f708f'],
-			['D3nki', 				'face', 			'Charter', 									'https://twitter.com/_D3NKI', 										'a1a1a1'],
-			[''],
-			['Redes Sociales'],
-			['Twitter',				'twitter',			'Cuenta de Twitter del Mod (Enter para ir)',						'https://twitter.com/Thellamascorp18',					'23ffff'],
-			['Canal de YouTube',	'yt',				'Canal de YouTube del Mod (Enter para ir)',							'https://www.youtube.com/@LlamitasCorporationTeam',		'ff2849'],
-			[''],
-			['Agradecimientos especiales'],
-			['TeamTBD',				'TBDLogo',			'Código de la galería\n(Modificado por ElSebas1231)',		'https://github.com/Jorge-SunSpirit/Doki-Doki-Takeover/blob/main/source/GalleryArtState.hx#L25-L26',			'ff90ba'],
-			['Squidbowl',			'tinki',			'Assets usados en la galería',								'https://gamebanana.com/tools/13883',																			'ffffff'],
-			['Farhad_SH',			'face',				'Botón de usado para la galería',							'https://gamebanana.com/mods/464244',																			'a1a1a1'],
-			[''],
-			['P-Slice Engine Team'],
-			['Mikolka9144',			'mikolka',			'Did everything for P-slice',								 'https://gamebanana.com/members/3329541',									'2ebcfa'],
-			['mcagabe19',			'lily',             'Porter of P-slice for mobile devices and creator of linc_luajit-rewritten (used for mobile builds)',                       'https://youtube.com/@mcagabe19',		'FFE7C0'],
-			[""],
-			["Psych Engine Team"],
-			["Shadow Mario",		"shadowmario",		"Main Programmer and Head of Psych Engine",					"https://ko-fi.com/shadowmario",	"444444"],
-			["Riveren",				"riveren",			"Main Artist/Animator of Psych Engine",						"https://x.com/riverennn",			"14967B"],
-			[""],
-			["Former Engine Members"],
-			["bb-panzu",			"bb",				"Ex-Programmer of Psych Engine",							"https://x.com/bbsub3",				"3E813A"],
-			[""],
-			["Engine Contributors"],
-			["crowplexus",			"crowplexus",		"HScript Iris, Input System v3, and Other PRs",				"https://github.com/crowplexus",	"CFCFCF"],
-			["Kamizeta",			"kamizeta",			"Creator of Pessy, Psych Engine's mascot.",				"https://www.instagram.com/cewweey/",	"D21C11"],
-			["MaxNeton",			"maxneton",			"Loading Screen Easter Egg Artist/Animator.",	"https://bsky.app/profile/maxneton.bsky.social","3C2E4E"],
-			["Keoiki",				"keoiki",			"Note Splash Animations and Latin Alphabet",				"https://x.com/Keoiki_",			"D2D2D2"],
-			["SqirraRNG",			"sqirra",			"Crash Handler and Base code for\nChart Editor's Waveform",	"https://x.com/gedehari",			"E1843A"],
-			["EliteMasterEric",		"mastereric",		"Runtime Shaders support and Other PRs",					"https://x.com/EliteMasterEric",	"FFBD40"],
-			["MAJigsaw77",			"majigsaw",			".MP4 Video Loader Library (hxvlc)",						"https://x.com/MAJigsaw77",			"5F5F5F"],
-			["Tahir Toprak Karabekiroglu",	"tahir",	"Note Splash Editor and Other PRs",							"https://x.com/TahirKarabekir",		"A04397"],
-			["iFlicky",				"flicky",			"Composer of Psync and Tea Time\nAnd some sound effects",	"https://x.com/flicky_i",			"9E29CF"],
-			["KadeDev",				"kade",				"Fixed some issues on Chart Editor and Other PRs",			"https://x.com/kade0912",			"64A250"],
-			["superpowers04",		"superpowers04",	"LUA JIT Fork",												"https://x.com/superpowers04",		"B957ED"],
-			["CheemsAndFriends",	"cheems",			"Creator of FlxAnimate",									"https://x.com/CheemsnFriendos",	"E1E1E1"],
-			[""],
-			["The Funkin' Crew Inc"],
-			["ninjamuffin99",		"ninjamuffin99",	"Programmer of Friday Night Funkin'",						"https://x.com/ninja_muffin99",		"CF2D2D"],
-			["PhantomArcade",		"phantomarcade",	"Animator of Friday Night Funkin'",							"https://x.com/PhantomArcade3K",	"FADC45"],
-			["evilsk8r",			"evilsk8r",			"Artist of Friday Night Funkin'",							"https://x.com/evilsk8r",			"5ABD4B"],
-			["kawaisprite",			"kawaisprite",		"Composer of Friday Night Funkin'",							"https://x.com/kawaisprite",		"378FC7"],
-		];
-		
-		for(i in defaultList)
-			creditsStuff.push(i);
-	
-		for (i => credit in creditsStuff)
-		{
-			var isSelectable:Bool = !unselectableCheck(i);
-			var optionText:Alphabet = new Alphabet(FlxG.width / 2, 300, credit[0], !isSelectable);
-			optionText.isMenuItem = true;
-			optionText.targetY = i;
-			optionText.changeX = false;
-			optionText.snapToPosition();
-			grpOptions.add(optionText);
+    // Elementos de Título (Sección)
+    var sectionHeaderTxt:FlxText;
+    var sectionDivider:FlxSprite;
+    var sectionSubTxt:FlxText;
 
-			if(isSelectable)
-			{
-				if(credit[5] != null)
-					Mods.currentModDirectory = credit[5];
+    // Ranuras para hasta 4 Integrantes por lámina (Cuadrícula 2x2)
+    var personSlots:Array<PersonSlotUI> = [];
 
-				var str:String = 'credits/missing_icon';
-				if(credit[1] != null && credit[1].length > 0)
-				{
-					var fileName = 'credits/' + credit[1];
-					if (Paths.fileExists('images/$fileName.png', IMAGE)) str = fileName;
-					else if (Paths.fileExists('images/$fileName-pixel.png', IMAGE)) str = fileName + '-pixel';
-				}
+    // Notas del Orador
+    var notesBodyTxt:FlxText;
 
-				var icon:AttachedSprite = new AttachedSprite(str);
-				if(str.endsWith('-pixel')) icon.antialiasing = false;
-				icon.xAdd = optionText.width + 10;
-				icon.sprTracker = optionText;
-	
-				// using a FlxGroup is too much fuss!
-				iconArray.push(icon);
-				add(icon);
-				Mods.currentModDirectory = '';
+    var isBusy:Bool = false;
 
-				if(curSelected == -1) curSelected = i;
-			}
-			else optionText.alignment = CENTERED;
-		}
-		
-		descBox = new AttachedSprite();
-		descBox.makeGraphic(1, 1, FlxColor.BLACK);
-		descBox.xAdd = -10;
-		descBox.yAdd = -10;
-		descBox.alphaMult = 0.6;
-		descBox.alpha = 0.6;
-		add(descBox);
+    // Paleta de Colores
+    final COLOR_TEAL_SLIDE:FlxColor = FlxColor.fromRGB(23, 75, 83);
+    final COLOR_RED_TAG:FlxColor = FlxColor.fromRGB(205, 36, 42);
+    final COLOR_DARK_BG:FlxColor = FlxColor.fromRGB(25, 25, 27);
 
-		descText = new FlxText(50, FlxG.height + offsetThing - 25, 1180, "", 32);
-		descText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
-		descText.scrollFactor.set();
-		//descText.borderSize = 2.4;
-		descBox.sprTracker = descText;
-		add(descText);
+    override function create()
+    {
+        Paths.clearStoredMemory();
+        Paths.clearUnusedMemory();
 
-		bg.color = CoolUtil.colorFromString(creditsStuff[curSelected][4]);
-		intendedColor = bg.color;
-		changeSelection();
-		#if TOUCH_CONTROLS_ALLOWED
-		addTouchPad('UP_DOWN', 'A_B');
-		#end
-		super.create();
-	}
+        FlxG.mouse.visible = true;
 
-	var quitting:Bool = false;
-	var holdTime:Float = 0;
-	override function update(elapsed:Float)
-	{
-		if (FlxG.sound.music.volume < 0.7)
-		{
-			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
-		}
+        if (FlxG.sound.music == null || !FlxG.sound.music.playing)
+            FlxG.sound.playMusic(Paths.music('freakyMenu'), 0.7);
 
-		if(!quitting)
-		{
-			if(creditsStuff.length > 1)
-			{
-				var shiftMult:Int = 1;
-				if(FlxG.keys.pressed.SHIFT) shiftMult = 3;
+        parseCredits();
 
-				var upP = controls.UI_UP_P;
-				var downP = controls.UI_DOWN_P;
+        desktopBg = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.fromRGB(20, 22, 26));
+        add(desktopBg);
 
-				if (upP)
-				{
-					changeSelection(-shiftMult);
-					holdTime = 0;
-				}
-				if (downP)
-				{
-					changeSelection(shiftMult);
-					holdTime = 0;
-				}
+        pptGroup = new FlxTypedGroup<FlxSprite>();
+        pptTextsGroup = new FlxTypedGroup<FlxText>();
+        add(pptGroup);
+        add(pptTextsGroup);
 
-				if(controls.UI_DOWN || controls.UI_UP)
-				{
-					var checkLastHold:Int = Math.floor((holdTime - 0.5) * 10);
-					holdTime += elapsed;
-					var checkNewHold:Int = Math.floor((holdTime - 0.5) * 10);
+        buildFacetThemeUI();
 
-					if(holdTime > 0.5 && checkNewHold - checkLastHold > 0)
-					{
-						changeSelection((checkNewHold - checkLastHold) * (controls.UI_UP ? -shiftMult : shiftMult));
-					}
-				}
-			}
+        pptGroup.visible = false;
+        pptTextsGroup.visible = false;
 
-			if(controls.ACCEPT && (creditsStuff[curSelected][3] == null || creditsStuff[curSelected][3].length > 4)) {
-				CoolUtil.browserLoad(creditsStuff[curSelected][3]);
-			}
-			if (controls.BACK)
-			{
-				FlxG.sound.play(Paths.sound('cancelMenu'));
-				MusicBeatState.switchState(new MainMenuState());
-				quitting = true;
-			}
-		}
-		
-		for (item in grpOptions.members)
-		{
-			if(!item.bold)
-			{
-				var lerpVal:Float = Math.exp(-elapsed * 12);
-				if(item.targetY == 0)
-				{
-					var lastX:Float = item.x;
-					item.screenCenter(X);
-					item.x = FlxMath.lerp(item.x - 70, lastX, lerpVal);
-				}
-				else
-				{
-					item.x = FlxMath.lerp(200 + -40 * Math.abs(item.targetY), item.x, lerpVal);
-				}
-			}
-		}
-		super.update(elapsed);
-	}
+        buildModernSplashScreen();
 
-	var moveTween:FlxTween = null;
-	function changeSelection(change:Int = 0)
-	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
-		do
-		{
-			curSelected = FlxMath.wrap(curSelected + change, 0, creditsStuff.length - 1);
-		}
-		while(unselectableCheck(curSelected));
+        super.create();
+    }
 
-		var newColor:FlxColor = CoolUtil.colorFromString(creditsStuff[curSelected][4]);
-		//trace('The BG color is: $newColor');
-		if(newColor != intendedColor)
-		{
-			intendedColor = newColor;
-			FlxTween.cancelTweensOf(bg);
-			FlxTween.color(bg, 1, bg.color, intendedColor);
-		}
+    function parseCredits():Void
+    {
+        slides = [];
+        var rawLines:Array<String> = [];
 
-		for (num => item in grpOptions.members)
-		{
-			item.targetY = num - curSelected;
-			if(!unselectableCheck(num)) {
-				item.alpha = 0.6;
-				if (item.targetY == 0) {
-					item.alpha = 1;
-				}
-			}
-		}
+        try {
+            rawLines = CoolUtil.coolTextFile(Paths.txt('credits'));
+        } catch (e:Dynamic) {
+            rawLines = [];
+        }
 
-		descText.text = creditsStuff[curSelected][2];
-		if(descText.text.trim().length > 0)
-		{
-			descText.visible = descBox.visible = true;
-			descText.y = FlxG.height - descText.height + offsetThing - 60;
-	
-			if(moveTween != null) moveTween.cancel();
-			moveTween = FlxTween.tween(descText, {y : descText.y + 75}, 0.25, {ease: FlxEase.sineOut});
-	
-			descBox.setGraphicSize(Std.int(descText.width + 20), Std.int(descText.height + 25));
-			descBox.updateHitbox();
-		}
-		else descText.visible = descBox.visible = false;
-	}
+        if (rawLines.length == 0)
+        {
+            slides.push({
+                isSectionTitle: true,
+                sectionTitle: "P-Slice Team",
+                sectionSubtitle: "MOTOR BASE Y OPTIMIZACIONES DEL MOD",
+                persons: [],
+                speakerNote: "Nota: Créditos a los creadores del motor base."
+            });
+            slides.push({
+                isSectionTitle: false,
+                sectionTitle: "",
+                sectionSubtitle: "",
+                persons: [
+                    {name: "Diego Alexander", icon: "lechad", role: "Director / Programador", desc: "Diseño y programación de interfaces.", socialUrl: "https://twitter.com"},
+                    {name: "Colaborador 1", icon: "lechad", role: "Tester / Chart", desc: "Revisión de patrones y notas.", socialUrl: ""},
+                    {name: "Artista Principal", icon: "lechad", role: "Arte / Sprites", desc: "Ilustraciones del mod.", socialUrl: ""},
+                    {name: "Músico Invitado", icon: "lechad", role: "Compositor", desc: "Pistas adicionales del proyecto.", socialUrl: ""}
+                ],
+                speakerNote: "Nota: Cuatro integrantes cargados correctamente."
+            });
+            return;
+        }
 
-	#if MODS_ALLOWED
-	function pushModCreditsToList(folder:String)
-	{
-		var creditsFile:String = Paths.mods(folder + '/data/credits.txt');
-		
-		#if TRANSLATIONS_ALLOWED
-		//trace('/data/credits-${ClientPrefs.data.language}.txt');
-		var translatedCredits:String = Paths.mods(folder + '/data/credits-${ClientPrefs.data.language}.txt');
-		#end
+        for (line in rawLines)
+        {
+            var trimmed:String = line.trim();
+            if (trimmed.length == 0) continue;
 
-		if (#if TRANSLATIONS_ALLOWED (FileSystem.exists(translatedCredits) && (creditsFile = translatedCredits) == translatedCredits) || #end FileSystem.exists(creditsFile))
-		{
-			var firstarray:Array<String> = File.getContent(creditsFile).split('\n');
-			for(i in firstarray)
-			{
-				var arr:Array<String> = i.replace('\\n', '\n').split("::");
-				if(arr.length >= 5) arr.push(folder);
-				creditsStuff.push(arr);
-			}
-			creditsStuff.push(['']);
-		}
-	}
-	#end
+            if (trimmed.startsWith("SECTION::"))
+            {
+                var parts = trimmed.split("::");
+                slides.push({
+                    isSectionTitle: true,
+                    sectionTitle: parts[1].trim(),
+                    sectionSubtitle: (parts.length >= 3) ? parts[2].trim().toUpperCase() : "",
+                    persons: [],
+                    speakerNote: (parts.length >= 4) ? parts[3].trim() : "Haga clic para agregar notas."
+                });
+            }
+            else
+            {
+                var sideSplit = trimmed.split("||");
+                var personsArr:Array<CreditPerson> = [];
+                var note:String = "Haga clic para agregar notas.";
 
-	private function unselectableCheck(num:Int):Bool {
-		return creditsStuff[num].length <= 1;
-	}
+                for (segment in sideSplit)
+                {
+                    var segParts = segment.split("::");
+                    if (segParts.length >= 5)
+                    {
+                        personsArr.push({
+                            name: segParts[0].trim(),
+                            icon: segParts[1].trim(),
+                            role: segParts[2].trim(),
+                            desc: segParts[3].replace("\\n", "\n").trim(),
+                            socialUrl: segParts[4].trim()
+                        });
+                        if (segParts.length >= 6) note = segParts[5].replace("\\n", "\n").trim();
+                    }
+                }
+
+                if (personsArr.length > 0)
+                {
+                    slides.push({
+                        isSectionTitle: false,
+                        sectionTitle: "",
+                        sectionSubtitle: "",
+                        persons: personsArr,
+                        speakerNote: note
+                    });
+                }
+            }
+        }
+    }
+
+    function buildModernSplashScreen():Void
+    {
+        splashGroup = new FlxTypedGroup<FlxSprite>();
+        splashItemsGroup = new FlxTypedGroup<FlxSprite>();
+        splashTextsGroup = new FlxTypedGroup<FlxText>();
+
+        add(splashGroup);
+        add(splashItemsGroup);
+        add(splashTextsGroup);
+
+        var cardW:Float = 450;
+        var cardH:Float = 260;
+        var cardX:Float = (FlxG.width - cardW) / 2;
+        var cardY:Float = (FlxG.height - cardH) / 2;
+
+        splashShadow = new FlxSprite(cardX + 8, cardY + 8).makeGraphic(Std.int(cardW), Std.int(cardH), FlxColor.fromRGB(15, 15, 20));
+        splashShadow.alpha = 0.4;
+        splashGroup.add(splashShadow);
+
+        splashCard = new FlxSprite(cardX, cardY).makeGraphic(Std.int(cardW), Std.int(cardH), FlxColor.WHITE);
+        splashGroup.add(splashCard);
+
+        var tagBg = new FlxSprite(cardX + 16, cardY + 14).makeGraphic(90, 18, FlxColor.fromRGB(254, 238, 236));
+        splashItemsGroup.add(tagBg);
+
+        var tagTxt = new FlxText(cardX + 16, cardY + 16, 90, "Microsoft 365", 9);
+        tagTxt.setFormat(Paths.font("vcr.ttf"), 9, FlxColor.fromRGB(216, 59, 1), CENTER);
+        splashTextsGroup.add(tagTxt);
+
+        var winButtons = new FlxText(cardX + cardW - 70, cardY + 12, 60, "-  []  X", 10);
+        winButtons.setFormat(Paths.font("vcr.ttf"), 10, FlxColor.fromRGB(160, 160, 160), RIGHT);
+        splashTextsGroup.add(winButtons);
+
+        var splashLogo = new FlxSprite(cardX + (cardW - 80) / 2, cardY + 75);
+        if (Paths.fileExists('images/ppoint.png', IMAGE))
+        {
+            splashLogo.loadGraphic(Paths.image('ppoint'));
+            splashLogo.setGraphicSize(80, 80);
+            splashLogo.updateHitbox();
+        }
+        else
+        {
+            splashLogo.makeGraphic(80, 80, FlxColor.fromRGB(210, 71, 38));
+        }
+        splashItemsGroup.add(splashLogo);
+
+        var brandTxt = new FlxText(cardX, cardY + 168, cardW, "Microsoft", 13);
+        brandTxt.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.fromRGB(90, 90, 90), CENTER);
+        splashTextsGroup.add(brandTxt);
+
+        var statusTxt = new FlxText(cardX + 18, cardY + cardH - 24, cardW - 36, "Iniciando Microsoft PowerPoint...", 10);
+        statusTxt.setFormat(Paths.font("vcr.ttf"), 10, FlxColor.fromRGB(130, 130, 130), LEFT);
+        splashTextsGroup.add(statusTxt);
+    }
+
+    function buildFacetThemeUI():Void
+    {
+        // Fondo General
+        var darkWorkspace = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, COLOR_DARK_BG);
+        pptGroup.add(darkWorkspace);
+
+        // 1. Barra de Título Superior
+        titleBar = new FlxSprite(0, 0).makeGraphic(FlxG.width, 30, FlxColor.fromRGB(20, 20, 22));
+        pptGroup.add(titleBar);
+
+        var titleTxt = new FlxText(16, 7, FlxG.width - 200, "Créditos_AquinoMod.pptx - PowerPoint", 12);
+        titleTxt.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.fromRGB(200, 200, 205), LEFT);
+        pptTextsGroup.add(titleTxt);
+
+        var minBtn = new FlxText(FlxG.width - 120, 6, 35, "—", 13);
+        minBtn.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.fromRGB(180, 180, 180), CENTER);
+        pptTextsGroup.add(minBtn);
+
+        var maxBtn = new FlxText(FlxG.width - 82, 6, 35, "□", 13);
+        maxBtn.setFormat(Paths.font("vcr.ttf"), 13, FlxColor.fromRGB(180, 180, 180), CENTER);
+        pptTextsGroup.add(maxBtn);
+
+        // BOTÓN "X" VISIBLE Y NÍTIDO
+        closeBtnBg = new FlxSprite(FlxG.width - 46, 0).makeGraphic(46, 30, FlxColor.fromRGB(196, 43, 28));
+        pptGroup.add(closeBtnBg);
+
+        closeBtnTxt = new FlxText(FlxG.width - 46, 6, 46, "X", 14);
+        closeBtnTxt.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.WHITE, CENTER, OUTLINE, FlxColor.BLACK);
+        pptTextsGroup.add(closeBtnTxt);
+
+        // 2. Barra de Pestañas Superior en Español (Limpia)
+        var tabsBarBg = new FlxSprite(0, 30).makeGraphic(FlxG.width, 30, FlxColor.fromRGB(30, 30, 33));
+        pptGroup.add(tabsBarBg);
+
+        var tabsTxt = new FlxText(16, 37, FlxG.width - 40, "Archivo    Inicio    Insertar    Dibujar    Diseño    Transiciones    Animaciones    Presentación con diapositivas    Vista", 11);
+        tabsTxt.setFormat(Paths.font("vcr.ttf"), 11, FlxColor.fromRGB(215, 215, 220), LEFT);
+        pptTextsGroup.add(tabsTxt);
+
+        // Subrayado naranja sobre pestaña activa "Inicio"
+        var homeUnderline = new FlxSprite(84, 58).makeGraphic(42, 2, FlxColor.fromRGB(225, 75, 40));
+        pptGroup.add(homeUnderline);
+
+        var ribbonBottomDivider = new FlxSprite(0, 60).makeGraphic(FlxG.width, 1, FlxColor.fromRGB(48, 48, 52));
+        pptGroup.add(ribbonBottomDivider);
+
+        // 3. Barra Lateral Izquierda (Miniaturas de Diapositivas)
+        var sidebarW:Float = 185;
+        var sidebarBg = new FlxSprite(0, 61).makeGraphic(Std.int(sidebarW), FlxG.height - 61, FlxColor.fromRGB(22, 22, 24));
+        pptGroup.add(sidebarBg);
+
+        var sideHeader = new FlxText(16, 70, 160, "Diapositivas", 11);
+        sideHeader.setFormat(Paths.font("vcr.ttf"), 11, FlxColor.fromRGB(150, 155, 165), LEFT);
+        pptTextsGroup.add(sideHeader);
+
+        thumbCards = [];
+        thumbNumbers = [];
+
+        var thumbY:Float = 94;
+        for (i in 0...slides.length)
+        {
+            var posY:Float = thumbY + (i * 74);
+
+            var numTxt = new FlxText(6, posY + 22, 18, '${i + 1}', 11);
+            numTxt.setFormat(Paths.font("vcr.ttf"), 11, FlxColor.fromRGB(170, 170, 175), CENTER);
+            pptTextsGroup.add(numTxt);
+            thumbNumbers.push(numTxt);
+
+            var tCard = new FlxSprite(28, posY).makeGraphic(145, 60, COLOR_TEAL_SLIDE);
+            tCard.ID = i;
+            pptGroup.add(tCard);
+            thumbCards.push(tCard);
+
+            var tRedTag = new FlxSprite(28 + 145 - 14, posY).makeGraphic(9, 20, COLOR_RED_TAG);
+            pptGroup.add(tRedTag);
+
+            var label:String = slides[i].isSectionTitle ? slides[i].sectionTitle : (slides[i].persons.length > 0 ? slides[i].persons[0].name : "Diapositiva");
+            var tLabel = new FlxText(32, posY + 18, 130, label, 10);
+            tLabel.setFormat(Paths.font("vcr.ttf"), 10, FlxColor.WHITE, CENTER);
+            pptTextsGroup.add(tLabel);
+        }
+
+        // 4. Diapositiva Central (Lámina Faceta con mayor altura)
+        var canvasX:Float = sidebarW + 25;
+        var canvasY:Float = 75;
+        var canvasW:Float = FlxG.width - sidebarW - 50;
+        var canvasH:Float = FlxG.height - 165;
+
+        slideBg = new FlxSprite(canvasX, canvasY).makeGraphic(Std.int(canvasW), Std.int(canvasH), COLOR_TEAL_SLIDE);
+        pptGroup.add(slideBg);
+
+        slideRedTag = new FlxSprite(canvasX + canvasW - 70, canvasY).makeGraphic(45, 95, COLOR_RED_TAG);
+        pptGroup.add(slideRedTag);
+
+        slideGuideBox = new FlxSprite(canvasX + 35, canvasY + 35).makeGraphic(Std.int(canvasW - 70), Std.int(canvasH - 70), FlxColor.TRANSPARENT);
+        flixel.util.FlxSpriteUtil.drawRect(slideGuideBox, 0, 0, canvasW - 70, canvasH - 70, FlxColor.TRANSPARENT, {thickness: 1, color: FlxColor.fromRGB(255, 255, 255)});
+        slideGuideBox.alpha = 0.25;
+        pptGroup.add(slideGuideBox);
+
+        // Título de Sección
+        sectionHeaderTxt = new FlxText(canvasX + 40, canvasY + 175, canvasW - 80, "", 48);
+        sectionHeaderTxt.setFormat(Paths.font("vcr.ttf"), 48, FlxColor.WHITE, CENTER);
+        pptTextsGroup.add(sectionHeaderTxt);
+
+        sectionDivider = new FlxSprite(canvasX + 150, canvasY + 255).makeGraphic(Std.int(canvasW - 300), 2, FlxColor.WHITE);
+        sectionDivider.alpha = 0.7;
+        pptGroup.add(sectionDivider);
+
+        sectionSubTxt = new FlxText(canvasX + 40, canvasY + 280, canvasW - 80, "", 22);
+        sectionSubTxt.setFormat(Paths.font("vcr.ttf"), 22, FlxColor.fromRGB(220, 235, 240), CENTER);
+        pptTextsGroup.add(sectionSubTxt);
+
+        // Generar 4 Ranuras para Integrantes (Cuadrícula 2 Columnas x 2 Filas)
+        personSlots = [];
+        for (idx in 0...4)
+        {
+            var col:Int = idx % 2;
+            var row:Int = Std.int(idx / 2);
+
+            var slotX:Float = canvasX + 50 + (col * 490);
+            var slotY:Float = canvasY + 50 + (row * 220);
+
+            var av = new FlxSprite(slotX, slotY);
+            pptGroup.add(av);
+
+            var nTxt = new FlxText(slotX + 105, slotY + 2, 360, "", 22);
+            nTxt.setFormat(Paths.font("vcr.ttf"), 22, FlxColor.WHITE, LEFT);
+            pptTextsGroup.add(nTxt);
+
+            var rTxt = new FlxText(slotX + 105, slotY + 30, 360, "", 14);
+            rTxt.setFormat(Paths.font("vcr.ttf"), 14, FlxColor.fromRGB(200, 225, 230), LEFT);
+            pptTextsGroup.add(rTxt);
+
+            var dTxt = new FlxText(slotX + 105, slotY + 54, 360, "", 12);
+            dTxt.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.fromRGB(235, 245, 250), LEFT);
+            pptTextsGroup.add(dTxt);
+
+            var lBtn = new FlxSprite(slotX + 105, slotY + 105).makeGraphic(150, 26, FlxColor.fromRGB(15, 55, 62));
+            pptGroup.add(lBtn);
+
+            var lTxt = new FlxText(slotX + 105, slotY + 110, 150, "🌐 Red Social", 11);
+            lTxt.setFormat(Paths.font("vcr.ttf"), 11, FlxColor.WHITE, CENTER);
+            pptTextsGroup.add(lTxt);
+
+            personSlots.push({
+                avatar: av,
+                name: nTxt,
+                role: rTxt,
+                desc: dTxt,
+                linkBtn: lBtn,
+                linkTxt: lTxt
+            });
+        }
+
+        // 5. Panel Inferior de Notas del Orador
+        var notesY:Float = FlxG.height - 75;
+        var notesBg = new FlxSprite(canvasX, notesY).makeGraphic(Std.int(canvasW), 65, FlxColor.fromRGB(22, 22, 24));
+        pptGroup.add(notesBg);
+
+        var nHeader = new FlxText(canvasX + 16, notesY + 6, 300, "Notas del orador:", 10);
+        nHeader.setFormat(Paths.font("vcr.ttf"), 10, FlxColor.fromRGB(130, 135, 145), LEFT);
+        pptTextsGroup.add(nHeader);
+
+        notesBodyTxt = new FlxText(canvasX + 16, notesY + 24, canvasW - 32, "", 12);
+        notesBodyTxt.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.fromRGB(210, 215, 220), LEFT);
+        pptTextsGroup.add(notesBodyTxt);
+    }
+
+    override function update(elapsed:Float)
+    {
+        super.update(elapsed);
+        FlxG.mouse.visible = true;
+
+        if (isStartingUp)
+        {
+            startupTimer += elapsed;
+
+            if (startupTimer >= STARTUP_DURATION)
+            {
+                isStartingUp = false;
+
+                splashItemsGroup.visible = false;
+                splashTextsGroup.visible = false;
+                splashShadow.visible = false;
+
+                FlxTween.tween(splashCard, {
+                    x: 0,
+                    y: 0,
+                    "scale.x": FlxG.width / splashCard.width,
+                    "scale.y": FlxG.height / splashCard.height
+                }, 0.35, {
+                    ease: FlxEase.cubeOut,
+                    onComplete: function(_) {
+                        splashGroup.visible = false;
+                        pptGroup.visible = true;
+                        pptTextsGroup.visible = true;
+                        updateSlideSelection();
+                    }
+                });
+            }
+            return;
+        }
+
+        if (isBusy) return;
+
+        if (controls.BACK || FlxG.keys.justPressed.ESCAPE)
+        {
+            exitCredits();
+            return;
+        }
+
+        if (controls.UI_UP_P || controls.UI_LEFT_P) changeSlide(-1);
+        if (controls.UI_DOWN_P || controls.UI_RIGHT_P) changeSlide(1);
+
+        if (FlxG.mouse.wheel != 0)
+            changeSlide(-FlxG.mouse.wheel);
+
+        if (FlxG.mouse.justPressed)
+        {
+            if (FlxG.mouse.overlaps(closeBtnBg) || FlxG.mouse.overlaps(closeBtnTxt))
+            {
+                exitCredits();
+                return;
+            }
+
+            var curSlide = slides[curSelected];
+            if (!curSlide.isSectionTitle)
+            {
+                for (i in 0...curSlide.persons.length)
+                {
+                    var p = curSlide.persons[i];
+                    if (p.socialUrl != "" && (FlxG.mouse.overlaps(personSlots[i].linkBtn) || FlxG.mouse.overlaps(personSlots[i].linkTxt)))
+                    {
+                        CoolUtil.browserLoad(p.socialUrl);
+                        return;
+                    }
+                }
+            }
+
+            for (i in 0...thumbCards.length)
+            {
+                if (FlxG.mouse.overlaps(thumbCards[i]))
+                {
+                    if (curSelected != i)
+                    {
+                        curSelected = i;
+                        changeSlide(0);
+                    }
+                    return;
+                }
+            }
+        }
+    }
+
+    function changeSlide(change:Int = 0):Void
+    {
+        if (slides.length == 0) return;
+
+        FlxG.sound.play(Paths.sound('scrollMenu'));
+        curSelected = FlxMath.wrap(curSelected + change, 0, slides.length - 1);
+        updateSlideSelection();
+    }
+
+    function updateSlideSelection():Void
+    {
+        if (slides.length == 0) return;
+        var slide = slides[curSelected];
+
+        for (i in 0...thumbCards.length)
+        {
+            if (i == curSelected)
+            {
+                thumbCards[i].color = FlxColor.fromRGB(35, 105, 115);
+                thumbNumbers[i].color = FlxColor.fromRGB(240, 75, 80);
+            }
+            else
+            {
+                thumbCards[i].color = COLOR_TEAL_SLIDE;
+                thumbNumbers[i].color = FlxColor.fromRGB(150, 150, 150);
+            }
+        }
+
+        notesBodyTxt.text = slide.speakerNote;
+
+        if (slide.isSectionTitle)
+        {
+            sectionHeaderTxt.text = slide.sectionTitle;
+            sectionSubTxt.text = slide.sectionSubtitle;
+            sectionHeaderTxt.visible = true;
+            sectionDivider.visible = true;
+            sectionSubTxt.visible = true;
+
+            for (slot in personSlots)
+                setSlotVisible(slot, false);
+        }
+        else
+        {
+            sectionHeaderTxt.visible = false;
+            sectionDivider.visible = false;
+            sectionSubTxt.visible = false;
+
+            for (i in 0...4)
+            {
+                if (i < slide.persons.length)
+                {
+                    loadSlotData(personSlots[i], slide.persons[i]);
+                    setSlotVisible(personSlots[i], true);
+                }
+                else
+                {
+                    setSlotVisible(personSlots[i], false);
+                }
+            }
+        }
+
+        slideBg.alpha = 0.7;
+        FlxTween.tween(slideBg, {alpha: 1.0}, 0.15, {ease: FlxEase.quadOut});
+    }
+
+    function loadSlotData(slot:PersonSlotUI, p:CreditPerson):Void
+    {
+        slot.name.text = p.name;
+        slot.role.text = p.role;
+        slot.desc.text = p.desc;
+
+        var iconKey = (p.icon != "") ? p.icon : "lechad";
+        if (Paths.fileExists('images/credits/' + iconKey + '.png', IMAGE))
+            slot.avatar.loadGraphic(Paths.image('credits/' + iconKey));
+        else if (Paths.fileExists('images/' + iconKey + '.png', IMAGE))
+            slot.avatar.loadGraphic(Paths.image(iconKey));
+        else
+            slot.avatar.loadGraphic(Paths.image('lechad'));
+
+        slot.avatar.setGraphicSize(85, 85);
+        slot.avatar.updateHitbox();
+
+        slot.linkBtn.visible = (p.socialUrl != "");
+        slot.linkTxt.visible = (p.socialUrl != "");
+    }
+
+    function setSlotVisible(slot:PersonSlotUI, vis:Bool):Void
+    {
+        slot.avatar.visible = vis;
+        slot.name.visible = vis;
+        slot.role.visible = vis;
+        slot.desc.visible = vis;
+        slot.linkBtn.visible = vis;
+        slot.linkTxt.visible = vis;
+    }
+
+    function exitCredits():Void
+    {
+        isBusy = true;
+        FlxG.sound.play(Paths.sound('cancelMenu'));
+        MusicBeatState.switchState(new MainMenuState());
+    }
 }

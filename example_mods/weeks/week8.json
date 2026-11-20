@@ -1,0 +1,50 @@
+{
+	"storyName": "penedemono",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week7",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Smash",
+			"c3cup",
+			[
+				255,
+				102,
+				51
+			]
+		],
+		[
+			"Apoteosis",
+			"c3jomadness",
+			[
+				242,
+				67,
+				14
+			]
+		],
+		[
+			"Skyblock",
+			"c3jo-pixel",
+			[
+				255,
+				105,
+				54
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}
